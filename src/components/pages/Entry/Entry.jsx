@@ -7,7 +7,6 @@ const Entry = () => {
 	const { entryBasename } = useParams();
 
 	const entry = entries.find((e) => e.entry_basename === entryBasename);
-	console.log(entry);
 
 	const { entry_title: title, entry_text: text } = entry;
 
