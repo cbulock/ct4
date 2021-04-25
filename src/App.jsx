@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+import HomePage from 'components/pages/Home';
 import EntryPage from 'components/pages/Entry';
 
 const App = () => (
@@ -9,6 +10,9 @@ const App = () => (
 			<Switch>
 				<Route path="/:year/:month/:entryBasename">
 					<EntryPage />
+				</Route>
+				<Route path="/">
+					<HomePage />
 				</Route>
 			</Switch>
 		</Router>
