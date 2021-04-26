@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
-import parse from 'html-react-parser';
 import entries from 'entries';
+import getEntryPath from 'utils/getEntryPath';
+import formatEntryContent from 'utils/formatEntryContent';
 
 const NUMBER_OF_POSTS = 5;
 
@@ -18,18 +19,12 @@ const Home = () => {
 					entry_basename: basename,
 				} = entry;
 
-				const month = new Date(createdDate).toLocaleDateString('en-us', {
-					month: '2-digit',
-				});
-				const year = new Date(createdDate).toLocaleDateString('en-us', {
-					year: 'numeric',
-				});
 				return (
 					<Fragment key={id}>
 						<h3>
-							<a href={`/${year}/${month}/${basename}`}>{title}</a>
+							<a href={getEntryPath(createdDate, basename)}>{title}</a>
 						</h3>
-						{parse(excerpt)}
+						<p>{formatEntryContent(excerpt)}</p>
 					</Fragment>
 				);
 			})}
