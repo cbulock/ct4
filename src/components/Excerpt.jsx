@@ -2,12 +2,12 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import getEntryPath from 'utils/getEntryPath';
 import formatEntryContent from 'utils/formatEntryContent';
+import EntryContainer from 'components/common/EntryContainer';
 
-const SContainer = styled.div`
-	margin: 1em auto;
-	padding: 1em;
-	border: 1px solid;
-	max-width: 800px;
+const STitle = styled.h3`
+	& > a {
+		color: ${({ theme }) => theme.offWhite};
+	}
 `;
 
 const Excerpt = ({ entry }) => {
@@ -20,12 +20,12 @@ const Excerpt = ({ entry }) => {
 	} = entry;
 
 	return (
-		<SContainer key={id}>
-			<h3>
+		<EntryContainer key={id}>
+			<STitle>
 				<a href={getEntryPath(createdDate, basename)}>{title}</a>
-			</h3>
+			</STitle>
 			<p>{formatEntryContent(excerpt)}</p>
-		</SContainer>
+		</EntryContainer>
 	);
 };
 

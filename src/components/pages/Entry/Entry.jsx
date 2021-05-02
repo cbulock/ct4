@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import entries from 'entries';
 import formatEntryContent from 'utils/formatEntryContent';
+import EntryContainer from 'components/common/EntryContainer';
 
 const Entry = () => {
 	const { entryBasename } = useParams();
@@ -13,10 +14,10 @@ const Entry = () => {
 	const { entry_title: title, entry_text: text } = entry;
 
 	return (
-		<>
+		<EntryContainer>
 			<h2>{title}</h2>
 			<p>{formatEntryContent(text)}</p>
-		</>
+		</EntryContainer>
 	);
 };
 

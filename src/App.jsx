@@ -1,15 +1,19 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
 import GlobalStyle from 'components/GlobalStyle';
+
+import theme from 'theme';
+
+import Header from 'components/global/Header';
+import Footer from 'components/global/Footer';
 
 import HomePage from 'components/pages/Home';
 import EntryPage from 'components/pages/Entry';
 
 const App = () => (
-	<>
+	<ThemeProvider theme={theme}>
 		<GlobalStyle />
-		<h1>
-			<a href="/">Cameron&apos;s Thoughts</a>
-		</h1>
+		<Header />
 		<Router>
 			<Switch>
 				<Route path="/:year/:month/:entryBasename">
@@ -20,8 +24,8 @@ const App = () => (
 				</Route>
 			</Switch>
 		</Router>
-		<footer>©2003-2021 Cameron Bulock</footer>
-	</>
+		<Footer />
+	</ThemeProvider>
 );
 
 export default App;
