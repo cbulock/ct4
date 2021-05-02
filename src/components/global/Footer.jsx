@@ -9,9 +9,11 @@ const SContent = styled.p`
 	border-radius: 8px 8px 0 0;
 `;
 
+const currentYear = new Date().getFullYear();
+
 const Footer = () => (
 	<footer>
-		<SContent>©2003-2021 Cameron Bulock</SContent>
+		<SContent>{`©2003-${currentYear} Cameron Bulock`}</SContent>
 	</footer>
 );
 
