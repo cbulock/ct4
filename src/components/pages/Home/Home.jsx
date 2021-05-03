@@ -10,7 +10,7 @@ const Home = () => {
 	return (
 		<>
 			{recentEntries.map((entry) => (
-				<Excerpt entry={entry} />
+				<Excerpt key={entry.entry_id} entry={entry} />
 			))}
 		</>
 	);

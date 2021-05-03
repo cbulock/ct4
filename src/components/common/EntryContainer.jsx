@@ -8,6 +8,7 @@ const SContainer = styled.div`
 
 const SEntry = styled.div`
 	margin: 1em auto;
+	padding: 0 0.5em;
 	max-width: 800px;
 	color: ${({ theme }) => theme.offWhite};
 	& a {

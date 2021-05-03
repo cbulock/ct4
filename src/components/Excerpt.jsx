@@ -31,7 +31,7 @@ const Excerpt = ({ entry }) => {
 
 Excerpt.propTypes = {
 	entry: PropTypes.shape({
-		entry_id: PropTypes.number.isRequired,
+		entry_id: PropTypes.string.isRequired,
 		entry_title: PropTypes.string.isRequired,
 		entry_excerpt: PropTypes.string.isRequired,
 		entry_created_on: PropTypes.string.isRequired,

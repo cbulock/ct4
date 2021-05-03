@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import entries from 'entries';
 import formatEntryContent from 'utils/formatEntryContent';
 import EntryContainer from 'components/common/EntryContainer';
@@ -15,6 +16,9 @@ const Entry = () => {
 
 	return (
 		<EntryContainer>
+			<Helmet>
+				<title>{`${title} - Cameron&apos;s Thoughts`}</title>
+			</Helmet>
 			<h2>{title}</h2>
 			<p>{formatEntryContent(text)}</p>
 		</EntryContainer>
