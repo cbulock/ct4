@@ -17,7 +17,7 @@ const Entry = () => {
 	return (
 		<EntryContainer>
 			<Helmet>
-				<title>{`${title} - Cameron&apos;s Thoughts`}</title>
+				<title>{`${title} - Cameron's Thoughts`}</title>
 			</Helmet>
 			<h2>{title}</h2>
 			<p>{formatEntryContent(text)}</p>

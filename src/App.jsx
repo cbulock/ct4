@@ -9,6 +9,8 @@ import Footer from 'components/global/Footer';
 
 import HomePage from 'components/pages/Home';
 import EntryPage from 'components/pages/Entry';
+import Archives from 'components/pages/Archives';
+import Year from 'components/pages/Year';
 
 const App = () => (
 	<ThemeProvider theme={theme}>
@@ -18,6 +20,12 @@ const App = () => (
 			<Switch>
 				<Route path="/:year/:month/:entryBasename">
 					<EntryPage />
+				</Route>
+				<Route path="/archives">
+					<Archives />
+				</Route>
+				<Route path="/:year">
+					<Year />
 				</Route>
 				<Route path="/">
 					<HomePage />
