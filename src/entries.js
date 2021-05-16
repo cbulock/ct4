@@ -147,7 +147,7 @@ export default [
 		entry_excerpt:
 			'Been really busy lately.  Hailey likes to be awake at night so I have been away from the computer for a while.',
 		entry_text:
-			'Been really busy lately.  Hailey likes to be awake at night so I have been away from the computer for a while.  I have been missing my buddies up at <a href="http://www.cliesource.com" title="ClieSource">ClieSource</a>.  It\'s alright though, I\'ve been getting to spend lots of time with my daughter!  Anyways, here\'s a pic.\n<?php echo image("Hailey");?>',
+			'Been really busy lately.  Hailey likes to be awake at night so I have been away from the computer for a while.  I have been missing my buddies up at <a href="http://www.cliesource.com" title="ClieSource">ClieSource</a>.  It\'s alright though, I\'ve been getting to spend lots of time with my daughter!  Anyways, here\'s a pic.\n<img src="/images/13062006114354.jpg" height="216" width="324" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -850,7 +850,7 @@ export default [
 		entry_excerpt:
 			"I have been busy recently trying out my new phone.  I just upgraded to the Nokia 3650.  It has so many features it's hard to believe it's a phone. \nI will soon be working on a webpage dedicated to the Nokia 3650 phones (why not!! :) )",
 		entry_text:
-			"I have been busy recently trying out my new phone.  I just upgraded to the Nokia 3650.  It has so many features it's hard to believe it's a phone. \n<?php echo imagethumb('My 3650');?>\nI will soon be working on a webpage dedicated to the Nokia 3650 phones (why not!! :) )\nThis will probably take away from any possible chance for me to update my Clie NX page which is in major need of updating.  Much of the page is so out of date, I'd almost be afraid to have people use it as a reference.  Maybe someday I will reorganize it and update the info, but don't count on it.  If anybody is interested in working on it as their own project, contact me at cbulock (at) cbulock (dot) com.",
+			"I have been busy recently trying out my new phone.  I just upgraded to the Nokia 3650.  It has so many features it's hard to believe it's a phone. \n<img src='/images/13062006114014.jpg' height='600' width='332' />\nI will soon be working on a webpage dedicated to the Nokia 3650 phones (why not!! :) )\nThis will probably take away from any possible chance for me to update my Clie NX page which is in major need of updating.  Much of the page is so out of date, I'd almost be afraid to have people use it as a reference.  Maybe someday I will reorganize it and update the info, but don't count on it.  If anybody is interested in working on it as their own project, contact me at cbulock (at) cbulock (dot) com.",
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -1550,7 +1550,7 @@ export default [
 		entry_excerpt:
 			"Tonight me and Nickcole took Hailey and my sister Teddy to the mall to see Santa.  Teddy also had to do some shopping for our mom. \nHailey didn't cry or anything, I don't think she had a clue as too what was going on.",
 		entry_text:
-			"Tonight me and Nickcole took Hailey and my sister Teddy to the mall to see Santa.  Teddy also had to do some shopping for our mom. \n<?php echo imagethumb(\"Hailey Santa\"); ?>\nHailey didn't cry or anything, I don't think she had a clue as too what was going on.\nAlso, a funny thing; they were taking pictures there for you as they always do.  I looked at the prices and it was $13 for a single 5x7. We were going to bring our digital camera but forgot.  I said screw that, and we were thinking of just using the camera on my phone for the pic (the pic above was taken with my phone).  But, then I decided to buy a disposable camera and I am glad I did.  A camera with 27 pics only cost $5.  But it took a lot of walking around the mall to find one.  All the stores have been moved around since I was last there, and I thought Radio Shack might have a camera, but Radio Shack wasn't even there anymore.  I did find a one hour photo place though that had some cameras.",
+			"Tonight me and Nickcole took Hailey and my sister Teddy to the mall to see Santa.  Teddy also had to do some shopping for our mom. \n<img src='/images/13062006113648.jpg' height='480' width='640' />\nHailey didn't cry or anything, I don't think she had a clue as too what was going on.\nAlso, a funny thing; they were taking pictures there for you as they always do.  I looked at the prices and it was $13 for a single 5x7. We were going to bring our digital camera but forgot.  I said screw that, and we were thinking of just using the camera on my phone for the pic (the pic above was taken with my phone).  But, then I decided to buy a disposable camera and I am glad I did.  A camera with 27 pics only cost $5.  But it took a lot of walking around the mall to find one.  All the stores have been moved around since I was last there, and I thought Radio Shack might have a camera, but Radio Shack wasn't even there anymore.  I did find a one hour photo place though that had some cameras.",
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -1659,7 +1659,7 @@ export default [
 		entry_excerpt:
 			"I can't believe Princess Peach and Diddy Kong. I was in third place and out of nowhere, they come flying across the finish line to beat me by one <b><i>thousandth</i></b> of a second.  That is crap.",
 		entry_text:
-			'I can\'t believe Princess Peach and Diddy Kong. I was in third place and out of nowhere, they come flying across the finish line to beat me by one <b><i>thousandth</i></b> of a second.  That is crap.\n<?php echo image("MKDD So Close");?>',
+			'I can\'t believe Princess Peach and Diddy Kong. I was in third place and out of nowhere, they come flying across the finish line to beat me by one <b><i>thousandth</i></b> of a second.  That is crap.\n<img src="/images/13062006113521.jpg" height="240" width="320" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -1686,7 +1686,7 @@ export default [
 		entry_excerpt:
 			"Christmas is now over.  I would say my Christmas went fairly well this year.  It was Hailey's first Christmas for one thing. We went to Nickcole's grandaparents house first and had lunch there.  Then we later headed to my dad's house for dinner.  Christmas Eve night we went to Nickcole's mom's house.  There were a lot of people at Nickcole's grandparents house.  Ususally there are over 50 people there for Thanksgiving and Christmas, but it seemed like even more than usual this time.  It was hard to find a seat for eating.",
 		entry_text:
-			"Christmas is now over.  I would say my Christmas went fairly well this year.  It was Hailey's first Christmas for one thing. We went to Nickcole's grandaparents house first and had lunch there.  Then we later headed to my dad's house for dinner.  Christmas Eve night we went to Nickcole's mom's house.  There were a lot of people at Nickcole's grandparents house.  Ususally there are over 50 people there for Thanksgiving and Christmas, but it seemed like even more than usual this time.  It was hard to find a seat for eating.\nI think everyone enjoyed the gifts they received from Nickcole and I for Christmas.  I got my brother Ian the same thing that my mom did, a DVD tower.  But they are the exact same, so they will go good together.\nMy brother bought a Wavebird wireless controller for the Gamecube for me and Nickcole.  That is pretty cool.  I haven't tried it yet though. \nWell, I'm gonna end this a bit short.  Having an IM conversation with Zakai Hamilton about ScreensOS, so that will probably take up the rest of my time before bed.\nHere's some pics my brother just send me from tonight at Christmas.  He took these using a new Sony digital camera he got:\n<?php echo image(\"XMas 2003\") ?>\n<?php echo image(\"Hailey Nickcole XMas 2003\");?>",
+			"Christmas is now over.  I would say my Christmas went fairly well this year.  It was Hailey's first Christmas for one thing. We went to Nickcole's grandaparents house first and had lunch there.  Then we later headed to my dad's house for dinner.  Christmas Eve night we went to Nickcole's mom's house.  There were a lot of people at Nickcole's grandparents house.  Ususally there are over 50 people there for Thanksgiving and Christmas, but it seemed like even more than usual this time.  It was hard to find a seat for eating.\nI think everyone enjoyed the gifts they received from Nickcole and I for Christmas.  I got my brother Ian the same thing that my mom did, a DVD tower.  But they are the exact same, so they will go good together.\nMy brother bought a Wavebird wireless controller for the Gamecube for me and Nickcole.  That is pretty cool.  I haven't tried it yet though. \nWell, I'm gonna end this a bit short.  Having an IM conversation with Zakai Hamilton about ScreensOS, so that will probably take up the rest of my time before bed.\nHere's some pics my brother just send me from tonight at Christmas.  He took these using a new Sony digital camera he got:\n<img src='/images/04062006173011.jpg' height='296' width='300' />\n<img src='/images/13062006113057.jpg' height='229' width='300' />",
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -2034,7 +2034,7 @@ export default [
 		entry_excerpt:
 			'We had a ton of snow today.  Had to been almost a foot.  I know the weather forecast was calling for 10 inches and they were right for once.  I had a lot of fun shoveling.  My car still got stuck when I came home from work though, since I assumed that I shoveled most of the snow earlier, my car would still make it into the driveway.',
 		entry_text:
-			'We had a ton of snow today.  Had to been almost a foot.  I know the weather forecast was calling for 10 inches and they were right for once.  I had a lot of fun shoveling.  My car still got stuck when I came home from work though, since I assumed that I shoveled most of the snow earlier, my car would still make it into the driveway.  Didn\'t happen.  Just the snow from the 5 hours I was at work (closed early due to lack of business due to snow) caused my car to get stuck. :(  I took some pics while I was shoveling and will share them with everyone who is brave enough to read this. :)\n<?php echo image("Snow Day 1");?>\n<?php echo image("Snow Day 2");?>\n<?php echo image("Snow Day 3");?>\n<?php echo image("Snow Day 4");?>\n<?php echo image("Snow Day 5");?>\n<?php echo image("Snow Day 6");?>\n<?php echo image("Snow Day 7");?>',
+			'We had a ton of snow today.  Had to been almost a foot.  I know the weather forecast was calling for 10 inches and they were right for once.  I had a lot of fun shoveling.  My car still got stuck when I came home from work though, since I assumed that I shoveled most of the snow earlier, my car would still make it into the driveway.  Didn\'t happen.  Just the snow from the 5 hours I was at work (closed early due to lack of business due to snow) caused my car to get stuck. :(  I took some pics while I was shoveling and will share them with everyone who is brave enough to read this. :)\n<img src="/images/13062006112439.jpg" height="240" width="320" />\n<img src="/images/13062006112447.jpg" height="240" width="320" />\n<img src="/images/13062006112457.jpg" height="240" width="320" />\n<img src="/images/13062006112508.jpg" height="240" width="320" />\n<img src="/images/13062006112518.jpg" height="240" width="320" />\n<img src="/images/13062006112527.jpg" height="240" width="320" />\n<img src="/images/13062006112536.jpg" height="240" width="320" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -2114,7 +2114,7 @@ export default [
 		entry_title: "Hailey's Wild Hair",
 		entry_excerpt: "Here's some fun pics of Hailey's bad hair day! :)",
 		entry_text:
-			'Here\'s some fun pics of Hailey\'s bad hair day! :)\n<?php echo image("Hailey Wild Hair 1");?>\n<?php echo image("Hailey Wild Hair 2");?>',
+			'Here\'s some fun pics of Hailey\'s bad hair day! :)\n<img src="/images/13062006112029.jpg" height="360" width="480" />\n<img src="/images/13062006112338.jpg" height="360" width="480" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -2412,7 +2412,7 @@ export default [
 		entry_title: 'Hailey Loves Her Kitty Ash',
 		entry_excerpt: 'OK, so the pictures a bit blurry. :)',
 		entry_text:
-			'<?php echo imagethumb("Hailey and Ash in walker");?>\nOK, so the pictures a bit blurry. :)',
+			'<img src="/images/13062006111714.jpg" height="480 width="640" />\nOK, so the pictures a bit blurry. :)',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -2491,7 +2491,8 @@ export default [
 		entry_category_id: '14',
 		entry_title: 'Future Dew Drinker',
 		entry_excerpt: '',
-		entry_text: '<?php echo imagethumb("Hailey Dew");?>',
+		entry_text:
+			'<img src="/images/13062006111157.jpg" height="480" width="640" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -2543,7 +2544,8 @@ export default [
 		entry_category_id: '14',
 		entry_title: "Ash Relaxin'",
 		entry_excerpt: '',
-		entry_text: '<?php echo image("Ash Relaxin");?>',
+		entry_text:
+			'<img src="/images/13062006110929.jpg" height="360" width="480" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -2624,7 +2626,7 @@ export default [
 		entry_excerpt:
 			"Hailey and Ash are good friends\nHailey pulling Ash's ears\nHe doesn't mind though",
 		entry_text:
-			'<?php echo image("Hailey and Ash 1");?>\n Hailey and Ash are good friends\n<?php echo image("Hailey and Ash 2");?>\nHailey pulling Ash\'s ears\n<?php echo image("Hailey and Ash 3");?>\nHe doesn\'t mind though',
+			'<img src="/images/13062006110428.jpg" height="360" width="480" />\n Hailey and Ash are good friends\n<img src="/images/13062006110456.jpg" height="360" width="480" />\nHailey pulling Ash\'s ears\n<img src="/images/13062006110538.jpg" height="360" width="480" />\nHe doesn\'t mind though',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -3135,7 +3137,8 @@ export default [
 		entry_category_id: '14',
 		entry_title: 'Hailey',
 		entry_excerpt: '',
-		entry_text: '<?php echo image("Hailey and Ash");?>',
+		entry_text:
+			'<img src="/images/13062006110233.jpg" height="336" width="448" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -3812,7 +3815,7 @@ export default [
 		entry_excerpt:
 			"On Wednesday, Hailey went and got her first haircut.  It wasn't a full haircut or anything, but she did get her bangs chopped so she can now see without having her hair in a pigtail. Here are some pics from that.",
 		entry_text:
-			'On Wednesday, Hailey went and got her first haircut.  It wasn\'t a full haircut or anything, but she did get her bangs chopped so she can now see without having her hair in a pigtail. Here are some pics from that.\n\n<?php echo imagethumb("Hailey Haircut 1");?>\n<?php echo imagethumb("Hailey Haircut 2");?>\n<?php echo imagethumb("Hailey Haircut 3");?>',
+			'On Wednesday, Hailey went and got her first haircut.  It wasn\'t a full haircut or anything, but she did get her bangs chopped so she can now see without having her hair in a pigtail. Here are some pics from that.\n\n<img src="/images/13062006105444.jpg" height="480" width="640" />\n<img src="/images/13062006105525.jpg" height="480" width="640" />\n<img src="/images/13062006105538.jpg" height="480" width="640" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -5855,7 +5858,7 @@ export default [
 		entry_title: 'About Me',
 		entry_excerpt: '',
 		entry_text:
-			'<p>Computers, American food and alcohol.  That pretty much sums me up.  I love constantly learning things. I\'m the weird guy that will endlessly read random articles on Wikipedia for fun.  I am pretty much always up for having some drinks.  Anything but tequila that is.  I like to write code.  I spend about half my time with my kids.  They are amazingly smart and constantly surprise me.</p>\n\n<h4>Employment</h4>\nI currently work for a fast growing company in Lansing, <a href=\'http://www.liquidweb.com\'>Liquid Web</a>.  I\'ve worked there since September of 2007 and just after a few months the company has almost doubled in size.  I work in the dedicated setups department which means I build and setup servers for customers.  It\'s a nice job with great benefits.\n<p>I previously used to work at <a href="http://www.core.com" title="Corecomm">Corecomm Internet Services</a>, a dial-up ISP.  I did a number if things there including work as a technical support coach for their call center. For that I was responsible for making sure new hires get proper training.  I also trained new hires in special areas and then develop them over their initial 90 days. This includes monitoring calls and doing evaluations on employees.  I also worked as a project developer on special projects such as helping create training materials and some small web coding for some internal tools. On the weekends I worked as point supervisor, which meant that I managed the technical support department and page out engineers if there are network issues and such. I also at one time took tech support calls.  In the end I moved to the helpdesk department and worked on email support and did internal support of the computers in the office. I have been workied there from February of \'04 to August of \'07.</p>\n\n<p>Here is my <a href="http://www.cbulock.com/resume.html" title="Resume">resume</a> for more information.</p>\n\n<h4>Family</h4>\n<p>On June 24, 2003 my daughter, Hailey Mae, was born. <a title="Hailey\'s Photos" href="http://hailey.bulock.com/">Here you can see some pictures of Hailey.</a>\nThen on October 5, 2004, my son Brett was born.  You can see <a title="Brett\'s Photos" href="http://brett.bulock.com/">his pictures here.</a></p>\n\n<p>I have a <a href=\'http://www.cbulock.com/cat/family.html\'>family section</a> of this site that covers some of it.</p>\n\n<h4>Pictures</h4>\n<p>Here\'s some pictures of me in case your interested.</p>\n<p>This is a pic Hailey took of me that I like.<br />\n<?php echo imagethumb("Cameron on Coach");?></p>\n<p>This is a recent picture.<br />\n<?php echo image("profile");?>\n</p>',
+			'<p>Computers, American food and alcohol.  That pretty much sums me up.  I love constantly learning things. I\'m the weird guy that will endlessly read random articles on Wikipedia for fun.  I am pretty much always up for having some drinks.  Anything but tequila that is.  I like to write code.  I spend about half my time with my kids.  They are amazingly smart and constantly surprise me.</p>\n\n<h4>Employment</h4>\nI currently work for a fast growing company in Lansing, <a href=\'http://www.liquidweb.com\'>Liquid Web</a>.  I\'ve worked there since September of 2007 and just after a few months the company has almost doubled in size.  I work in the dedicated setups department which means I build and setup servers for customers.  It\'s a nice job with great benefits.\n<p>I previously used to work at <a href="http://www.core.com" title="Corecomm">Corecomm Internet Services</a>, a dial-up ISP.  I did a number if things there including work as a technical support coach for their call center. For that I was responsible for making sure new hires get proper training.  I also trained new hires in special areas and then develop them over their initial 90 days. This includes monitoring calls and doing evaluations on employees.  I also worked as a project developer on special projects such as helping create training materials and some small web coding for some internal tools. On the weekends I worked as point supervisor, which meant that I managed the technical support department and page out engineers if there are network issues and such. I also at one time took tech support calls.  In the end I moved to the helpdesk department and worked on email support and did internal support of the computers in the office. I have been workied there from February of \'04 to August of \'07.</p>\n\n<p>Here is my <a href="http://www.cbulock.com/resume.html" title="Resume">resume</a> for more information.</p>\n\n<h4>Family</h4>\n<p>On June 24, 2003 my daughter, Hailey Mae, was born. <a title="Hailey\'s Photos" href="http://hailey.bulock.com/">Here you can see some pictures of Hailey.</a>\nThen on October 5, 2004, my son Brett was born.  You can see <a title="Brett\'s Photos" href="http://brett.bulock.com/">his pictures here.</a></p>\n\n<p>I have a <a href=\'http://www.cbulock.com/cat/family.html\'>family section</a> of this site that covers some of it.</p>\n\n<h4>Pictures</h4>\n<p>Here\'s some pictures of me in case your interested.</p>\n<p>This is a pic Hailey took of me that I like.<br />\n<img src="/images/25112006131725.jpg" height="450" width="600" /></p>\n<p>This is a recent picture.<br />\n<img src="/images/11022008235041.jpg" height="228" width="137" />\n</p>',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: 'http://www.cbulock.com/trackback/211',
@@ -6069,7 +6072,7 @@ export default [
 		entry_title: 'My Family',
 		entry_excerpt: '',
 		entry_text:
-			'<p><strong>Please note that this page is out of date</strong></p>\n\n<p>Here are some pics of my family.</p>\n\n<p>Here is my daughter Hailey.  There are actually a ton more pictures <a href="http://hailey.bulock.com" title="Hailey\'s Pics">here at her website.</a><br />\n<?php echo imagethumb("Hailey UofM");?></p>\n\n<p>Here is my son Brett.  He also has more pictures on <a href="http://brett.bulock.com">his website.</a>\n<?php echo imagethumb("Brett UofM");?></p>\n\n<p>Here is my brother Ian.  This is an older pic.\n<?php echo imagethumb("Ian") ?></p>\n\n<p>This is a picture of my sister Teddy.\n<?php echo imagethumb("Teddy and Flower");?></p>\n\n<p>Here is my Dad with Ian at his graduation.\n<?php echo imagethumb("Dad and Ian") ?></p>\n\n<p>Here is my Mom and Teddy.\n<?php echo imagethumb("Mom and Teddy") ?></p>',
+			'<p><strong>Please note that this page is out of date</strong></p>\n\n<p>Here are some pics of my family.</p>\n\n<p>Here is my daughter Hailey.  There are actually a ton more pictures <a href="http://hailey.bulock.com" title="Hailey\'s Pics">here at her website.</a><br />\n<img src="/images/15092006102603.jpg" height="1440" width="2160" /></p>\n\n<p>Here is my son Brett.  He also has more pictures on <a href="http://brett.bulock.com">his website.</a>\n<img src="/images/15092006102957.jpg" height="1440" width="2160" /></p>\n\n<p>Here is my brother Ian.  This is an older pic.\n<img src="/images/05062006120204.jpg" height="450" width="600" /></p>\n\n<p>This is a picture of my sister Teddy.\n<img src="/images/02012007143531.jpg" height="375" width="500" /></p>\n\n<p>Here is my Dad with Ian at his graduation.\n<img src="/images/05062006120540.jpg" height="348" width="456" /></p>\n\n<p>Here is my Mom and Teddy.\n<img src="/images/05062006120633.jpg" height="480" width=640"" /></p>',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -7590,7 +7593,7 @@ export default [
 		entry_excerpt:
 			'Everytime I hear more info on the PSP, I just want to have it more and more.  It just sounds so good.  And the looks, wow, it\'s a beautiful machine.  I just got done reading some good info over at Gear Live.  <br />\n<a href="http://www.gearlive.com/index.php/news/article/the_top_ten_things_you_need_to_know_about_sonys_psp/" title="The Top Ten Things You Need to Know About Sonyâ€™s PSP">The Top Ten Things You Need to Know About Sonyâ€™s PSP</a>',
 		entry_text:
-			'<?php echo image("PSP");?><br />Everytime I hear more info on the PSP, I just want to have it more and more.  It just sounds so good.  And the looks, wow, it\'s a beautiful machine.  I just got done reading some good info over at Gear Live.  <br />\n<a title="The Top Ten Things You Need to Know About Sonyâ€™s PSP" href="http://www.gearlive.com/index.php/news/article/the_top_ten_things_you_need_to_know_about_sonys_psp/">The Top Ten Things You Need to Know About Sonyâ€™s PSP</a>',
+			'<img src="/images/13062006104215.jpg" height="337" width="450" /><br />Everytime I hear more info on the PSP, I just want to have it more and more.  It just sounds so good.  And the looks, wow, it\'s a beautiful machine.  I just got done reading some good info over at Gear Live.  <br />\n<a title="The Top Ten Things You Need to Know About Sonyâ€™s PSP" href="http://www.gearlive.com/index.php/news/article/the_top_ten_things_you_need_to_know_about_sonys_psp/">The Top Ten Things You Need to Know About Sonyâ€™s PSP</a>',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls:
@@ -7934,7 +7937,7 @@ export default [
 		entry_excerpt:
 			'Not anyone that I know, but I sent off this person a GMail invite and got a very personal thanks in return.  Was very nice. :)',
 		entry_text:
-			'Not anyone that I know, but I sent off this person a GMail invite and got a very personal thanks in return.  Was very nice. :)\n\n<?php echo imagethumb("Thanks");?>',
+			'Not anyone that I know, but I sent off this person a GMail invite and got a very personal thanks in return.  Was very nice. :)\n\n<img src="/images/13062006103929.jpg" height="450" width="600" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: '',
@@ -8169,7 +8172,7 @@ export default [
 		entry_excerpt:
 			'So, last night at work was really slow, so my boss took me off the phones so I could do some "WebU\'s".  These are online training courses we have. I have already taken all the actual educational ones and all the ones that are required for every possible promotion.  So, now I am stuck doing things like "Word 2000 basics" and "Time Management".  One I was taking last night was "Self Development - Balancing Your Personal and Professional Life".  basically, you just keep clicking through screen after screen until you get to some tests that are fairly simple, it doesn\'t require you to actually read the previous 40 pages.  Except, I came across the following question:',
 		entry_text:
-			'So, last night at work was really slow, so my boss took me off the phones so I could do some "WebU\'s".  These are online training courses we have. I have already taken all the actual educational ones and all the ones that are required for every possible promotion.  So, now I am stuck doing things like "Word 2000 basics" and "Time Management".  One I was taking last night was "Self Development - Balancing Your Personal and Professional Life".  basically, you just keep clicking through screen after screen until you get to some tests that are fairly simple, it doesn\'t require you to actually read the previous 40 pages.  Except, I came across the following question:\n\n<?php echo imagethumb("TrickQuestion");?>\n\nAs you can see, I got it wrong.  I choose \'A\', but the correct answer is \'B\' :\\ I just had not seen such a bad question.  Makes no sense. At this point, I just had to take a screen shot.  Plus, it was around 10PM and I had been taking these pointless tests since about 7PM, so I was in a zombie-like daze. I thought  might had been losing it.',
+			'So, last night at work was really slow, so my boss took me off the phones so I could do some "WebU\'s".  These are online training courses we have. I have already taken all the actual educational ones and all the ones that are required for every possible promotion.  So, now I am stuck doing things like "Word 2000 basics" and "Time Management".  One I was taking last night was "Self Development - Balancing Your Personal and Professional Life".  basically, you just keep clicking through screen after screen until you get to some tests that are fairly simple, it doesn\'t require you to actually read the previous 40 pages.  Except, I came across the following question:\n\n<img src="/images/13062006102932.png" height="370" width="630" />\n\nAs you can see, I got it wrong.  I choose \'A\', but the correct answer is \'B\' :\\ I just had not seen such a bad question.  Makes no sense. At this point, I just had to take a screen shot.  Plus, it was around 10PM and I had been taking these pointless tests since about 7PM, so I was in a zombie-like daze. I thought  might had been losing it.',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: '',
@@ -8250,7 +8253,7 @@ export default [
 		entry_excerpt:
 			'Brian sent me some pics taken on Easter, here are some of them:',
 		entry_text:
-			'Brian sent me some pics taken on Easter, here are some of them:\n\n<?php echo imagethumb("Hailey and Hannah Standing");?>\n<?php echo imagethumb("Hailey and Hannah Steps");?>\n<?php echo imagethumb("Hailey and Hannah Easter");?>\n<?php echo imagethumb("Easter 2005");?>',
+			'Brian sent me some pics taken on Easter, here are some of them:\n\n<img src="/images/13062006010444.jpg" height="512" width="768" />\n<img src="/images/13062006010516.jpg" height="512" width="768" />\n<img src="/images/13062006010644.jpg" height="512" width="768" />\n<img src="/images/13062006010752.jpg" height="512" width="768" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -11050,7 +11053,7 @@ export default [
 		entry_excerpt:
 			'<p>So, I\'m at work, and guess what shows up on my caller ID. "Superhero".</p>\n<p>It actually was the first part of their business name, but I thought it was funny to see just plain Superhero as the name on the caller ID.<br />\nObviously I am really bored right now and easily amazed.</p>',
 		entry_text:
-			'<p>So, I\'m at work, and guess what shows up on my caller ID. "Superhero".</p>\n<?php echo image("SuperHero");?>\n<p>It actually was the first part of their business name, but I thought it was funny to see just plain Superhero as the name on the caller ID.<br />\nObviously I am really bored right now and easily amused.</p>',
+			'<p>So, I\'m at work, and guess what shows up on my caller ID. "Superhero".</p>\n<img src="/images/13062006102402.jpg" height="211" width="539" />\n<p>It actually was the first part of their business name, but I thought it was funny to see just plain Superhero as the name on the caller ID.<br />\nObviously I am really bored right now and easily amused.</p>',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: '',
@@ -11205,7 +11208,7 @@ export default [
 		entry_excerpt:
 			'Hailey wanted to pose for some pictures, so I took some with my phone.  They turned out pretty good, so here they are:',
 		entry_text:
-			'Hailey wanted to pose for some pictures, so I took some with my phone.  They turned out pretty good, so here they are:\n\n<?php echo imagethumb("Hailey Pose 1");?>\n<?php echo imagethumb("Hailey Pose 2");?>\n<?php echo imagethumb("Hailey Pose 3");?>',
+			'Hailey wanted to pose for some pictures, so I took some with my phone.  They turned out pretty good, so here they are:\n\n<img src="/images/13062006100554.jpg" height="480" width="640" />\n<img src="/images/13062006100607.jpg" height="480" width="640" />\n<img src="/images/13062006100618.jpg" height="480" width="640" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: '',
@@ -11438,7 +11441,7 @@ export default [
 		entry_title: 'Firefox, RAM Hog',
 		entry_excerpt: '',
 		entry_text:
-			'I love Firefox, easily the program I use most on the computer.  I probably spend 12-15 hours a day using it.  But, it really needs to chill the fuck out on it\'s RAM usage.  I mean, what is it doing.  I had seven tabs open.  Of course, a simple restart of the program makes everything better, but they need to fix the memory leaks, because like to run this non-stop.\n<?php echo image("Firefox Memory") ?>',
+			'I love Firefox, easily the program I use most on the computer.  I probably spend 12-15 hours a day using it.  But, it really needs to chill the fuck out on it\'s RAM usage.  I mean, what is it doing.  I had seven tabs open.  Of course, a simple restart of the program makes everything better, but they need to fix the memory leaks, because like to run this non-stop.\n<img src="/images/05062006122835.png" height="455" width="472" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: '',
@@ -11546,7 +11549,7 @@ export default [
 		entry_excerpt:
 			'Hailey rode her tricycle by herself yesterday, and we spent some time at the park.',
 		entry_text:
-			'Hailey rode her tricycle by herself yesterday, and we spent some time at the park.\n\n<?php echo imagethumb("Hailey Tricycle");?>\n<?php echo imagethumb("Hailey Tricycle2");?>\n<?php echo imagethumb("Brett Wagon");?>\n<?php echo imagethumb("Brett Slide");?>\n<?php echo imagethumb("Brett Walking");?>\n<?php echo imagethumb("Brett Swing");?>\n<?php echo imagethumb("Hailey Swing");?>',
+			'Hailey rode her tricycle by herself yesterday, and we spent some time at the park.\n\n<img src="/images/05062006122151.jpg" height="480" width="640" />\n<img src="/images/05062006122300.jpg" height="480" width="640" />\n<img src="/images/05062006122354.jpg" height="480" width="640" />\n<img src="/images/05062006122427.jpg" height="480" width="640" />\n<img src="/images/05062006122505.jpg" height="480" width="640" />\n<img src="/images/05062006122555.jpg" height="480" width="640" />\n<img src="/images/05062006122629.jpg" height="480" width="640" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: '',
@@ -11758,7 +11761,7 @@ export default [
 		entry_excerpt:
 			"Just saw this ad in my GMail.  I've used the Express software at work, it does do wonders on a dialup, but to call it DSL is just lying to people.  I guess if it brings in customers and keeps my job, I can't complain too much.  But, I'm the guy they bitch at when they switched from DSL to dialup and are greatly disappointed.",
 		entry_text:
-			"Just saw this ad in my GMail.  I've used the Express software at work, it does do wonders on a dialup, but to call it DSL is just lying to people.  I guess if it brings in customers and keeps my job, I can't complain too much.  But, I'm the guy they bitch at when they switched from DSL to dialup and are greatly disappointed.\n<?php echo image(\"LocalNet DSL\");?>",
+			"Just saw this ad in my GMail.  I've used the Express software at work, it does do wonders on a dialup, but to call it DSL is just lying to people.  I guess if it brings in customers and keeps my job, I can't complain too much.  But, I'm the guy they bitch at when they switched from DSL to dialup and are greatly disappointed.\n<img src='/images/05062006121722.jpg' height='52' width='344' />",
 		entry_text_more: null,
 		entry_to_ping_urls: null,
 		entry_pinged_urls: null,
@@ -11811,7 +11814,7 @@ export default [
 		entry_excerpt:
 			"Here's some pics I took of Hailey and Brett not too long ago:",
 		entry_text:
-			'Here\'s some pics I took of Hailey and Brett not too long ago:\n\n<?php echo imagethumb("Brett Standing Outside");?>\n<?php echo imagethumb("Hailey Outside with Tree");?>\n<?php echo imagethumb("Brett Lying on Couch");?>',
+			'Here\'s some pics I took of Hailey and Brett not too long ago:\n\n<img src="/images/23062006015609.jpg" height="480" width="640" />\n<img src="/images/23062006020024.jpg" height="480" width="640" />\n<img src="/images/23062006020158.jpg" height="480" width="640" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: '',
@@ -11838,7 +11841,7 @@ export default [
 		entry_excerpt:
 			"Yesterday was Hailey's third birthday.  We celebrated this by having a party at Bennett Park in Charlotte.  Since her picture gallery is down right now, here are some pics from that:",
 		entry_text:
-			'Yesterday was Hailey\'s third birthday.  We celebrated this by having a party at Bennett Park in Charlotte.  Since her picture gallery is down right now, here are some pics from that:\n\n<?php echo imagethumb("Hailey Present");?>\n<?php echo imagethumb("Hailey with Tiara");?>\n<?php echo imagethumb("Brett with Ballons");?>\n<?php echo imagethumb("Hailey with Grandma Sandy");?>\n<?php echo imagethumb("Third Birthday Cake");?>\n<?php echo imagethumb("Eating Cake");?>\n<?php echo imagethumb("Opening Gifts");?>\n<?php echo imagethumb("Hailey Showing Gift");?>',
+			'Yesterday was Hailey\'s third birthday.  We celebrated this by having a party at Bennett Park in Charlotte.  Since her picture gallery is down right now, here are some pics from that:\n\n<img src="/images/25062006131544.jpg" height="1400" width="2160" />\n<img src="/images/25062006132033.jpg" height="1440" width="2160" />\n<img src="/images/25062006132153.jpg" height="1440" width="2160" />\n<img src="/images/25062006132256.jpg" height="1440" width="2160" />\n<img src="/images/25062006132516.jpg" height="1440" width="2160" />\n<img src="/images/25062006132716.jpg" height="1440" width="2160" />\n<img src="/images/25062006132959.jpg" height="1440" width="2160" />\n<img src="/images/25062006135218.jpg" height="1440" width="2160" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: '',
@@ -11865,7 +11868,7 @@ export default [
 		entry_excerpt:
 			"Items for sale on eBay currently:\n\n<a href='http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=190002613675'>iPod Shuffle 1GB</a>\n\n<a href='http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=190002618213'>Hot Shots Golf: Open Tee for PSP</a>\n\nIf you are interested in these, please bid on them!",
 		entry_text:
-			"<p>Items for sale on eBay currently through Sunday:</p>\n\n<p class='footer_note'>These auctions are over!</p>\n<p>\n<a href='http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=190002613675'>iPod Shuffle 1GB</a><br />\n<?php echo image(\"iPod Shuffle\");?>\n</p>\n<p>\n<a href='http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=190002618213'>Hot Shots Golf: Open Tee for PSP</a><br />\n<?php echo imagethumb(\"Hot Shots Golf\");?>\n</p>\n<p>If you are interested in these, please bid on them!</p>",
+			"<p>Items for sale on eBay currently through Sunday:</p>\n\n<p class='footer_note'>These auctions are over!</p>\n<p>\n<a href='http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=190002613675'>iPod Shuffle 1GB</a><br />\n<img src='/images/27062006113500.jpg' height='509' width='420' />\n</p>\n<p>\n<a href='http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=190002618213'>Hot Shots Golf: Open Tee for PSP</a><br />\n<img src='/images/27062006115702.jpg' height='612' width='450' />\n</p>\n<p>If you are interested in these, please bid on them!</p>",
 		entry_text_more: null,
 		entry_to_ping_urls: null,
 		entry_pinged_urls: null,
@@ -11997,7 +12000,7 @@ export default [
 		entry_title: 'Hailey and Brett with Their Grandpa',
 		entry_excerpt: "Here's a recent pic of Hailey and Brett with my dad.",
 		entry_text:
-			'Here\'s a recent pic of Hailey and Brett with my dad.\n<?php echo imagethumb("Kids with Grandpa Bulock");?>',
+			'Here\'s a recent pic of Hailey and Brett with my dad.\n<img src="/images/16072006124735.jpg" height="480" width="640" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: '',
@@ -12179,7 +12182,7 @@ export default [
 		entry_title: 'New Outfits',
 		entry_excerpt: 'Grandpa and Grandma got the kids some new outfits today.',
 		entry_text:
-			'Grandpa and Grandma got the kids some new outfits today.\n\n<?php echo imagethumb("Kids and Sid UofM");?>\n<?php echo imagethumb("Kids and Sid UofM2");?>\n<?php echo imagethumb("Sid UofM");?>\n<?php echo imagethumb("Hailey UofM");?>\n<?php echo imagethumb("Hailey UofM2");?>\n<?php echo imagethumb("Brett UofM");?>',
+			'Grandpa and Grandma got the kids some new outfits today.\n\n<img src="/images/15092006101609.jpg" height="1440" width="2160" />\n<img src="/images/15092006102133.jpg" height="1440" width="2160" />\n<img src="/images/15092006102342.jpg" height="1440" width="2160" />\n<img src="/images/15092006102603.jpg" height="1440" width="2160" />\n<img src="/images/15092006102759.jpg" height="1440" width="2160" />\n<img src="/images/15092006102957.jpg" height="1440" width="2160" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: '',
@@ -12570,7 +12573,7 @@ export default [
 		entry_excerpt:
 			"Here's a random ad I found on Gmail.  I feel for the people that thing this is a dream job.",
 		entry_text:
-			'<?php echo image("Custodian Ad");?>\nHere\'s a random ad I found on Gmail.  I feel for the people that thing this is a dream job.',
+			'<img src="/images/22112006151225.png" height="75" width="700" />\nHere\'s a random ad I found on Gmail.  I feel for the people that thing this is a dream job.',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: '',
@@ -12852,8 +12855,10 @@ export default [
 		entry_convert_breaks: '__default__',
 		entry_category_id: '14',
 		entry_title: 'Testing posting from cell',
-		entry_excerpt: "<?php echo imagethumb('02-10-07_2118.jpg');?>\n",
-		entry_text: '<?php echo imagethumb("02-10-07_2118.jpg");?>\n',
+		entry_excerpt:
+			"<img src='/images/10022007214502.jpg' height='480' width='640' />\n",
+		entry_text:
+			'<img src="/images/10022007214502.jpg" height="480" width="640" />\n',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -12958,9 +12963,9 @@ export default [
 		entry_category_id: '14',
 		entry_title: 'Hailey Bowling on the Wii',
 		entry_excerpt:
-			"<?php echo imagethumb('02-23-07_1757.jpg');?>\n<?php echo imagethumb('02-23-07_1806-1.jpg');?>\n<?php echo imagethumb('02-23-07_1807.jpg');?>\n<?php echo imagethumb('02-23-07_1808.jpg');?>\n<?php echo imagethumb('02-23-07_1812.jpg');?>\n",
+			"<img src='/images/24022007200002.jpg' height='480' width='640' />\n<img src='/images/24022007200809.jpg' height='480' width='640' />\n<img src='/images/24022007200655.jpg' height='480' width='640' />\n<img src='/images/24022007200727.jpg' height='480' width='640' />\n<img src='/images/24022007200004.jpg' height='480' width='640' />\n",
 		entry_text:
-			'<?php echo imagethumb("02-23-07_1757.jpg");?>\n<?php echo imagethumb("02-23-07_1806-1.jpg");?>\n<?php echo imagethumb("02-23-07_1807.jpg");?>\n<?php echo imagethumb("02-23-07_1808.jpg");?>\n<?php echo imagethumb("02-23-07_1812.jpg");?>\n',
+			'<img src="/images/24022007200002.jpg" height="480" width="640" />\n<img src="/images/24022007200809.jpg" height="480" width="640" />\n<img src="/images/24022007200655.jpg" height="480" width="640" />\n<img src="/images/24022007200727.jpg" height="480" width="640" />\n<img src="/images/24022007200004.jpg" height="480 width="640" />\n',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -13249,7 +13254,7 @@ export default [
 		entry_excerpt:
 			"Hailey seems to learn things very quickly.  She started playing Guitar Hero with the help of Brian.  She's actually pretty good already.",
 		entry_text:
-			'Hailey seems to learn things very quickly.  She started playing Guitar Hero with the help of Brian.  She\'s actually pretty good already.\n\n<?php echo imagethumb("Hailey Guitar Hero");?>\n<?php echo imagethumb("Hailey Guitar Hero2");?>',
+			'Hailey seems to learn things very quickly.  She started playing Guitar Hero with the help of Brian.  She\'s actually pretty good already.\n\n<img src="/images/24052007220436.jpg" height="480" width="640" />\n<img src="/images/24052007220528.jpg" height="480" width="640" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: '',
@@ -13858,7 +13863,7 @@ export default [
 		entry_excerpt:
 			"I used to think Firefox used too much memory.  I posted about this before.  I got home from the bar tonight, and this was just out of control.  WTF is it using 3GB of memory for?  I only had 25 tabs open.  Since this software is open source, you'd think there would be someone checking for memory leaks.  I think the whole extension system needs an overhaul cause even Internet Explorer ain't this bad.  When Internet Explorer is beating you with stability issues, you should be ashamed.",
 		entry_text:
-			'I used to think Firefox used too much memory.  I posted about this before.  I got home from the bar tonight, and this was just out of control.  WTF is it using 3GB of memory for?  I only had 25 tabs open.  Since this software is open source, you\'d think there would be someone checking for memory leaks.  I think the whole extension system needs an overhaul cause even Internet Explorer ain\'t this bad.  When Internet Explorer is beating you with stability issues, you should be ashamed.\n<?php echo image("Firefox Lotsa Memory");?>',
+			'I used to think Firefox used too much memory.  I posted about this before.  I got home from the bar tonight, and this was just out of control.  WTF is it using 3GB of memory for?  I only had 25 tabs open.  Since this software is open source, you\'d think there would be someone checking for memory leaks.  I think the whole extension system needs an overhaul cause even Internet Explorer ain\'t this bad.  When Internet Explorer is beating you with stability issues, you should be ashamed.\n<img src="/images/20102007021701.jpg" height="792" width="530" />',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: '',
@@ -13964,9 +13969,9 @@ export default [
 		entry_category_id: '14',
 		entry_title: 'Night at the Zoo',
 		entry_excerpt:
-			"<?php echo imagethumb('12-09-07_2001.jpg');?>\n<?php echo imagethumb('12-09-07_2002.jpg');?>\n<?php echo imagethumb('12-09-07_2005.jpg');?>\n<?php echo imagethumb('12-09-07_2004.jpg');?>\n",
+			"<img src='/images/11122007030002.jpg' height='480' width='640' />\n<img src='/images/11122007030003.jpg' height='480' width='640' />\n<img src='/images/11122007224707.jpg' height='453' width='604' />\n<img src='/images/11122007034502.jpg' height='480' width='640' />\n",
 		entry_text:
-			'<?php echo imagethumb("12-09-07_2001.jpg");?>\n<?php echo imagethumb("12-09-07_2002.jpg");?>\n<?php echo imagethumb("12-09-07_2005.jpg");?>\n<?php echo imagethumb("12-09-07_2004.jpg");?>\n',
+			'<img src="/images/11122007030002.jpg" height="480" width="640" />\n<img src="/images/11122007030003.jpg" height="480" width="640" />\n<img src="/images/11122007224707.jpg" height="453" width="604" />\n<img src="/images/11122007034502.jpg" height="480" width="640" />\n',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
@@ -14471,8 +14476,10 @@ export default [
 		entry_convert_breaks: '__default__',
 		entry_category_id: '14',
 		entry_title: 'Test Posting From New Phone',
-		entry_excerpt: "<?php echo imagethumb('IMAG0085.jpg');?>\n",
-		entry_text: '<?php echo imagethumb("IMAG0085.jpg");?>\n',
+		entry_excerpt:
+			"<img src='/images/19042008134503.jpg' height='1200' width='1600' />\n",
+		entry_text:
+			'<img src="/images/19042008134503.jpg" height="1200" width="1600" />\n',
 		entry_text_more: '',
 		entry_to_ping_urls: '',
 		entry_pinged_urls: null,
