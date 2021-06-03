@@ -5,6 +5,7 @@ const SContent = styled.p`
 	background-color: ${({ theme }) => theme.secondary};
 	color: ${({ theme }) => theme.offWhite};
 	width: fit-content;
+	font-weight: 500;
 	padding: 0.75em;
 	border-radius: 8px 8px 0 0;
 `;
