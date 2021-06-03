@@ -12,7 +12,7 @@ const SEntry = styled.div`
 	max-width: 800px;
 	color: ${({ theme }) => theme.offWhite};
 	& a {
-		color: ${({ theme }) => theme.secondary};
+		color: ${({ theme }) => theme.links};
 	}
 `;
 
