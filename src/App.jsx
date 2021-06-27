@@ -11,6 +11,7 @@ import HomePage from 'components/pages/Home';
 import EntryPage from 'components/pages/Entry';
 import Archives from 'components/pages/Archives';
 import Year from 'components/pages/Year';
+import Category from 'components/pages/Category';
 
 const App = () => (
 	<ThemeProvider theme={theme}>
@@ -23,6 +24,9 @@ const App = () => (
 				</Route>
 				<Route path="/archives">
 					<Archives />
+				</Route>
+				<Route path="/cat/:categoryBasename">
+					<Category />
 				</Route>
 				<Route path="/:year">
 					<Year />

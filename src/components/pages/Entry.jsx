@@ -3,7 +3,19 @@ import { useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import entries from 'entries';
 import formatEntryContent from 'utils/formatEntryContent';
+import { getCategoryById } from 'utils/categoryData';
 import EntryContainer from 'components/common/EntryContainer';
+
+const SCatContainer = styled.div`
+	font-size: 0.875rem;
+	display: flex;
+	align-items: center;
+`;
+
+const SCat = styled.p`
+	font-weight: bold;
+	margin-right: 0.5em;
+`;
 
 const SDate = styled.p`
 	font-size: 0.875rem;
@@ -22,6 +34,7 @@ const Entry = () => {
 		entry_title: title,
 		entry_text: text,
 		entry_created_on: createdData,
+		entry_category_id: category,
 	} = entry;
 
 	const formatedDate = new Date(createdData).toLocaleDateString('en-us', {
@@ -32,6 +45,7 @@ const Entry = () => {
 	});
 
 	const formatedTime = new Date(createdData).toLocaleTimeString('en-us');
+	const categoryData = getCategoryById(category);
 
 	return (
 		<EntryContainer>
@@ -40,6 +54,14 @@ const Entry = () => {
 			</Helmet>
 			<h2>{title}</h2>
 			<p>{formatEntryContent(text)}</p>
+			{categoryData && (
+				<SCatContainer>
+					<SCat>Category:</SCat>
+					<a href={`/cat/${categoryData?.category_basename}`}>
+						{categoryData?.category_label}
+					</a>
+				</SCatContainer>
+			)}
 			<SDate>{`Posted on ${formatedDate} at ${formatedTime}`}</SDate>
 		</EntryContainer>
 	);
