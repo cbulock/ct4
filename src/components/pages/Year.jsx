@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { getEntriesPerYear } from 'utils/entryData';
 
+import EntryList from 'components/common/EntryList';
+
 const Year = () => {
 	const { year } = useParams();
 
@@ -13,13 +15,7 @@ const Year = () => {
 			<Helmet>
 				<title>{`${year} - Cameron's Thoughts`}</title>
 			</Helmet>
-			{entriesPerYear.map((entry) => (
-				<div key={entry.id}>
-					<a href={`/${entry.year}/${entry.month}/${entry.basename}`}>
-						{entry.title}
-					</a>
-				</div>
-			))}
+			<EntryList entries={entriesPerYear} />
 		</>
 	);
 };

@@ -16,17 +16,17 @@ const SEntry = styled.div`
 	}
 `;
 
-const EntryContainer = ({ children }) => (
+const PageContainer = ({ children }) => (
 	<SContainer>
 		<SEntry>{children}</SEntry>
 	</SContainer>
 );
 
-EntryContainer.propTypes = {
+PageContainer.propTypes = {
 	children: PropTypes.oneOfType([
 		PropTypes.arrayOf(PropTypes.node),
 		PropTypes.node,
 	]).isRequired,
 };
 
-export default EntryContainer;
+export default PageContainer;

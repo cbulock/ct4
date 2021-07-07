@@ -4,7 +4,6 @@ import { Helmet } from 'react-helmet';
 import entries from 'entries';
 import formatEntryContent from 'utils/formatEntryContent';
 import { getCategoryById } from 'utils/categoryData';
-import EntryContainer from 'components/common/EntryContainer';
 
 const SCatContainer = styled.div`
 	font-size: 0.875rem;
@@ -48,7 +47,7 @@ const Entry = () => {
 	const categoryData = getCategoryById(category);
 
 	return (
-		<EntryContainer>
+		<>
 			<Helmet>
 				<title>{`${title} - Cameron's Thoughts`}</title>
 			</Helmet>
@@ -63,7 +62,7 @@ const Entry = () => {
 				</SCatContainer>
 			)}
 			<SDate>{`Posted on ${formatedDate} at ${formatedTime}`}</SDate>
-		</EntryContainer>
+		</>
 	);
 };
 

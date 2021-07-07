@@ -4,6 +4,8 @@ import { Helmet } from 'react-helmet';
 import { getIdFromBasename, getCategoryById } from 'utils/categoryData';
 import { getEntriesPerCategory } from 'utils/entryData';
 
+import EntryList from 'components/common/EntryList';
+
 const Category = () => {
 	const { categoryBasename } = useParams();
 
@@ -19,13 +21,7 @@ const Category = () => {
 			<Helmet>
 				<title>{`${categoryData?.category_label} - Cameron's Thoughts`}</title>
 			</Helmet>
-			{entriesPerCategory.map((entry) => (
-				<div key={entry.id}>
-					<a href={`/${entry.year}/${entry.month}/${entry.basename}`}>
-						{entry.title}
-					</a>
-				</div>
-			))}
+			<EntryList entries={entriesPerCategory} />
 		</>
 	);
 };

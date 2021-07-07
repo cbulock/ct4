@@ -6,6 +6,7 @@ import theme from 'theme';
 
 import Header from 'components/global/Header';
 import Footer from 'components/global/Footer';
+import PageContainer from 'components/global/PageContainer';
 
 import HomePage from 'components/pages/Home';
 import EntryPage from 'components/pages/Entry';
@@ -17,25 +18,27 @@ const App = () => (
 	<ThemeProvider theme={theme}>
 		<GlobalStyle />
 		<Header />
-		<Router>
-			<Switch>
-				<Route path="/:year/:month/:entryBasename">
-					<EntryPage />
-				</Route>
-				<Route path="/archives">
-					<Archives />
-				</Route>
-				<Route path="/cat/:categoryBasename">
-					<Category />
-				</Route>
-				<Route path="/:year">
-					<Year />
-				</Route>
-				<Route path="/">
-					<HomePage />
-				</Route>
-			</Switch>
-		</Router>
+		<PageContainer>
+			<Router>
+				<Switch>
+					<Route path="/:year/:month/:entryBasename">
+						<EntryPage />
+					</Route>
+					<Route path="/archives">
+						<Archives />
+					</Route>
+					<Route path="/cat/:categoryBasename">
+						<Category />
+					</Route>
+					<Route path="/:year">
+						<Year />
+					</Route>
+					<Route path="/">
+						<HomePage />
+					</Route>
+				</Switch>
+			</Router>
+		</PageContainer>
 		<Footer />
 	</ThemeProvider>
 );
