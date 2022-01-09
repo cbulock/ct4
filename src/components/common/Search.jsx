@@ -11,6 +11,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 const SContainer = styled.div`
 	position: relative;
+	display: flex;
 `;
 
 const SResults = styled.div`
@@ -48,7 +49,7 @@ const SIcon = styled(FontAwesomeIcon)`
 	color: ${({ theme }) => theme.primary};
 	position: absolute;
 	right: 6px;
-	top: 6px;
+	top: 4px;
 	height: 16px;
 `;
 
