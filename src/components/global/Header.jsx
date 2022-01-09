@@ -21,7 +21,8 @@ const STitle = styled.h1`
 
 const SRightSide = styled.div`
 	display: grid;
-	grid-column-gap: 16px;
+	column-gap: 16px;
+	row-gap: 8px;
 	@media all and (min-width: 576px) {
 		grid-template-columns: repeat(2, max-content);
 	}
