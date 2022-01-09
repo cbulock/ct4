@@ -1,5 +1,7 @@
 import entries from 'entries';
 
+import { Link } from 'react-router-dom';
+
 import Excerpt from 'components/Excerpt';
 
 const NUMBER_OF_POSTS = 5;
@@ -12,6 +14,7 @@ const Home = () => {
 			{recentEntries.map((entry) => (
 				<Excerpt key={entry.entry_id} entry={entry} />
 			))}
+			<Link to="/archives">View Older Posts</Link>
 		</>
 	);
 };

@@ -17,9 +17,9 @@ import Category from 'components/pages/Category';
 const App = () => (
 	<ThemeProvider theme={theme}>
 		<GlobalStyle />
-		<Header />
-		<PageContainer>
-			<Router>
+		<Router>
+			<Header />
+			<PageContainer>
 				<Switch>
 					<Route path="/:year/:month/:entryBasename">
 						<EntryPage />
@@ -37,8 +37,8 @@ const App = () => (
 						<HomePage />
 					</Route>
 				</Switch>
-			</Router>
-		</PageContainer>
+			</PageContainer>
+		</Router>
 		<Footer />
 	</ThemeProvider>
 );

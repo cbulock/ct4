@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { entryYears } from 'utils/entryData';
 import categories from 'categories';
@@ -20,7 +21,7 @@ const Archives = () => (
 				{entryYears
 					.map((year) => (
 						<h3 key={year}>
-							<a href={`/${year}`}>{year}</a>
+							<Link to={`/${year}`}>{year}</Link>
 						</h3>
 					))
 					.reverse()}
@@ -47,7 +48,7 @@ const Archives = () => (
 						} = category;
 						return (
 							<h3 key={id}>
-								<a href={`/cat/${basename}`}>{label}</a>
+								<Link to={`/cat/${basename}`}>{label}</Link>
 							</h3>
 						);
 					})}

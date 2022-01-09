@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import getEntryPath from 'utils/getEntryPath';
 import formatEntryContent from 'utils/formatEntryContent';
@@ -22,7 +23,7 @@ const Excerpt = ({ entry }) => {
 	return (
 		<Fragment key={id}>
 			<STitle>
-				<a href={getEntryPath(createdDate, basename)}>{title}</a>
+				<Link to={getEntryPath(createdDate, basename)}>{title}</Link>
 			</STitle>
 			<p>{formatEntryContent(excerpt)}</p>
 		</Fragment>

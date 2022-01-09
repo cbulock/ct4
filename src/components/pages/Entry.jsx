@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import entries from 'entries';
 import formatEntryContent from 'utils/formatEntryContent';
@@ -56,9 +56,9 @@ const Entry = () => {
 			{categoryData && (
 				<SCatContainer>
 					<SCat>Category:</SCat>
-					<a href={`/cat/${categoryData?.category_basename}`}>
+					<Link to={`/cat/${categoryData?.category_basename}`}>
 						{categoryData?.category_label}
-					</a>
+					</Link>
 				</SCatContainer>
 			)}
 			<SDate>{`Posted on ${formatedDate} at ${formatedTime}`}</SDate>

@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+import { Link } from 'react-router-dom';
+
+import Search from 'components/common/Search';
+
 const SHeader = styled.header`
 	padding: 0.5em 1em;
 	display: flex;
@@ -15,12 +19,23 @@ const STitle = styled.h1`
 	}
 `;
 
+const SRightSide = styled.div`
+	display: grid;
+	grid-column-gap: 16px;
+	@media all and (min-width: 576px) {
+		grid-template-columns: repeat(2, max-content);
+	}
+`;
+
 const Header = () => (
 	<SHeader>
 		<STitle>
-			<a href="/">Cameron&apos;s Thoughts</a>
+			<Link to="/">Cameron&apos;s Thoughts</Link>
 		</STitle>
-		<a href="/archives">Archives</a>
+		<SRightSide>
+			<Search />
+			<Link to="/archives">Archives</Link>
+		</SRightSide>
 	</SHeader>
 );
 

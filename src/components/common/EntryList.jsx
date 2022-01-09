@@ -1,12 +1,14 @@
 import PropTypes from 'prop-types';
 
+import { Link } from 'react-router-dom';
+
 const EntryList = ({ entries }) => (
 	<>
 		{entries.map((entry) => (
 			<div key={entry.id}>
-				<a href={`/${entry.year}/${entry.month}/${entry.basename}`}>
+				<Link to={`/${entry.year}/${entry.month}/${entry.basename}`}>
 					{entry.title}
-				</a>
+				</Link>
 			</div>
 		))}
 	</>
