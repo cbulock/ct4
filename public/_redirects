@@ -1,1 +1,2 @@
-/*    /index.html   200
+# Astro now emits static pages directly, so the old SPA catch-all redirect
+# is intentionally removed.

@@ -1,0 +1,79 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import LegacyContent from '../../../components/LegacyContent.astro';
+import {
+	formatShortDate,
+	getCanonicalEntries,
+	getCategoryById,
+	getEntryPath,
+} from '../../../lib/content';
+
+export const getStaticPaths = () =>
+	getCanonicalEntries().flatMap((entry) => [
+		{
+			params: {
+				year: entry.routeYear,
+				month: entry.routeMonth,
+				entryBasename: entry.basename,
+			},
+			props: { entry },
+		},
+		{
+			params: {
+				year: entry.routeYear,
+				month: entry.routeMonth,
+				entryBasename: `${entry.basename}.html`,
+			},
+			props: { entry },
+		},
+	]);
+
+const { entry } = Astro.props;
+const category = entry.categoryId ? getCategoryById(entry.categoryId) : null;
+const formattedDate = new Date(entry.createdOn).toLocaleDateString('en-us', {
+	weekday: 'long',
+	year: 'numeric',
+	month: 'long',
+	day: 'numeric',
+});
+const formattedTime = new Date(entry.createdOn).toLocaleTimeString('en-us');
+---
+
+<BaseLayout title={`${entry.title} - Cameron's Thoughts`}>
+	<cindor-stack gap="4">
+		<cindor-card>
+			<div class="surface-pad surface-pad--article">
+				<article>
+					<header class="article-header">
+						<div class="meta-row">
+							<time class="post-meta" datetime={entry.createdOn}>
+								{formatShortDate(entry.createdOn)}
+							</time>
+							{category && <cindor-badge tone="accent">{category.label}</cindor-badge>}
+						</div>
+						<h1 class="surface-heading">{entry.title}</h1>
+					</header>
+					<LegacyContent content={entry.body} />
+				</article>
+			</div>
+		</cindor-card>
+		<cindor-card>
+			<div class="surface-pad">
+				<cindor-stack class="meta-block" gap="2">
+					{category ? (
+						<p class="entry-meta">Category: <a href={`/cat/${category.basename}`}>{category.label}</a></p>
+					) : (
+						<p class="entry-meta">Category: Uncategorized</p>
+					)}
+					<p class="entry-meta">{`Posted on ${formattedDate} at ${formattedTime}`}</p>
+				</cindor-stack>
+				{entry.canonicalRouteEntryId !== entry.entryId && (
+					<p class="entry-note">
+						This entry shares a legacy path with another post and resolves to{' '}
+						<a href={getEntryPath(entry)}>{entry.title}</a>.
+					</p>
+				)}
+			</div>
+		</cindor-card>
+	</cindor-stack>
+</BaseLayout>
