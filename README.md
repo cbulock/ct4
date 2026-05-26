@@ -24,6 +24,12 @@ Runs the Astro development server after regenerating the content files.
 
 Regenerates the content files and builds the static Astro site.
 
+## Deployment
+
+- Netlify should use Node `20`
+- Netlify publish directory should be `dist`
+- `netlify.toml` defines the build command as `npm run build`
+
 ### `npm test`
 
 Runs the current compatibility tests for the migration helpers.
