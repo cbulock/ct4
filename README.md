@@ -26,7 +26,7 @@ Regenerates the content files and builds the static Astro site.
 
 ## Deployment
 
-- Netlify should use Node `20`
+- Netlify should use Node `22.14.0`
 - Netlify publish directory should be `dist`
 - `netlify.toml` defines the build command as `npm run build`
 
