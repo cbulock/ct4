@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 472
 entryId: '489'
 blogId: '2'
@@ -26,5 +27,5 @@ canonicalRouteEntryId: '489'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<img src="/images/22112006151225.png" height="75" width="700" />
+![](/images/22112006151225.png)
 Here's a random ad I found on Gmail.  I feel for the people that thing this is a dream job.

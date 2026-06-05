@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 185
 entryId: '178'
 blogId: '2'
@@ -34,4 +35,4 @@ I am happy that people that need this medicine, but couldn't afford it will now 
 
 I wonder if other companies will follow?
 
-<a href="http://www.cnn.com/2004/BUSINESS/07/07/pfizer/index.html" title="Pfizer sets new discount drug plan">Pfizer sets new discount drug plan</a>
+[Pfizer sets new discount drug plan](http://www.cnn.com/2004/BUSINESS/07/07/pfizer/index.html "Pfizer sets new discount drug plan")

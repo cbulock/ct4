@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 201
 entryId: '194'
 blogId: '2'
@@ -11,12 +12,12 @@ categoryId: '11'
 originalCategoryId: '11'
 title: Gmail Notifier
 excerpt: >-
-  I have been using <a href="http://www.gtray.net/" title="Gmail and
-  GTray">GTray</a> for a while now and it has been a very useful app for keeping
+  I have been using [GTray](http://www.gtray.net/ "Gmail and
+  GTray") for a while now and it has been a very useful app for keeping
   me informed on new Gmail messages.  It looks like Google is also aware of the
   need for such a program, and now Google has a beta of their own notification
-  app, <a href="http://toolbar.google.com/gmail-helper/" title="Gmail
-  Notifier">Gmail Notifier</a>.  Just downloaded, and while it seems to offer
+  app, [Gmail Notifier](http://toolbar.google.com/gmail-helper/ "Gmail
+  Notifier").  Just downloaded, and while it seems to offer
   the same types of features, such as setting up mailto: links in websites to
   redirect to Gmail, it's nice to have an offical app
 keywords: Gmail GTray Google email notify
@@ -32,4 +33,4 @@ canonicalRouteEntryId: '194'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I have been using <a href="http://www.gtray.net/" title="Gmail and GTray">GTray</a> for a while now and it has been a very useful app for keeping me informed on new Gmail messages.  It looks like Google is also aware of the need for such a program, and now Google has a beta of their own notification app, <a href="http://toolbar.google.com/gmail-helper/" title="Gmail Notifier">Gmail Notifier</a>.  Just downloaded, and while it seems to offer the same types of features, such as setting up mailto: links in websites to redirect to Gmail, it's nice to have an offical app. I will have to keep an eye on GTray and see what kind of new features they come up with, but since Google now has there own app, I will probably trust that a little more.  For instance, a week or so ago, GTray stopped working.  This was due to Google changing the authentication method of Gmail. A new update to GTray came out shortly and everything started to work again, but who knows when this will happen in the future.  Seems that Google's own software would be updated ahead of time for any such issue.
+I have been using [GTray](http://www.gtray.net/ "Gmail and GTray") for a while now and it has been a very useful app for keeping me informed on new Gmail messages.  It looks like Google is also aware of the need for such a program, and now Google has a beta of their own notification app, [Gmail Notifier](http://toolbar.google.com/gmail-helper/ "Gmail Notifier").  Just downloaded, and while it seems to offer the same types of features, such as setting up mailto: links in websites to redirect to Gmail, it's nice to have an offical app. I will have to keep an eye on GTray and see what kind of new features they come up with, but since Google now has there own app, I will probably trust that a little more.  For instance, a week or so ago, GTray stopped working.  This was due to Google changing the authentication method of Gmail. A new update to GTray came out shortly and everything started to work again, but who knows when this will happen in the future.  Seems that Google's own software would be updated ahead of time for any such issue.

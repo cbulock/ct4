@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 196
 entryId: '189'
 blogId: '2'
@@ -30,4 +31,4 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 This show aired a few nights ago, Michael Moore on The O'Reilly Factor.  Anyone who has seen this show will probably know how ridiculous Bill O'Reilly can be.  I have only rarely watched an episode because it's like watching a grown up 2nd grader trying to argue points that you can clearly see make no sense.  I think somehow in his mind it does though.
-This episode would have been something else.  I didn't want to watch it because I know I would have only gotten pissed off, but there <a href="http://www.foxnews.com/story/0,2933,127236,00.html" title="Moore: Bush 'Didn't Tell the Truth'">is a transcript</a> of the episode.  It's unbelievable how O'Reilly will sit there and actually try to argue that Bush didn't lie about the WMD.  It's a fact that he did.  It's as simple as that, but for some people, only a distorted reality is true in their minds.
+This episode would have been something else.  I didn't want to watch it because I know I would have only gotten pissed off, but there [is a transcript](http://www.foxnews.com/story/0,2933,127236,00.html "Moore: Bush 'Didn't Tell the Truth'") of the episode.  It's unbelievable how O'Reilly will sit there and actually try to argue that Bush didn't lie about the WMD.  It's a fact that he did.  It's as simple as that, but for some people, only a distorted reality is true in their minds.

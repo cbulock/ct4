@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 46
 entryId: '45'
 blogId: '2'
@@ -11,15 +12,13 @@ categoryId: '12'
 originalCategoryId: '12'
 title: Super Mario Bros. 3 beaten in 11 Minutes
 excerpt: >-
-  This is something that has to be seen to be believed.  Check out this link: <a
-  href="http://media.ebaumsworld.com/moSMB3.wmv">http://media.ebaumsworld.com/moSMB3.wmv</a>
+  This is something that has to be seen to be believed.  Check out this link: [http://media.ebaumsworld.com/moSMB3.wmv](http://media.ebaumsworld.com/moSMB3.wmv)
 
 
   This is an 11 minute long video showing the complete game.  This guy must have
   spent the past 10 or 15 years (however long this game has been out) perfecting
   this.  It is a true artwork the way the guy plays this game.  Not quite sure
-  who this is, but I saw this link posted at <a
-  href="http://www.cliesource.com">ClieSource</a> and I just had to share it.
+  who this is, but I saw this link posted at [ClieSource](http://www.cliesource.com) and I just had to share it.
 keywords: Super Mario Bros video games
 createdOn: '2003-11-27 02:17:52'
 modifiedOn: '2011-10-17 15:46:06'
@@ -33,6 +32,6 @@ canonicalRouteEntryId: '45'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-This is something that has to be seen to be believed.  Check out this link: <a href="http://media.ebaumsworld.com/moSMB3.wmv">http://media.ebaumsworld.com/moSMB3.wmv</a>
+This is something that has to be seen to be believed.  Check out this link: [http://media.ebaumsworld.com/moSMB3.wmv](http://media.ebaumsworld.com/moSMB3.wmv)
 
-This is an 11 minute long video showing the complete game.  This guy must have spent the past 10 or 15 years (however long this game has been out) perfecting this.  It is a true artwork the way the guy plays this game.  Not quite sure who this is, but I saw this link posted at <a href="http://www.cliesource.com">ClieSource</a> and I just had to share it.
+This is an 11 minute long video showing the complete game.  This guy must have spent the past 10 or 15 years (however long this game has been out) perfecting this.  It is a true artwork the way the guy plays this game.  Not quite sure who this is, but I saw this link posted at [ClieSource](http://www.cliesource.com) and I just had to share it.

@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 433
 entryId: '448'
 blogId: '2'
@@ -28,10 +29,10 @@ textMoreIgnored: false
 ---
 Hailey rode her tricycle by herself yesterday, and we spent some time at the park.
 
-<img src="/images/05062006122151.jpg" height="480" width="640" />
-<img src="/images/05062006122300.jpg" height="480" width="640" />
-<img src="/images/05062006122354.jpg" height="480" width="640" />
-<img src="/images/05062006122427.jpg" height="480" width="640" />
-<img src="/images/05062006122505.jpg" height="480" width="640" />
-<img src="/images/05062006122555.jpg" height="480" width="640" />
-<img src="/images/05062006122629.jpg" height="480" width="640" />
+![](/images/05062006122151.jpg)
+![](/images/05062006122300.jpg)
+![](/images/05062006122354.jpg)
+![](/images/05062006122427.jpg)
+![](/images/05062006122505.jpg)
+![](/images/05062006122555.jpg)
+![](/images/05062006122629.jpg)

@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 85
 entryId: '80'
 blogId: '2'
@@ -13,9 +14,8 @@ title: Charlotte McDonald's Resturant Featured in National News
 excerpt: >-
   It's not very often the little town of Charlotte see national news, by today
   my place of employment, the McDonald's of Charlotte was seen on the front page
-  of <a href="http://www.foxnews.com" title="FOXNews">FoxNews.com</a>. The story
-  can be seen <a href="http://www.foxnews.com/story/0,2933,110487,00.html"
-  title="Taco Bell Coat Girl Now Lovin' It">here.</a>
+  of [FoxNews.com](http://www.foxnews.com "FOXNews"). The story
+  can be seen [here.](http://www.foxnews.com/story/0,2933,110487,00.html "Taco Bell Coat Girl Now Lovin' It")
 keywords: mcdonald's charlotte taco bell work
 createdOn: '2004-02-05 02:53:07'
 modifiedOn: '2011-10-17 15:46:06'
@@ -29,4 +29,4 @@ canonicalRouteEntryId: '80'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-It's not very often the little town of Charlotte see national news, by today my place of employment, the McDonald's of Charlotte was seen on the front page of <a href="http://www.foxnews.com" title="FOXNews">FoxNews.com</a>. The story can be seen <a href="http://www.foxnews.com/story/0,2933,110487,00.html" title="Taco Bell Coat Girl Now Lovin' It">here.</a>
+It's not very often the little town of Charlotte see national news, by today my place of employment, the McDonald's of Charlotte was seen on the front page of [FoxNews.com](http://www.foxnews.com "FOXNews"). The story can be seen [here.](http://www.foxnews.com/story/0,2933,110487,00.html "Taco Bell Coat Girl Now Lovin' It")

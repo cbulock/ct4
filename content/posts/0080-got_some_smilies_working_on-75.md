@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 80
 entryId: '75'
 blogId: '2'
@@ -16,12 +17,8 @@ excerpt: >-
   :) :( :O :\ :crying: :rolleyes: :mad:
 
 
-  That's all I got so far.  Special thanks to <a
-  href="http://www.bradchoate.com" title="bradchoate.com">Brad Choate</a> and
-  his <a href="http://www.bradchoate.com/weblog/2002/08/12/mtmacro"
-  title="MTMacro">MTMacro plug-in</a> for Movable Type.  Also, thanks to <a
-  href="http://www.thegirliematters.com/tips/archives/0209/smilies_with_mtmacro.php"
-  title="smilies with MTMacro">the girlie matters website</a> for having the
+  That's all I got so far.  Special thanks to [Brad Choate](http://www.bradchoate.com "bradchoate.com") and
+  his [MTMacro plug-in](http://www.bradchoate.com/weblog/2002/08/12/mtmacro "MTMacro") for Movable Type.  Also, thanks to [the girlie matters website](http://www.thegirliematters.com/tips/archives/0209/smilies_with_mtmacro.php "smilies with MTMacro") for having the
   instructions laid out in a way I could understand.  I had all the macros set
   up, I didn't realize I need that 'apply_macros' tag to be added.  All better
   now. :)
@@ -41,4 +38,4 @@ textMoreIgnored: false
 Got some smilies working on the journal here! :) 
 :) :( :O :\ :crying: :rolleyes: :mad:
 
-That's all I got so far.  Special thanks to <a href="http://www.bradchoate.com" title="bradchoate.com">Brad Choate</a> and his <a href="http://www.bradchoate.com/weblog/2002/08/12/mtmacro" title="MTMacro">MTMacro plug-in</a> for Movable Type.  Also, thanks to <a href="http://www.thegirliematters.com/tips/archives/0209/smilies_with_mtmacro.php" title="smilies with MTMacro">the girlie matters website</a> for having the instructions laid out in a way I could understand.  I had all the macros set up, I didn't realize I need that 'apply_macros' tag to be added.  All better now. :)
+That's all I got so far.  Special thanks to [Brad Choate](http://www.bradchoate.com "bradchoate.com") and his [MTMacro plug-in](http://www.bradchoate.com/weblog/2002/08/12/mtmacro "MTMacro") for Movable Type.  Also, thanks to [the girlie matters website](http://www.thegirliematters.com/tips/archives/0209/smilies_with_mtmacro.php "smilies with MTMacro") for having the instructions laid out in a way I could understand.  I had all the macros set up, I didn't realize I need that 'apply_macros' tag to be added.  All better now. :)

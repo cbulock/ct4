@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 174
 entryId: '169'
 blogId: '2'
@@ -11,20 +12,7 @@ categoryId: '4'
 originalCategoryId: '4'
 title: Would you have been friends with Adolf Hitler?
 excerpt: >-
-  <table border="0" style="background-color:black" cellspacing="2"
-  cellpadding="10"><tr style="background-color:white"><td><b><a
-  href="http://www.youthink.com/quiz.asp?action=take&quiz_id=339">Would you have
-  been friends with Adolf Hitler?</a></b><p><b>Dummkopf</b></p><p>Hitler hates
-  you. Even from his grave, he is sending you hate rays.</p><p><a
-  href="http://www.youthink.com/quiz.asp?action=take&quiz_id=339"><img
-  alt="Personality Test Results"
-  src="http://www.youthink.com/quiz_images/quiz339outcome3.jpg"
-  /></a></p></td></tr><tr><td><a
-  href="http://www.youthink.com/quiz.asp?action=take&quiz_id=339"><b>Click Here
-  to Take This Quiz</b></a><br />Brought to you by <a
-  href="http://www.youthink.com/quiz.asp">YouThink.com</a> quizzes and
-  personality tests.</td></tr></table>
-
+  Dummkopf. Hitler hates you. Even from his grave, he is sending you hate rays.
   Dang, even hating me from the grave, that's deep.
 keywords: hitler quiz
 createdOn: '2004-06-23 09:43:36'
@@ -39,5 +27,16 @@ canonicalRouteEntryId: '169'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<table border="0" style="background-color:black" cellspacing="2" cellpadding="10"><tr style="background-color:white"><td><b><a href="http://www.youthink.com/quiz.asp?action=take&quiz_id=339">Would you have been friends with Adolf Hitler?</a></b><p><b>Dummkopf</b></p><p>Hitler hates you. Even from his grave, he is sending you hate rays.</p><p><a href="http://www.youthink.com/quiz.asp?action=take&quiz_id=339"><img alt="Personality Test Results" src="http://www.youthink.com/quiz_images/quiz339outcome3.jpg" /></a></p></td></tr><tr><td><a href="http://www.youthink.com/quiz.asp?action=take&quiz_id=339"><b>Click Here to Take This Quiz</b></a><br />Brought to you by <a href="http://www.youthink.com/quiz.asp">YouThink.com</a> quizzes and personality tests.</td></tr></table>
+**[Would you have been friends with Adolf Hitler?](http://www.youthink.com/quiz.asp?action=take&quiz_id=339)**
+
+**Dummkopf**
+
+Hitler hates you. Even from his grave, he is sending you hate rays.
+
+[![Personality Test Results](http://www.youthink.com/quiz_images/quiz339outcome3.jpg)](http://www.youthink.com/quiz.asp?action=take&quiz_id=339)
+
+[Click Here to Take This Quiz](http://www.youthink.com/quiz.asp?action=take&quiz_id=339)
+
+Brought to you by [YouThink.com](http://www.youthink.com/quiz.asp) quizzes and personality tests.
+
 Dang, even hating me from the grave, that's deep.

@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 457
 entryId: '474'
 blogId: '2'
@@ -26,9 +27,9 @@ textMoreIgnored: false
 ---
 Grandpa and Grandma got the kids some new outfits today.
 
-<img src="/images/15092006101609.jpg" height="1440" width="2160" />
-<img src="/images/15092006102133.jpg" height="1440" width="2160" />
-<img src="/images/15092006102342.jpg" height="1440" width="2160" />
-<img src="/images/15092006102603.jpg" height="1440" width="2160" />
-<img src="/images/15092006102759.jpg" height="1440" width="2160" />
-<img src="/images/15092006102957.jpg" height="1440" width="2160" />
+![](/images/15092006101609.jpg)
+![](/images/15092006102133.jpg)
+![](/images/15092006102342.jpg)
+![](/images/15092006102603.jpg)
+![](/images/15092006102759.jpg)
+![](/images/15092006102957.jpg)

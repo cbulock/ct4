@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 136
 entryId: '131'
 blogId: '2'
@@ -11,10 +12,10 @@ categoryId: null
 originalCategoryId: null
 title: Created Some Buttons
 excerpt: >-
-  This week is button avatar week at <a href="http://www.cliesource.com/"
-  title="ClieSource">ClieSource</a> so I created a couple of buttons to use in
-  my avatar. I made a 'ClieSource Mod' and a 'Clie NX60' button. I also used one
-  I created a month or two ago, the one that says 'CBulock'.
+  This week is button avatar week at [ClieSource](http://www.cliesource.com/
+  "ClieSource") so I created a couple of buttons to use in my avatar. I made a
+  'ClieSource Mod' and a 'Clie NX60' button. I also used one I created a month
+  or two ago, the one that says 'CBulock'.
 keywords: Cliesource buttons moderator NX60 CBulock
 createdOn: '2004-03-29 12:33:15'
 modifiedOn: '2007-08-25 17:29:48'
@@ -28,5 +29,5 @@ canonicalRouteEntryId: '131'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-This week is button avatar week at <a href="http://www.cliesource.com/" title="ClieSource">ClieSource</a> so I created a couple of buttons to use in my avatar. I made a 'ClieSource Mod' and a 'Clie NX60' button. I also used one I created a month or two ago, the one that says 'CBulock'.
-<img src="http://www.cbulock.com/pics/nx60.png" alt="" /> <img src="http://www.cbulock.com/pics/csmod.png" alt="" /> <img src="http://www.cbulock.com/pics/cbulock.png" alt="" />
+This week is button avatar week at [ClieSource](http://www.cliesource.com/ "ClieSource") so I created a couple of buttons to use in my avatar. I made a 'ClieSource Mod' and a 'Clie NX60' button. I also used one I created a month or two ago, the one that says 'CBulock'.
+![](http://www.cbulock.com/pics/nx60.png) ![](http://www.cbulock.com/pics/csmod.png) ![](http://www.cbulock.com/pics/cbulock.png)

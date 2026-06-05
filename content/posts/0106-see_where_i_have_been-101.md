@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 106
 entryId: '101'
 blogId: '2'
@@ -30,5 +31,6 @@ textMoreIgnored: false
 ---
 I haven't been to many states really, and Illinois and Missouri hardly count since the highway on the way to Texas just barely passes through them.  I'd make a world map, but other than these few states I visited, I have only gone to Canada once, and that was for about 15 minutes.
 
-<img src="http://www.world66.com/myworld66/visitedStates/statemap?visited=ARFLGAILINKYMIMOOHTNTX" alt="Map of Where I Have Been" /><br/>
-<a href="http://www.world66.com/myworld66/visitedStates">create your own visited states map.</a>
+![Map of Where I Have Been](http://www.world66.com/myworld66/visitedStates/statemap?visited=ARFLGAILINKYMIMOOHTNTX)
+
+[create your own visited states map.](http://www.world66.com/myworld66/visitedStates)

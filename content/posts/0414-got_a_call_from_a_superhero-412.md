@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 414
 entryId: '412'
 blogId: '2'
@@ -11,12 +12,14 @@ categoryId: '3'
 originalCategoryId: '3'
 title: Got a Call from a Superhero
 excerpt: >-
-  <p>So, I'm at work, and guess what shows up on my caller ID. "Superhero".</p>
+  So, I'm at work, and guess what shows up on my caller ID. "Superhero".
 
-  <p>It actually was the first part of their business name, but I thought it was
-  funny to see just plain Superhero as the name on the caller ID.<br />
 
-  Obviously I am really bored right now and easily amazed.</p>
+  It actually was the first part of their business name, but I thought it was
+  funny to see just plain Superhero as the name on the caller ID.
+
+
+  Obviously I am really bored right now and easily amazed.
 keywords: caller id corecomm superhero
 createdOn: '2006-02-08 15:53:25'
 modifiedOn: '2011-10-17 15:46:06'
@@ -30,7 +33,10 @@ canonicalRouteEntryId: '412'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<p>So, I'm at work, and guess what shows up on my caller ID. "Superhero".</p>
-<img src="/images/13062006102402.jpg" height="211" width="539" />
-<p>It actually was the first part of their business name, but I thought it was funny to see just plain Superhero as the name on the caller ID.<br />
-Obviously I am really bored right now and easily amused.</p>
+So, I'm at work, and guess what shows up on my caller ID. "Superhero".
+
+![](/images/13062006102402.jpg)
+
+It actually was the first part of their business name, but I thought it was funny to see just plain Superhero as the name on the caller ID.
+
+Obviously I am really bored right now and easily amused.

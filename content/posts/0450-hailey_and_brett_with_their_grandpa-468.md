@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 450
 entryId: '468'
 blogId: '2'
@@ -25,4 +26,4 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 Here's a recent pic of Hailey and Brett with my dad.
-<img src="/images/16072006124735.jpg" height="480" width="640" />
+![](/images/16072006124735.jpg)

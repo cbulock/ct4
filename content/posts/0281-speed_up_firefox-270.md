@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 281
 entryId: '270'
 blogId: '2'
@@ -13,10 +14,14 @@ title: Speed Up Firefox
 excerpt: >-
   Just tried out this trick to speed up Firefox and it works great.  It actually
   does work real well and I think is the same thing that makes Opera feel so
-  quick.  If you have a high-speed connection, you should try it out.<br /><br
-  />The trick can be found here:<br /><a title="Make Firefox Faster"
-  href="http://forevergeek.com/open_source/make_firefox_faster.php">http://forevergeek.com/open_source/make_firefox_faster.php</a><br
-  />
+  quick.  If you have a high-speed connection, you should try it out.
+
+
+  The trick can be found here:
+
+
+  [http://forevergeek.com/open_source/make_firefox_faster.php](http://forevergeek.com/open_source/make_firefox_faster.php
+  "Make Firefox Faster")
 keywords: firefox faster tweak browser
 createdOn: '2004-12-27 09:10:46'
 modifiedOn: '2011-10-17 15:46:06'
@@ -30,4 +35,8 @@ canonicalRouteEntryId: '270'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Just tried out this trick to speed up Firefox and it works great.  It actually does work real well and I think is the same thing that makes Opera feel so quick.  If you have a high-speed connection, you should try it out.<br /><br />The trick can be found here:<br /><a href="http://forevergeek.com/open_source/make_firefox_faster.php" title="Make Firefox Faster">http://forevergeek.com/open_source/make_firefox_faster.php</a><br />
+Just tried out this trick to speed up Firefox and it works great.  It actually does work real well and I think is the same thing that makes Opera feel so quick.  If you have a high-speed connection, you should try it out.
+
+The trick can be found here:
+
+[http://forevergeek.com/open_source/make_firefox_faster.php](http://forevergeek.com/open_source/make_firefox_faster.php "Make Firefox Faster")

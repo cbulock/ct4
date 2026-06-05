@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 544
 entryId: '575'
 blogId: '2'
@@ -11,7 +12,7 @@ categoryId: '14'
 originalCategoryId: '14'
 title: Test Posting From New Phone
 excerpt: |
-  <img src='/images/19042008134503.jpg' height='1200' width='1600' />
+  ![](/images/19042008134503.jpg)
 keywords: ''
 createdOn: '2008-04-19 13:45:06'
 modifiedOn: '2011-10-17 15:46:06'
@@ -25,4 +26,4 @@ canonicalRouteEntryId: '575'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<img src="/images/19042008134503.jpg" height="1200" width="1600" />
+![](/images/19042008134503.jpg)

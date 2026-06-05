@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 95
 entryId: '90'
 blogId: '2'
@@ -24,4 +25,4 @@ canonicalRouteEntryId: '90'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<img src="/images/13062006110929.jpg" height="360" width="480" />
+![](/images/13062006110929.jpg)

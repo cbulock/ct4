@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 173
 entryId: '168'
 blogId: '2'
@@ -11,8 +12,7 @@ categoryId: '5'
 originalCategoryId: '5'
 title: 1 Year of Cameron's Thought's
 excerpt: >-
-  <a href="http://www.cbulock.com/archives/000001.html" title="First Entry">One
-  year ago</a> today, I started this journal of mine.  It has come a far way
+  [One year ago](http://www.cbulock.com/archives/000001.html "First Entry") today, I started this journal of mine.  It has come a far way
   since.  I have documented my life since becoming a father.  Also, the site has
   had a number of incremental updates along the way. I've had a lot of fun with
   this so far and am glad I am still actively posting.
@@ -29,5 +29,5 @@ canonicalRouteEntryId: '168'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<a href="http://www.cbulock.com/archives/000001.html" title="First Entry">One year ago</a> today, I started this journal of mine.  It has come a far way since.  I have documented my life since becoming a father.  Also, the site has had a number of incremental updates along the way. I've had a lot of fun with this so far and am glad I am still actively posting.  I was afraid I would get bored and quit eventually, but I don't see that happening anytime in the near future.
-Oh, and I also finally added a way to contact me from this page.  There is a link on the right hand column, or you can just <a href="http://www.cbulock.com/contact_me.html" title="Contact Me">click here.</a>
+[One year ago](http://www.cbulock.com/archives/000001.html "First Entry") today, I started this journal of mine.  It has come a far way since.  I have documented my life since becoming a father.  Also, the site has had a number of incremental updates along the way. I've had a lot of fun with this so far and am glad I am still actively posting.  I was afraid I would get bored and quit eventually, but I don't see that happening anytime in the near future.
+Oh, and I also finally added a way to contact me from this page.  There is a link on the right hand column, or you can just [click here.](http://www.cbulock.com/contact_me.html "Contact Me")

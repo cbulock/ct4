@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 168
 entryId: '163'
 blogId: '2'
@@ -11,10 +12,10 @@ categoryId: '6'
 originalCategoryId: '6'
 title: This Virus is Airborn
 excerpt: >-
-  Just saw <a title="EPOC.Cabir"
-  href="http://securityresponse.symantec.com/avcenter/venc/data/epoc.cabir.html">this
-  bad news.</a> Seems smart phones have become <i>too</i> smart.  EPOC.Cabir is
-  a worm that infects Nokia Series 60 phones. Busy, so can't comment much but,
+  Just saw [this bad
+  news.](http://securityresponse.symantec.com/avcenter/venc/data/epoc.cabir.html
+  "EPOC.Cabir") Seems smart phones have become *too* smart.  EPOC.Cabir is a
+  worm that infects Nokia Series 60 phones. Busy, so can't comment much but,
   damn, that sucks.
 keywords: virus Nokia Series 60 bluetooth
 createdOn: '2004-06-15 15:45:09'
@@ -29,4 +30,4 @@ canonicalRouteEntryId: '163'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Just saw <a title="EPOC.Cabir" href="http://securityresponse.symantec.com/avcenter/venc/data/epoc.cabir.html">this bad news.</a> Seems smart phones have become <i>too</i> smart.  EPOC.Cabir is a worm that infects Nokia Series 60 phones. Busy, so can't comment much but, damn, that sucks.
+Just saw [this bad news.](http://securityresponse.symantec.com/avcenter/venc/data/epoc.cabir.html "EPOC.Cabir") Seems smart phones have become *too* smart.  EPOC.Cabir is a worm that infects Nokia Series 60 phones. Busy, so can't comment much but, damn, that sucks.

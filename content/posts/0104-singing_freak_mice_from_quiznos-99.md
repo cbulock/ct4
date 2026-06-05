@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 104
 entryId: '99'
 blogId: '2'
@@ -10,7 +11,7 @@ convertBreaks: __default__
 categoryId: null
 originalCategoryId: null
 title: Singing Freak Mice from Quizno's
-excerpt: '<a href="http://www.rathergood.com/moon_song/">This is funny!</a>'
+excerpt: '[This is funny!](http://www.rathergood.com/moon_song/)'
 keywords: funny mice
 createdOn: '2004-02-16 23:11:04'
 modifiedOn: '2007-08-25 17:29:48'
@@ -24,4 +25,4 @@ canonicalRouteEntryId: '99'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<a href="http://www.rathergood.com/moon_song/">This is funny!</a>
+[This is funny!](http://www.rathergood.com/moon_song/)

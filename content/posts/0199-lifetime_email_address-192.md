@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 199
 entryId: '192'
 blogId: '2'
@@ -13,11 +14,7 @@ title: Lifetime E-Mail Address
 excerpt: >-
   I was just browsing through whois records of domains (I had nothing better to
   do :) ), and I noticed that Gmail.com was originally registered back in 1995. 
-  So, I wondered what was originally on that domain.  I went over to <a
-  href="http://web.archive.org/" title="Internet Archive: Wayback Machine">the
-  Internet Archive's Wayback Machine</a> and saw a copy of <a
-  href="http://web.archive.org/web/19961223105823/http://www.gmail.com/"
-  title="US Email.Net">Gmail.com from December of 1996.</a>  Just a basic site
+  So, I wondered what was originally on that domain.  I went over to [the Internet Archive's Wayback Machine](http://web.archive.org/ "Internet Archive: Wayback Machine") and saw a copy of [Gmail.com from December of 1996.](http://web.archive.org/web/19961223105823/http://www.gmail.com/ "US Email.Net")  Just a basic site
   offering an e-mail forwarding service.  But, I have seen this a lot, "get a
   lifetime e-mail address".
 keywords: internet archive gmail e-mail lifetime
@@ -33,4 +30,4 @@ canonicalRouteEntryId: '192'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I was just browsing through whois records of domains (I had nothing better to do :) ), and I noticed that Gmail.com was originally registered back in 1995.  So, I wondered what was originally on that domain.  I went over to <a href="http://web.archive.org/" title="Internet Archive: Wayback Machine">the Internet Archive's Wayback Machine</a> and saw a copy of <a href="http://web.archive.org/web/19961223105823/http://www.gmail.com/" title="US Email.Net">Gmail.com from December of 1996.</a>  Just a basic site offering an e-mail forwarding service.  But, I have seen this a lot, "get a lifetime e-mail address".  So, I wonder if anyone who signed up for that is trying to get their old address back now on Google's Gmail service.
+I was just browsing through whois records of domains (I had nothing better to do :) ), and I noticed that Gmail.com was originally registered back in 1995.  So, I wondered what was originally on that domain.  I went over to [the Internet Archive's Wayback Machine](http://web.archive.org/ "Internet Archive: Wayback Machine") and saw a copy of [Gmail.com from December of 1996.](http://web.archive.org/web/19961223105823/http://www.gmail.com/ "US Email.Net")  Just a basic site offering an e-mail forwarding service.  But, I have seen this a lot, "get a lifetime e-mail address".  So, I wonder if anyone who signed up for that is trying to get their old address back now on Google's Gmail service.

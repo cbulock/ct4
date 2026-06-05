@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 350
 entryId: '343'
 blogId: '2'
@@ -12,9 +13,8 @@ originalCategoryId: '13'
 title: Free Opera
 excerpt: >-
   I think this is for today only, but in celebration of their 10-year
-  anniversary, you can get a <a
-  href="http://my.opera.com/community/party/reg.dml" title="10-year online
-  anniversary party">free copy of Opera.</a>  If you haven't already registered
+  anniversary, you can get a [free copy of Opera.](http://my.opera.com/community/party/reg.dml "10-year online
+  anniversary party")  If you haven't already registered
   this program, I would take advantage of this.
 keywords: free opera
 createdOn: '2005-08-30 13:00:22'
@@ -29,4 +29,4 @@ canonicalRouteEntryId: '343'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I think this is for today only, but in celebration of their 10-year anniversary, you can get a <a href="http://my.opera.com/community/party/reg.dml" title="10-year online anniversary party">free copy of Opera.</a>  If you haven't already registered this program, I would take advantage of this.
+I think this is for today only, but in celebration of their 10-year anniversary, you can get a [free copy of Opera.](http://my.opera.com/community/party/reg.dml "10-year online anniversary party")  If you haven't already registered this program, I would take advantage of this.

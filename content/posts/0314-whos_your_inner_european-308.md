@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 314
 entryId: '308'
 blogId: '2'
@@ -11,29 +12,8 @@ categoryId: '4'
 originalCategoryId: '4'
 title: Who's Your Inner European?
 excerpt: >-
-  <table width="400" border="1" cellspacing="0" cellpadding="2">
-
-  <tr><td style="background-color:#66CCFF">
-
-  <div style='color:black; font-size: 14pt; font-family:Georgia, Times New
-  Roman, Times, serif;'>
-
-  <b>Your Inner European is French!</b></div></td></tr>
-
-  <tr><td>
-
-
-  <img src="http://www.quizdiva.net/bt/european/french.jpg" alt="" />
-
-
-  Smart and sophisticated.
-
-
-  You have the best of everything - at least, *you* think so.</td></tr></table>
-
-
-  <a href="http://www.blogthings.com/whosyourinnereuropeanquiz/">Who's Your
-  Inner European?</a>
+  Your inner European is French. Smart and sophisticated, with the best of
+  everything - at least, you think so.
 keywords: quiz test
 createdOn: '2005-04-12 10:54:17'
 modifiedOn: '2011-10-17 15:46:06'
@@ -47,16 +27,12 @@ canonicalRouteEntryId: '308'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<table width="400" border="1" cellspacing="0" cellpadding="2">
-<tr><td style="background-color:#66CCFF">
-<div style='color:black; font-size: 14pt; font-family:Georgia, Times New Roman, Times, serif;'>
-<b>Your Inner European is French!</b></div></td></tr>
-<tr><td>
+**Your Inner European is French!**
 
-<img src="http://www.quizdiva.net/bt/european/french.jpg" alt="" />
+![](http://www.quizdiva.net/bt/european/french.jpg)
 
 Smart and sophisticated.
 
-You have the best of everything - at least, *you* think so.</td></tr></table>
+You have the best of everything - at least, *you* think so.
 
-<a href="http://www.blogthings.com/whosyourinnereuropeanquiz/">Who's Your Inner European?</a>
+[Who's Your Inner European?](http://www.blogthings.com/whosyourinnereuropeanquiz/)

@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 120
 entryId: '115'
 blogId: '2'
@@ -11,9 +12,8 @@ categoryId: '6'
 originalCategoryId: '6'
 title: The First Music Video Shot Entirely on a Nokia 3650
 excerpt: >-
-  <a href="http://ghettron.textamerica.com/?r=455355" title="The first music
-  video shot entirely on a Nokia 3650">The first music video shot entirely on a
-  Nokia 3650</a>. A cool idea, but I'm not sure I would exactly call this a
+  [The first music video shot entirely on a Nokia 3650](http://ghettron.textamerica.com/?r=455355 "The first music
+  video shot entirely on a Nokia 3650"). A cool idea, but I'm not sure I would exactly call this a
   music video.  More like a guy doing a really bad dance to not so great music. 
   But it was all filmed using a Nokia 3650 so it's cool with me. :)
 keywords: nokia 3650 music video
@@ -29,4 +29,4 @@ canonicalRouteEntryId: '115'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<a href="http://ghettron.textamerica.com/?r=455355" title="The first music video shot entirely on a Nokia 3650">The first music video shot entirely on a Nokia 3650</a>. A cool idea, but I'm not sure I would exactly call this a music video.  More like a guy doing a really bad dance to not so great music.  But it was all filmed using a Nokia 3650 so it's cool with me. :)
+[The first music video shot entirely on a Nokia 3650](http://ghettron.textamerica.com/?r=455355 "The first music video shot entirely on a Nokia 3650"). A cool idea, but I'm not sure I would exactly call this a music video.  More like a guy doing a really bad dance to not so great music.  But it was all filmed using a Nokia 3650 so it's cool with me. :)

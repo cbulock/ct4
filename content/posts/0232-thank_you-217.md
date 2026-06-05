@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 232
 entryId: '217'
 blogId: '3'
@@ -24,6 +25,6 @@ canonicalRouteEntryId: '217'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<p>Thank you.  You should hear back from me shortly.</p>
+Thank you.  You should hear back from me shortly.
 
-<p><a href="http://www.cbulock.com" title="Cameron's Thought's">Back to Main Page</a></p>
+[Back to Main Page](http://www.cbulock.com "Cameron's Thought's")

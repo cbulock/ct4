@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 340
 entryId: '335'
 blogId: '2'
@@ -11,8 +12,7 @@ categoryId: null
 originalCategoryId: null
 title: 24 Hour Fitness
 excerpt: >-
-  <a href="http://www.flickr.com/photos/matthews/273052/"><img
-  src="http://photos1.flickr.com/273052_f5c23b6733.jpg" alt="Fitness" /></a>
+  [![Fitness](http://photos1.flickr.com/273052_f5c23b6733.jpg)](http://www.flickr.com/photos/matthews/273052/)
 
   Seen on Flickr
 keywords: funny image fitness escalator
@@ -28,5 +28,5 @@ canonicalRouteEntryId: '335'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<a href="http://www.flickr.com/photos/matthews/273052/"><img src="http://photos1.flickr.com/273052_f5c23b6733.jpg" alt="Fitness" /></a>
+[![Fitness](http://photos1.flickr.com/273052_f5c23b6733.jpg)](http://www.flickr.com/photos/matthews/273052/)
 Seen on Flickr

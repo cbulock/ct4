@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 50
 entryId: '49'
 blogId: '2'
@@ -11,15 +12,20 @@ categoryId: '4'
 originalCategoryId: '4'
 title: What Matrix Persona Are You?
 excerpt: >-
-  <img
-  src="http://images.quizilla.com/T/trinitykills/1052702439_esQuiz3neo.jpg" 
-  alt="You are Neo" /><br />You are Neo, from "The Matrix." You<br>display a
-  perfect fusion of heroism and<br />compassion.
+  ![You are
+  Neo](http://images.quizilla.com/T/trinitykills/1052702439_esQuiz3neo.jpg)
 
-  <br /><br /><a
-  href="http://quizilla.com/users/trinitykills/quizzes/What%20Matrix%20Persona%20Are%20You%3F/">
-  What Matrix Persona Are You?</a><br /> brought to you by <a
-  href="http://quizilla.com">Quizilla</a>
+  You are Neo, from "The Matrix." You
+
+  display a perfect fusion of heroism and
+
+  compassion.
+
+
+  [What Matrix Persona Are
+  You?](http://quizilla.com/users/trinitykills/quizzes/What%20Matrix%20Persona%20Are%20You%3F/)
+
+  brought to you by [Quizilla](http://quizilla.com)
 keywords: matrix quiz
 createdOn: '2003-12-08 01:10:55'
 modifiedOn: '2011-10-17 15:46:06'
@@ -33,5 +39,10 @@ canonicalRouteEntryId: '49'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<img src="http://images.quizilla.com/T/trinitykills/1052702439_esQuiz3neo.jpg"  alt="You are Neo" /><br />You are Neo, from "The Matrix." You<br />display a perfect fusion of heroism and<br />compassion.
-<br /><br /><a href="http://quizilla.com/users/trinitykills/quizzes/What%20Matrix%20Persona%20Are%20You%3F/"> What Matrix Persona Are You?</a><br /> brought to you by <a href="http://quizilla.com">Quizilla</a>
+![You are Neo](http://images.quizilla.com/T/trinitykills/1052702439_esQuiz3neo.jpg)
+You are Neo, from "The Matrix." You
+display a perfect fusion of heroism and
+compassion.
+
+[What Matrix Persona Are You?](http://quizilla.com/users/trinitykills/quizzes/What%20Matrix%20Persona%20Are%20You%3F/)
+brought to you by [Quizilla](http://quizilla.com)

@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 194
 entryId: '187'
 blogId: '2'
@@ -11,9 +12,8 @@ categoryId: '4'
 originalCategoryId: '4'
 title: What kind of social software are you?
 excerpt: >-
-  <a href="http://undergroundlondon.com/social/ss_blog.html"><img
-  src="http://undergroundlondon.com/social/ss_blog.gif" alt="what kind of social
-  software are you?" width="141" height="121" /></a>
+  [![what kind of social software are
+  you?](http://undergroundlondon.com/social/ss_blog.gif)](http://undergroundlondon.com/social/ss_blog.html)
 keywords: software quiz
 createdOn: '2004-07-25 11:59:52'
 modifiedOn: '2011-10-17 15:46:06'
@@ -27,4 +27,4 @@ canonicalRouteEntryId: '187'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<a href="http://undergroundlondon.com/social/ss_blog.html"><img src="http://undergroundlondon.com/social/ss_blog.gif" alt="what kind of social software are you?" width="141" height="121"  /></a>
+[![what kind of social software are you?](http://undergroundlondon.com/social/ss_blog.gif)](http://undergroundlondon.com/social/ss_blog.html)

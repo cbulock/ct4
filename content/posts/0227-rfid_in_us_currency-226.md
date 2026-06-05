@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 227
 entryId: '226'
 blogId: '2'
@@ -17,9 +18,8 @@ excerpt: >-
   controversy. 
 
 
-  <a href="http://www.prisonplanet.com/022904rfidtagsexplode.html" title="RFID
-  Tags in New US Notes Explode When You Try to Microwave Them">RFID Tags in New
-  US Notes Explode When You Try to Microwave Them</a>
+  [RFID Tags in New US Notes Explode When You Try to Microwave Them](http://www.prisonplanet.com/022904rfidtagsexplode.html "RFID
+  Tags in New US Notes Explode When You Try to Microwave Them")
 keywords: rfid money currency privacy
 createdOn: '2004-10-24 22:03:25'
 modifiedOn: '2007-08-25 17:29:48'
@@ -35,4 +35,4 @@ textMoreIgnored: false
 ---
 I'm not afraid of RFID technology or anything, I actually think it will be revolutionary technology.  But it seems that secretly adding this technology into things, especially something like our money is certain to cause a large controversy. 
 
-<a href="http://www.prisonplanet.com/022904rfidtagsexplode.html" title="RFID Tags in New US Notes Explode When You Try to Microwave Them">RFID Tags in New US Notes Explode When You Try to Microwave Them</a>
+[RFID Tags in New US Notes Explode When You Try to Microwave Them](http://www.prisonplanet.com/022904rfidtagsexplode.html "RFID Tags in New US Notes Explode When You Try to Microwave Them")

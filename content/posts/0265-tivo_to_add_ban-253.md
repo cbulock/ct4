@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 265
 entryId: '253'
 blogId: '4'
@@ -24,4 +25,4 @@ canonicalRouteEntryId: '253'
 isCanonicalRouteEntry: true
 textMoreIgnored: true
 ---
-http://www.pvrblog.com/pvr/2004/11/tivo_to_add_ban.html
+<http://www.pvrblog.com/pvr/2004/11/tivo_to_add_ban.html>

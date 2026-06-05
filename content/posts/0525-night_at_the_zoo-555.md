@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 525
 entryId: '555'
 blogId: '2'
@@ -11,10 +12,10 @@ categoryId: '14'
 originalCategoryId: '14'
 title: Night at the Zoo
 excerpt: |
-  <img src='/images/11122007030002.jpg' height='480' width='640' />
-  <img src='/images/11122007030003.jpg' height='480' width='640' />
-  <img src='/images/11122007224707.jpg' height='453' width='604' />
-  <img src='/images/11122007034502.jpg' height='480' width='640' />
+  ![](/images/11122007030002.jpg)
+  ![](/images/11122007030003.jpg)
+  ![](/images/11122007224707.jpg)
+  ![](/images/11122007034502.jpg)
 keywords: ''
 createdOn: '2007-12-11 03:00:07'
 modifiedOn: '2011-10-17 15:46:06'
@@ -28,7 +29,7 @@ canonicalRouteEntryId: '555'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<img src="/images/11122007030002.jpg" height="480" width="640" />
-<img src="/images/11122007030003.jpg" height="480" width="640" />
-<img src="/images/11122007224707.jpg" height="453" width="604" />
-<img src="/images/11122007034502.jpg" height="480" width="640" />
+![](/images/11122007030002.jpg)
+![](/images/11122007030003.jpg)
+![](/images/11122007224707.jpg)
+![](/images/11122007034502.jpg)

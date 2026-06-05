@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 242
 entryId: '229'
 blogId: '2'
@@ -10,7 +11,16 @@ convertBreaks: __default__
 categoryId: '4'
 originalCategoryId: '4'
 title: Which File Extension Are You?
-excerpt: "<a href=\"http://www.bbspot.com/News/2004/10/extension_quiz.php\"><img\nsrc=\"http://www.bbspot.com/Images/News_Features/2004/10/file_extensions/swf.jpg\" width=\"300\" height=\"90\"\nborder=\"0\" alt=\"You are .swf\t You are flashy, but lack substance.  You like playing, but often you are annoying. Grow up.\" /><br />Which File Extension are You?</a>\n\nDoesn't really seem to be me, but, whatever. :P"
+excerpt: >-
+  [![You are .swf You are flashy, but lack substance. You like playing, but
+  often you are annoying. Grow
+  up.](http://www.bbspot.com/Images/News_Features/2004/10/file_extensions/swf.jpg)
+
+  Which File Extension are
+  You?](http://www.bbspot.com/News/2004/10/extension_quiz.php)
+
+
+  Doesn't really seem to be me, but, whatever. :P
 keywords: file extension test quiz
 createdOn: '2004-10-26 05:16:17'
 modifiedOn: '2011-10-17 15:46:06'
@@ -24,6 +34,7 @@ canonicalRouteEntryId: '229'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<a href="http://www.bbspot.com/News/2004/10/extension_quiz.php"><img src="http://www.bbspot.com/Images/News_Features/2004/10/file_extensions/swf.jpg" width="300" height="90" alt="You are .swf  You are flashy, but lack substance. You like playing, but often you are annoying. Grow up." /><br />Which File Extension are You?</a>
+[![You are .swf You are flashy, but lack substance. You like playing, but often you are annoying. Grow up.](http://www.bbspot.com/Images/News_Features/2004/10/file_extensions/swf.jpg)
+Which File Extension are You?](http://www.bbspot.com/News/2004/10/extension_quiz.php)
 
 Doesn't really seem to be me, but, whatever. :P

@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 311
 entryId: '305'
 blogId: '2'
@@ -11,9 +12,7 @@ categoryId: '1'
 originalCategoryId: '1'
 title: Everything Fine With Brett
 excerpt: >-
-  Yesterday, Nickcole and I took Brett <a
-  href="http://www.cbulock.com/2005/02/bretts_doctor_visit_today.html"
-  title="Brett's Doctor Visit Today">back to the neurologist</a> after he had
+  Yesterday, Nickcole and I took Brett [back to the neurologist](http://www.cbulock.com/2005/02/bretts_doctor_visit_today.html "Brett's Doctor Visit Today") after he had
   some CAT scans done last week.  The neurologist said that everything looks
   normal and his development is completely fine.  That is good news.  We didn't
   notice anything wrong, and it looks the the way his skull is developing is
@@ -31,4 +30,4 @@ canonicalRouteEntryId: '305'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Yesterday, Nickcole and I took Brett <a href="http://www.cbulock.com/2005/02/bretts_doctor_visit_today.html" title="Brett's Doctor Visit Today">back to the neurologist</a> after he had some CAT scans done last week.  The neurologist said that everything looks normal and his development is completely fine.  That is good news.  We didn't notice anything wrong, and it looks the the way his skull is developing is okay.
+Yesterday, Nickcole and I took Brett [back to the neurologist](http://www.cbulock.com/2005/02/bretts_doctor_visit_today.html "Brett's Doctor Visit Today") after he had some CAT scans done last week.  The neurologist said that everything looks normal and his development is completely fine.  That is good news.  We didn't notice anything wrong, and it looks the the way his skull is developing is okay.

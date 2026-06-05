@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 351
 entryId: '344'
 blogId: '2'
@@ -27,23 +28,22 @@ canonicalRouteEntryId: '344'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<p>I am selling a number of Game Boy games and a couple of systems.  Also, I am selling my copy of Twisted Metal for PSP.  You can find all these goodies on EBay.</p>
+I am selling a number of Game Boy games and a couple of systems.  Also, I am selling my copy of Twisted Metal for PSP.  You can find all these goodies on EBay.
 
-<h4>Systems:</h4>
-<p>
-<a href="http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215735924">Nintendo Game Boy Advance SP Black</a><br />
-<a href="http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215734983">Nintendo Game Boy Color</a></p>
+#### Systems:
 
-<h4>Games:</h4>
-<p><a href="http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215725477">	
-The Legend of Zelda: A Link To The Past (GBA)</a><br />
-<a href="http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215727201">	
-The Sims Bustinâ€™ Out (GBA)</a><br />
-<a href="http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215729800">		
-Donkey Kong Country (GBA)</a><br />
-<a href="http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215730923">	
-Yoshi's Island: Super Mario Advance 3 (GBA)</a><br />
-<a href="http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215731843">Super Mario Bros. Deluxe (Game Boy Color)</a><br />
-<a href="http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215750390">Twisted Metal: Head-On (PSP)</a></p>
+- [Nintendo Game Boy Advance SP Black](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215735924)
+- [Nintendo Game Boy Color](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215734983)
 
-<p class="footer_note">All auctions are closed now.</p>
+#### Games:
+
+- [The Legend of Zelda: A Link To The Past (GBA)](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215725477)
+- [The Sims Bustinâ€™ Out (GBA)](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215727201)
+- [Donkey Kong Country (GBA)](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215729800)
+- [Yoshi's Island: Super Mario Advance 3 (GBA)](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215730923)
+- [Super Mario Bros. Deluxe (Game Boy Color)](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215731843)
+- [Twisted Metal: Head-On (PSP)](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=8215750390)
+
+:::footer-note
+All auctions are closed now.
+:::

@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 295
 entryId: '284'
 blogId: '2'
@@ -12,8 +13,7 @@ originalCategoryId: '11'
 title: GMail Anyone?
 excerpt: >
   If anyone somehow still doesn't have a GMail account, and would like one, just
-  feel free to leave a comment on this post or use my <a title="Contact Me"
-  href="http://www.cbulock.com/contact_me.html">contact form</a> to get ahold of
+  feel free to leave a comment on this post or use my [contact form](http://www.cbulock.com/contact_me.html "Contact Me") to get ahold of
   me and I'll send one your way.  Just make sure to give me a real email
   address.  Google just gave most users 50 invites today, so, I have more than
   enough.
@@ -30,4 +30,4 @@ canonicalRouteEntryId: '284'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-If anyone somehow still doesn't have a GMail account, and would like one, just feel free to leave a comment on this post or use my <a title="Contact Me" href="http://www.cbulock.com/contact_me.html">contact form</a> to get ahold of me and I'll send one your way.  Just make sure to give me a real email address.  Google just gave most users 50 invites today, so, I have more than enough.
+If anyone somehow still doesn't have a GMail account, and would like one, just feel free to leave a comment on this post or use my [contact form](http://www.cbulock.com/contact_me.html "Contact Me") to get ahold of me and I'll send one your way.  Just make sure to give me a real email address.  Google just gave most users 50 invites today, so, I have more than enough.

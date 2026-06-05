@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 315
 entryId: '310'
 blogId: '2'
@@ -11,32 +12,8 @@ categoryId: '4'
 originalCategoryId: '4'
 title: What Kind of American English Do You Speak?
 excerpt: >-
-  <a href="http://neil.cbulock.com" title="Neil Vitale's Weblog">Neil</a> keeps
-  doing these, so I keep getting curious what my results are.
-
-
-  <table width="400" border="1" cellspacing="0" cellpadding="2">
-
-  <tr><td style="background-color:#339966">
-
-  <h3>Your Linguistic Profile:</h3>
-
-  </td></tr><tr><td style="background-color:#00CC00">
-
-  65% General American English</td></tr><tr><td
-  style="background-color:#339966">
-
-  20% Upper Midwestern</td></tr><tr><td style="background-color:#00CC00">
-
-  5% Midwestern</td></tr><tr><td style="background-color:#339966">
-
-  5% Yankee</td></tr><tr><td style="background-color:#00CC00">
-
-  0% Dixie</td></tr></table>
-
-
-  <a href="http://www.blogthings.com/amenglishdialecttest/">What Kind of
-  American English Do You Speak?</a>
+  Neil keeps doing these, so I keep getting curious what my results are. My
+  linguistic profile is 65% General American English.
 keywords: english speak test quiz
 createdOn: '2005-04-18 23:54:30'
 modifiedOn: '2011-10-17 15:46:06'
@@ -50,16 +27,16 @@ canonicalRouteEntryId: '310'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<a href="http://neil.cbulock.com" title="Neil Vitale's Weblog">Neil</a> keeps doing these, so I keep getting curious what my results are.
+[Neil](http://neil.cbulock.com "Neil Vitale's Weblog") keeps doing these, so I keep getting curious what my results are.
 
-<table width="400" border="1" cellspacing="0" cellpadding="2">
-<tr><td style="background-color:#339966">
-<h3>Your Linguistic Profile:</h3>
-</td></tr><tr><td style="background-color:#00CC00">
-65% General American English</td></tr><tr><td style="background-color:#339966">
-20% Upper Midwestern</td></tr><tr><td style="background-color:#00CC00">
-5% Midwestern</td></tr><tr><td style="background-color:#339966">
-5% Yankee</td></tr><tr><td style="background-color:#00CC00">
-0% Dixie</td></tr></table>
+### Your Linguistic Profile
 
-<a href="http://www.blogthings.com/amenglishdialecttest/">What Kind of American English Do You Speak?</a>
+| Dialect | Score |
+| --- | --- |
+| General American English | 65% |
+| Upper Midwestern | 20% |
+| Midwestern | 5% |
+| Yankee | 5% |
+| Dixie | 0% |
+
+[What Kind of American English Do You Speak?](http://www.blogthings.com/amenglishdialecttest/)

@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 98
 entryId: '93'
 blogId: '2'
@@ -27,9 +28,9 @@ canonicalRouteEntryId: '93'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<img src="/images/13062006110428.jpg" height="360" width="480" />
+![](/images/13062006110428.jpg)
  Hailey and Ash are good friends
-<img src="/images/13062006110456.jpg" height="360" width="480" />
+![](/images/13062006110456.jpg)
 Hailey pulling Ash's ears
-<img src="/images/13062006110538.jpg" height="360" width="480" />
+![](/images/13062006110538.jpg)
 He doesn't mind though

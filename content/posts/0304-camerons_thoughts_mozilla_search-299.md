@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 304
 entryId: '299'
 blogId: '2'
@@ -31,4 +32,4 @@ textMoreIgnored: false
 ---
 Not that this is something that is needed, but I just wanted to test this out. I created a Mozilla search plugin for this site.  This works in any Mozilla-based broswer such as Mozilla, Firefox, Camino, or Netscape.  Simply download the plugin, and searching this site is a breeze.  I plan on making some more, and updating some existing plugins that no longer work.
 
-Check out <a href="http://www.cbulock.com/plugins.html" title="Plugins">this page</a> for a link to install the plugin.
+Check out [this page](http://www.cbulock.com/plugins.html "Plugins") for a link to install the plugin.

@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 460
 entryId: '476'
 blogId: '2'
@@ -13,9 +14,7 @@ title: WTF DeVos
 excerpt: >-
   I'm totally agree with this one.
 
-  <a title="Stupid Evil Bastard: Dick DeVos just lost my vote."
-  href="http://stupidevilbastard.com/index/seb/comments/dick_devos_just_lost_my_vote/">Stupid
-  Evil Bastard: Dick DeVos just lost my vote.</a>
+  [Stupid Evil Bastard: Dick DeVos just lost my vote.](http://stupidevilbastard.com/index/seb/comments/dick_devos_just_lost_my_vote/ "Stupid Evil Bastard: Dick DeVos just lost my vote.")
 
   Michigan is doing horribly when it comes to the economy here.  I don't like to
   pick sides with either republicans or democrats, but since Bush, I have had to
@@ -36,6 +35,6 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 I'm totally agree with this one.
-<a title="Stupid Evil Bastard: Dick DeVos just lost my vote." href="http://stupidevilbastard.com/index/seb/comments/dick_devos_just_lost_my_vote/">Stupid Evil Bastard: Dick DeVos just lost my vote.</a>
+[Stupid Evil Bastard: Dick DeVos just lost my vote.](http://stupidevilbastard.com/index/seb/comments/dick_devos_just_lost_my_vote/ "Stupid Evil Bastard: Dick DeVos just lost my vote.")
 Michigan is doing horribly when it comes to the economy here.  I don't like to pick sides with either republicans or democrats, but since Bush, I have had to go democrat to try and keep some balance.  But, with the way things are going, I was ready for something different.  And until now, I was planning on voting for DeVos.
 There is no way I want to see Michigan as a state where we teach that intelligent design crap.  I mean it was one thing when Arkansas and Kansas wanted to do it.  Those places are already pretty much out of touch with society.  But Michigan has always seemed to be a place with some common sense.  I don't want to be embarrassed to live here.  The USA is already an embarrassment enough.

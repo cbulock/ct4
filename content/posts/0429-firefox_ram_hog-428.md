@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 429
 entryId: '428'
 blogId: '2'
@@ -25,4 +26,4 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 I love Firefox, easily the program I use most on the computer.  I probably spend 12-15 hours a day using it.  But, it really needs to chill the fuck out on it's RAM usage.  I mean, what is it doing.  I had seven tabs open.  Of course, a simple restart of the program makes everything better, but they need to fix the memory leaks, because like to run this non-stop.
-<img src="/images/05062006122835.png" height="455" width="472" />
+![](/images/05062006122835.png)

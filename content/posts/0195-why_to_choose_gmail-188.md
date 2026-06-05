@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 195
 entryId: '188'
 blogId: '2'
@@ -11,11 +12,8 @@ categoryId: '11'
 originalCategoryId: '11'
 title: Why to Choose Gmail?
 excerpt: >-
-  Not sure if Gmail is the best choice for your web-based e-mail? <a
-  href="http://www.flexbeta.net" title="Flexbeta">Flexbeta</a> has a review that
-  asks the question, <a
-  href="http://www.flexbeta.net/main/comments.php?catid=1&shownews=8396"
-  title="Gmail, Is It Worth The Wait?">Gmail, Is It Worth The Wait?</a>
+  Not sure if Gmail is the best choice for your web-based e-mail? [Flexbeta](http://www.flexbeta.net "Flexbeta") has a review that
+  asks the question, [Gmail, Is It Worth The Wait?](http://www.flexbeta.net/main/comments.php?catid=1&shownews=8396 "Gmail, Is It Worth The Wait?")
 keywords: GMail review invite
 createdOn: '2004-07-26 09:08:17'
 modifiedOn: '2011-10-17 15:46:06'
@@ -29,5 +27,5 @@ canonicalRouteEntryId: '188'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Not sure if Gmail is the best choice for your web-based e-mail? <a href="http://www.flexbeta.net" title="Flexbeta">Flexbeta</a> has a review that asks the question, <a href="http://www.flexbeta.net/main/comments.php?catid=1&shownews=8396" title="Gmail, Is It Worth The Wait?">Gmail, Is It Worth The Wait?</a>  
+Not sure if Gmail is the best choice for your web-based e-mail? [Flexbeta](http://www.flexbeta.net "Flexbeta") has a review that asks the question, [Gmail, Is It Worth The Wait?](http://www.flexbeta.net/main/comments.php?catid=1&shownews=8396 "Gmail, Is It Worth The Wait?")  
 The review goes over other newer mail systems that offer lot's of storage similar to Gmail, and details what each system has to offer.  It's a good read for anyone wondering what's so special about Gmail.  So, if you haven't got an invite yet, and want to know if you should wait, now you will know.  And if you don't want to wait for the Gmail public release, I might have an invite to give out if you ask nicely. ;)

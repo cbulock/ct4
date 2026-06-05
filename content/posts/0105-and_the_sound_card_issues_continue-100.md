@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 105
 entryId: '100'
 blogId: '2'
@@ -36,17 +37,11 @@ I have had problems with the sound stuttering ever since I installed it. It will
 
 I have tried a number of steps in order to trace the problem, but so far nothing has worked. (The OS is Win XP BTW)
 
-<ul>
-<li>I first tried reinstalling the device drivers. That had no effect, so I went and made sure I had the latest drivers and I do.</li>
+- I first tried reinstalling the device drivers. That had no effect, so I went and made sure I had the latest drivers and I do.
+- I then went ahead and updated the motherboard drivers. That also had no effect.
+- Since I needed to anyways, I went ahead and reinstalled Windows. I normally wouldn't have given up so quickly, but I planned on doing this within a few weeks anyway. Still, same results.
+- So, I made sure to reinstall all the drivers. I also had some trouble with my NIC card since I installed the sound card. I had an onboard NIC and a PCI NIC, so I just removed the PCI NIC.
+- I moved the sound card to a different PCI slot since after removing the PCI NIC, the IRQ of the onboard NIC and sound card were the same. I have now verified that nothing shares any resources with the sound card.
+- I also went into the Control Panel, then Sounds and Audio Devices. I went to the Audio tab, advanced properties and turned down the hardware acceleration. This seemed to work the other day, but now I am having the sound problems again.
 
-<li>I then went ahead and updated the motherboard drivers. That also had no effect.</li>
-
-<li>Since I needed to anyways, I went ahead and reinstalled Windows. I normally wouldn't have given up so quickly, but I planned on doing this within a few weeks anyway. Still, same results.</li>
-
-<li>So, I made sure to reinstall all the drivers. I also had some trouble with my NIC card since I installed the sound card. I had an onboard NIC and a PCI NIC, so I just removed the PCI NIC.</li>
-
-<li>I moved the sound card to a different PCI slot since after removing the PCI NIC, the IRQ of the onboard NIC and sound card were the same. I have now verified that nothing shares any resources with the sound card.</li>
-
-<li>I also went into the Control Panel, then Sounds and Audio Devices. I went to the Audio tab, advanced properties and turned down the hardware acceleration. This seemed to work the other day, but now I am having the sound problems again.</li></ul>
-
-That's everything I have done so far. I kind of stuck now. Has anyone else experienced similar troubles or am I missing something obvious? I have also posted this at <a href="http://www.cliesource.com/forums/showthread.php?s=&threadid=42000" title="Sound Card Problems - Any idea's?">ClieSource</a> hoping to get some more input on this.
+That's everything I have done so far. I kind of stuck now. Has anyone else experienced similar troubles or am I missing something obvious? I have also posted this at [ClieSource](http://www.cliesource.com/forums/showthread.php?s=&threadid=42000 "Sound Card Problems - Any idea's?") hoping to get some more input on this.

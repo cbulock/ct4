@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 82
 entryId: '77'
 blogId: '2'
@@ -11,12 +12,12 @@ categoryId: '2'
 originalCategoryId: '2'
 title: New High End Clie TH55 Officially Announced
 excerpt: >-
-  After being discovered a couple of weeks ago, <a
-  href="http://www.jp.sonystyle.com/peg/index.html" title="Sony Style">Sony
-  Japan</a> has announced the arrival of two new Clie units, the TH55 and the
-  TJ37.  There is also info about a TJ27, but it looks like Japan won't see that
-  device.  Also of interest, it seems Sony is going to give Japan, American, and
-  Europe all different devices with different wireless setups.
+  After being discovered a couple of weeks ago, [Sony
+  Japan](http://www.jp.sonystyle.com/peg/index.html "Sony Style") has announced
+  the arrival of two new Clie units, the TH55 and the TJ37.  There is also info
+  about a TJ27, but it looks like Japan won't see that device.  Also of
+  interest, it seems Sony is going to give Japan, American, and Europe all
+  different devices with different wireless setups.
 keywords: clie th55 wifi bluetooth
 createdOn: '2004-02-03 13:41:29'
 modifiedOn: '2011-10-17 15:46:06'
@@ -30,10 +31,10 @@ canonicalRouteEntryId: '77'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-After being discovered a couple of weeks ago, <a href="http://www.jp.sonystyle.com/peg/index.html" title="Sony Style">Sony Japan</a> has announced the arrival of two new Clie units, the TH55 and the TJ37.  There is also info about a TJ27, but it looks like Japan won't see that device.  Also of interest, it seems Sony is going to give Japan, American, and Europe all different devices with different wireless setups.  It seems like in Japan, only the TH55 is getting WiFi, while in the US, both the TH55 and TJ37 are rumored to include it.  The test devices the FCC seen also had mention of Bluetooth, so it's quite possible that feature will only be seen in Europe, like they did with the NX73 being BT only in Europe.  There is also a <a href="http://www.sony.jp/CLIE/products/demo/PEG-TH55/index.html" title="TH-55 Demo">nice Flash demo</a> of the TH55 on Sony Japan's website.
-Here are some specs from <a href="http://www.cliesource.com" title="ClieSource">ClieSource</a>
+After being discovered a couple of weeks ago, [Sony Japan](http://www.jp.sonystyle.com/peg/index.html "Sony Style") has announced the arrival of two new Clie units, the TH55 and the TJ37.  There is also info about a TJ27, but it looks like Japan won't see that device.  Also of interest, it seems Sony is going to give Japan, American, and Europe all different devices with different wireless setups.  It seems like in Japan, only the TH55 is getting WiFi, while in the US, both the TH55 and TJ37 are rumored to include it.  The test devices the FCC seen also had mention of Bluetooth, so it's quite possible that feature will only be seen in Europe, like they did with the NX73 being BT only in Europe.  There is also a [nice Flash demo](http://www.sony.jp/CLIE/products/demo/PEG-TH55/index.html "TH-55 Demo") of the TH55 on Sony Japan's website.
+Here are some specs from [ClieSource](http://www.cliesource.com "ClieSource")
 
-<b>Cli&eacute; TH55</b>
+**Cli&eacute; TH55**
 - OS: PalmOS 5 (Ver.5.2.1)
 - CPU: 123MHz SONY Handheld Engine (same as the UX-series)
 - Memory: DRAM - 32MB / ROM - 32MB

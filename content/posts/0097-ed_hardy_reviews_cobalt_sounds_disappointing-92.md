@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 97
 entryId: '92'
 blogId: '2'
@@ -11,9 +12,7 @@ categoryId: '2'
 originalCategoryId: '2'
 title: 'Ed Hardy Reviews Cobalt, Sounds Disappointing'
 excerpt: >-
-  I was just reading <a
-  href="http://www.brighthand.com/article/First_Impressions_of_Cobalt"
-  title="Brighthand's First Impressions of Palm OS Cobalt">this article</a>
+  I was just reading [this article](http://www.brighthand.com/article/First_Impressions_of_Cobalt "Brighthand's First Impressions of Palm OS Cobalt")
   about the upcoming Cobalt OS and I have to say that I am somewhat
   disappointed. PalmSource didn't add the updated GUI. I didn't mind that so
   much as long as they were too busy getting everything else working.
@@ -30,7 +29,7 @@ canonicalRouteEntryId: '92'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I was just reading <a href="http://www.brighthand.com/article/First_Impressions_of_Cobalt" title="Brighthand's First Impressions of Palm OS Cobalt">this article</a> about the upcoming Cobalt OS and I have to say that I am somewhat disappointed. PalmSource didn't add the updated GUI. I didn't mind that so much as long as they were too busy getting everything else working.
+I was just reading [this article](http://www.brighthand.com/article/First_Impressions_of_Cobalt "Brighthand's First Impressions of Palm OS Cobalt") about the upcoming Cobalt OS and I have to say that I am somewhat disappointed. PalmSource didn't add the updated GUI. I didn't mind that so much as long as they were too busy getting everything else working.
 But, I also read that they support higher screen resolutions (up to 32000 x 32000!) but they don't entirely support them. The article said that the OS doesn't completely support VGA and a licensee would need to make some changes for full VGA support.
 Plus, there is NOT support for switching between landscape and portrait modes. As Ed mentioned, he was told there would be support for that, and I could have sworn I read that in some document that described the OS6 API. I wondered what happened.
-I also <a href="http://www.cliesource.com/forums/showthread.php?s=&threadid=41606" title="Ed Hardy's Cobalt Impressions at Brighthand">posted this at Cliesource </a>to see what other people think about this.
+I also [posted this at Cliesource](http://www.cliesource.com/forums/showthread.php?s=&threadid=41606 "Ed Hardy's Cobalt Impressions at Brighthand")to see what other people think about this.

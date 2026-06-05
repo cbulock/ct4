@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 318
 entryId: '313'
 blogId: '2'
@@ -11,38 +12,8 @@ categoryId: '4'
 originalCategoryId: '4'
 title: What Kind of Intelligence Do You Have?
 excerpt: >-
-  <table width="400" border="1" cellspacing="0" cellpadding="2">
-
-  <tr><td style="background-color:#66CCFF">
-
-  <div style='color:black; font-size: 14pt; font-family:Georgia, Times New
-  Roman, Times, serif;'>
-
-  <b>Your Dominant Intelligence is Logical-Mathematical
-  Intelligence</b></div></td></tr>
-
-  <tr><td>
-
-  <img src="http://www.quizdiva.net/bt/logical.jpg" alt="" />
-
-  You are great at finding patterns and relationships between things.
-
-  Always curious about how things work, you love to set up experiments.
-
-  You need for the world to make sense - and are good at making sense of it.
-
-  You have a head for numbers and math ... and you can solve almost any logic
-  puzzle.
-
-
-  You would make a great scientist, engineer, computer programmer, researcher,
-  accountant, or mathematician.
-
-  </td></tr></table>
-
-
-  <a href="http://www.blogthings.com/intelligencequiz.html">What Kind of
-  Intelligence Do You Have?</a>
+  Your dominant intelligence is logical-mathematical intelligence. You are
+  great at finding patterns and relationships between things.
 keywords: intelligence quiz test
 createdOn: '2005-04-26 09:28:35'
 modifiedOn: '2011-10-17 15:46:06'
@@ -56,18 +27,12 @@ canonicalRouteEntryId: '313'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<table width="400" border="1" cellspacing="0" cellpadding="2">
-<tr><td style="background-color:#66CCFF">
-<div style='color:black; font-size: 14pt; font-family:Georgia, Times New Roman, Times, serif;'>
-<b>Your Dominant Intelligence is Logical-Mathematical Intelligence</b></div></td></tr>
-<tr><td>
-<img src="http://www.quizdiva.net/bt/logical.jpg" alt="" />
-You are great at finding patterns and relationships between things.
-Always curious about how things work, you love to set up experiments.
-You need for the world to make sense - and are good at making sense of it.
-You have a head for numbers and math ... and you can solve almost any logic puzzle.
+**Your Dominant Intelligence is Logical-Mathematical Intelligence**
+
+![](http://www.quizdiva.net/bt/logical.jpg)
+
+You are great at finding patterns and relationships between things. Always curious about how things work, you love to set up experiments. You need for the world to make sense - and are good at making sense of it. You have a head for numbers and math ... and you can solve almost any logic puzzle.
 
 You would make a great scientist, engineer, computer programmer, researcher, accountant, or mathematician.
-</td></tr></table>
 
-<a href="http://www.blogthings.com/intelligencequiz.html">What Kind of Intelligence Do You Have?</a>
+[What Kind of Intelligence Do You Have?](http://www.blogthings.com/intelligencequiz.html)

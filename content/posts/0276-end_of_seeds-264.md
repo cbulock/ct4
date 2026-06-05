@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 276
 entryId: '264'
 blogId: '2'
@@ -28,4 +29,4 @@ canonicalRouteEntryId: '264'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Tommorrow morning, I am having my first ever surgical procedure performed on me.  Yes, I am 23 and have never needed any type of surgury.  I guess I should be happy that I have been so healthy.  Actually, I am not in need if surgury still.  This is just a want. I am having a vasectomy performed.  Not that I don't love my kids, I just can't be taking care of a whole load of them.  I want to be able to focus on giving them a good life, and since I have both a girl and a boy, what else could I want.  So, wish me good luck.  I will be online all weekend since I have been told to sit and do nothing.  So, I will be taking full advantage of my laptop and Tivo over the next few days.<br />
+Tommorrow morning, I am having my first ever surgical procedure performed on me.  Yes, I am 23 and have never needed any type of surgury.  I guess I should be happy that I have been so healthy.  Actually, I am not in need if surgury still.  This is just a want. I am having a vasectomy performed.  Not that I don't love my kids, I just can't be taking care of a whole load of them.  I want to be able to focus on giving them a good life, and since I have both a girl and a boy, what else could I want.  So, wish me good luck.  I will be online all weekend since I have been told to sit and do nothing.  So, I will be taking full advantage of my laptop and Tivo over the next few days.

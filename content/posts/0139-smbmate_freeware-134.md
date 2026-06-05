@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 139
 entryId: '134'
 blogId: '2'
@@ -31,4 +32,4 @@ textMoreIgnored: false
 ---
 This is a freeware app for Palm that allows you to access SMB shares (SMB is the protocol Windows and some other systems use for file sharing). This software has been purchased by Hands High Software and will only be available commercially in the future, but this version is distributed under a freeware license so is free to use and further distribute. 
 
-<a href="http://www.cbulock.com/downloads/SmbMate1.0.a.8.zip" title="SMB Mate">Click here to download</a> (174kb)
+[Click here to download](http://www.cbulock.com/downloads/SmbMate1.0.a.8.zip "SMB Mate") (174kb)

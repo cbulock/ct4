@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 299
 entryId: '288'
 blogId: '2'
@@ -11,12 +12,11 @@ categoryId: null
 originalCategoryId: null
 title: What I'm Reading
 excerpt: >-
-  I setup a <a href="http://www.cbulock.com/what_im_reading.html" title="What
-  I'm Reading">page</a> that lists all the sites I read.  I read these through
-  <a href="http://www.bloglines.com" title="Bloglines">Bloglines</a>.  Lot's of
+  I setup a [page](http://www.cbulock.com/what_im_reading.html "What
+  I'm Reading") that lists all the sites I read.  I read these through
+  [Bloglines](http://www.bloglines.com "Bloglines").  Lot's of
   good sites, mainly tech related. If you want to import these through your
-  newsreader, you can download my <a
-  href="http://www.bloglines.com/export?id=cbulock" title="OPML">OPML file</a>
+  newsreader, you can download my [OPML file](http://www.bloglines.com/export?id=cbulock "OPML")
   that is always up to date.
 keywords: reading websites opml bloglines
 createdOn: '2005-02-05 17:17:29'
@@ -31,4 +31,4 @@ canonicalRouteEntryId: '287'
 isCanonicalRouteEntry: false
 textMoreIgnored: false
 ---
-I setup a <a href="http://www.cbulock.com/what_im_reading.html" title="What I'm Reading">page</a> that lists all the sites I read.  I read these through <a href="http://www.bloglines.com" title="Bloglines">Bloglines</a>.  Lot's of good sites, mainly tech related. If you want to import these through your newsreader, you can download my <a href="http://www.bloglines.com/export?id=cbulock" title="OPML">OPML file</a> that is always up to date.
+I setup a [page](http://www.cbulock.com/what_im_reading.html "What I'm Reading") that lists all the sites I read.  I read these through [Bloglines](http://www.bloglines.com "Bloglines").  Lot's of good sites, mainly tech related. If you want to import these through your newsreader, you can download my [OPML file](http://www.bloglines.com/export?id=cbulock "OPML") that is always up to date.

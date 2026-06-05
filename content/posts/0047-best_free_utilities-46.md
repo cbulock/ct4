@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 47
 entryId: '46'
 blogId: '2'
@@ -11,10 +12,8 @@ categoryId: '7'
 originalCategoryId: '7'
 title: Best Free Utilities
 excerpt: >-
-  Who doesn't like free PC utilities?  Joel at <a
-  href="http://www.cliesource.com">ClieSource</a> passed along a link to the 16
-  best freeware utilities. You can find it <a
-  href="http://www.techsupportalert.com/best_16_free_utilities.htm">here.</a> 
+  Who doesn't like free PC utilities?  Joel at [ClieSource](http://www.cliesource.com) passed along a link to the 16
+  best freeware utilities. You can find it [here.](http://www.techsupportalert.com/best_16_free_utilities.htm) 
   Some programs I am downloading now include a freeware registry cleaner and
   freeware DLL cleaner.  I know my PC is getting junked up and some cleaning is
   in order. :)
@@ -31,4 +30,4 @@ canonicalRouteEntryId: '46'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Who doesn't like free PC utilities?  Joel at <a href="http://www.cliesource.com">ClieSource</a> passed along a link to the 16 best freeware utilities. You can find it <a href="http://www.techsupportalert.com/best_16_free_utilities.htm">here.</a>  Some programs I am downloading now include a freeware registry cleaner and freeware DLL cleaner.  I know my PC is getting junked up and some cleaning is in order. :)
+Who doesn't like free PC utilities?  Joel at [ClieSource](http://www.cliesource.com) passed along a link to the 16 best freeware utilities. You can find it [here.](http://www.techsupportalert.com/best_16_free_utilities.htm)  Some programs I am downloading now include a freeware registry cleaner and freeware DLL cleaner.  I know my PC is getting junked up and some cleaning is in order. :)

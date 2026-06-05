@@ -1,7 +1,0 @@
----
-import { renderLegacyContent } from '../lib/renderLegacyContent';
-
-const { content = '', className = '' } = Astro.props;
----
-
-<div class:list={['legacy-content', className]} set:html={renderLegacyContent(content)} />

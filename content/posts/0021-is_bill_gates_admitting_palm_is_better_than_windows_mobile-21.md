@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 21
 entryId: '21'
 blogId: '2'
@@ -11,11 +12,10 @@ categoryId: '2'
 originalCategoryId: '2'
 title: Is Bill Gates Admitting Palm is Better Than Windows Mobile?
 excerpt: >-
-  I read <a
-  href="http://www.brighthand.com/article/NY_State_Educators_Get_Palms">this</a>
-  story at <a href="http://www.brighthand.com">Brighthand</a> and thought maybe
-  their website got hacked.  Apparently, the Bill and Melinda Gates Foundation
-  is donating $7.5 million to schools to purchase Palm Tungsten T2 handhelds for
+  I read [this](http://www.brighthand.com/article/NY_State_Educators_Get_Palms)
+  story at [Brighthand](http://www.brighthand.com) and thought maybe their
+  website got hacked.  Apparently, the Bill and Melinda Gates Foundation is
+  donating $7.5 million to schools to purchase Palm Tungsten T2 handhelds for
   educators.
 keywords: bill gates microsoft pocket pc tungsten T2
 createdOn: '2003-07-23 02:26:33'
@@ -30,4 +30,4 @@ canonicalRouteEntryId: '21'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I read <a href="http://www.brighthand.com/article/NY_State_Educators_Get_Palms">this</a> story at <a href="http://www.brighthand.com">Brighthand</a> and thought maybe their website got hacked.  Apparently, the Bill and Melinda Gates Foundation is donating $7.5 million to schools to purchase Palm Tungsten T2 handhelds for educators.  If Windows Mobile is so great, why wouldn't they use that money to purchase some Pocket PC's for the schools.  I personally think Pocket PC is a pretty good system and don't have a problem with it even though I use a Palm handheld.  (I used to use a pre-Pocket PC/Windows Mobile device, an NEC Mobile Pro 450 running Windows CE 2.0 and loved it.)  <i>But,</i> it seems like it would hurt Bill Gates' future credibility if he tried to convince people that his product is superior because when it was his foundations money being spent, it was spent on the competitor. If Bill Gates chooses Palm over Windows Mobile, then at least I know I made a sound decision. ;)
+I read [this](http://www.brighthand.com/article/NY_State_Educators_Get_Palms) story at [Brighthand](http://www.brighthand.com) and thought maybe their website got hacked.  Apparently, the Bill and Melinda Gates Foundation is donating $7.5 million to schools to purchase Palm Tungsten T2 handhelds for educators.  If Windows Mobile is so great, why wouldn't they use that money to purchase some Pocket PC's for the schools.  I personally think Pocket PC is a pretty good system and don't have a problem with it even though I use a Palm handheld.  (I used to use a pre-Pocket PC/Windows Mobile device, an NEC Mobile Pro 450 running Windows CE 2.0 and loved it.)  *But,* it seems like it would hurt Bill Gates' future credibility if he tried to convince people that his product is superior because when it was his foundations money being spent, it was spent on the competitor. If Bill Gates chooses Palm over Windows Mobile, then at least I know I made a sound decision. ;)

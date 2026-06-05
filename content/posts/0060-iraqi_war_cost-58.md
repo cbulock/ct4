@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 60
 entryId: '58'
 blogId: '2'
@@ -13,8 +14,8 @@ title: Iraqi War Cost
 excerpt: >-
   I added a counter to the sidebar of my website.  It shows a running total of
   the estimated cost of the Iraqi war (or "conflict" to be technical).  The code
-  for this counter can be found at <a href="http://costofwar.com/"
-  title="costofwar.com">costofwar.com</a>, along with info on how they come up
+  for this counter can be found at [costofwar.com](http://costofwar.com/),
+  along with info on how they come up
   with the number.  Tixx at Cliesource said it looks to be running at about
   $1000 a second, and I believe the costofwar website said the cost is like $4
   billion a month, so basically a billion dollars a week.
@@ -31,4 +32,4 @@ canonicalRouteEntryId: '58'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I added a counter to the sidebar of my website.  It shows a running total of the estimated cost of the Iraqi war (or "conflict" to be technical).  The code for this counter can be found at <a href="http://costofwar.com/" title="costofwar.com">costofwar.com</a>, along with info on how they come up with the number.  Tixx at Cliesource said it looks to be running at about $1000 a second, and I believe the costofwar website said the cost is like $4 billion a month, so basically a billion dollars a week.
+I added a counter to the sidebar of my website.  It shows a running total of the estimated cost of the Iraqi war (or "conflict" to be technical).  The code for this counter can be found at [costofwar.com](http://costofwar.com/), along with info on how they come up with the number.  Tixx at Cliesource said it looks to be running at about $1000 a second, and I believe the costofwar website said the cost is like $4 billion a month, so basically a billion dollars a week.

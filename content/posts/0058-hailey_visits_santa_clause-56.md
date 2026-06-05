@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 58
 entryId: '56'
 blogId: '2'
@@ -30,6 +31,6 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 Tonight me and Nickcole took Hailey and my sister Teddy to the mall to see Santa.  Teddy also had to do some shopping for our mom. 
-<img src='/images/13062006113648.jpg' height='480' width='640' />
+![](/images/13062006113648.jpg)
 Hailey didn't cry or anything, I don't think she had a clue as too what was going on.
 Also, a funny thing; they were taking pictures there for you as they always do.  I looked at the prices and it was $13 for a single 5x7. We were going to bring our digital camera but forgot.  I said screw that, and we were thinking of just using the camera on my phone for the pic (the pic above was taken with my phone).  But, then I decided to buy a disposable camera and I am glad I did.  A camera with 27 pics only cost $5.  But it took a lot of walking around the mall to find one.  All the stores have been moved around since I was last there, and I thought Radio Shack might have a camera, but Radio Shack wasn't even there anymore.  I did find a one hour photo place though that had some cameras.

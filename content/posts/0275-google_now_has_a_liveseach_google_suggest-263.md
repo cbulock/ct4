@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 275
 entryId: '263'
 blogId: '2'
@@ -11,13 +12,11 @@ categoryId: '7'
 originalCategoryId: '7'
 title: 'Google Now Has a LiveSeach, Google Suggest'
 excerpt: >-
-  Much like the <a title="Improved Site Search"
-  href="http://www.cbulock.com/2004/10/improved_site_search.html">Livesearch</a>
+  Much like the [Livesearch](http://www.cbulock.com/2004/10/improved_site_search.html "Improved Site Search")
   feature I am using on this website, Google has now setup this same feature. 
   This only makes sense since the Livesearch was based on Google's Gmail address
   search.  Not only that, Google has a better reason to have this feature, since
-  search is it's main job.  Presenting, <a title="Google Suggest"
-  href="http://www.google.com/webhp?complete=1&hl=en">Google Suggest</a>.
+  search is it's main job.  Presenting, [Google Suggest](http://www.google.com/webhp?complete=1&hl=en "Google Suggest").
 keywords: google livesearch search
 createdOn: '2004-12-10 20:31:09'
 modifiedOn: '2011-10-17 15:46:06'
@@ -31,6 +30,6 @@ canonicalRouteEntryId: '263'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Much like the <a title="Improved Site Search" href="http://www.cbulock.com/2004/10/improved_site_search.html">Livesearch</a> feature I am using on this website, Google has now setup this same feature.  This only makes sense since the Livesearch was based on Google's Gmail address search.  Not only that, Google has a better reason to have this feature, since search is it's main job.  Presenting, <a title="Google Suggest" href="http://www.google.com/webhp?complete=1&hl=en">Google Suggest</a>.
+Much like the [Livesearch](http://www.cbulock.com/2004/10/improved_site_search.html "Improved Site Search") feature I am using on this website, Google has now setup this same feature.  This only makes sense since the Livesearch was based on Google's Gmail address search.  Not only that, Google has a better reason to have this feature, since search is it's main job.  Presenting, [Google Suggest](http://www.google.com/webhp?complete=1&hl=en "Google Suggest").
 
 This works like a dream.

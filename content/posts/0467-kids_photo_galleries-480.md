@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 467
 entryId: '480'
 blogId: '2'
@@ -12,9 +13,7 @@ originalCategoryId: '1'
 title: Kids Photo Galleries
 excerpt: >-
   After much pain and suffering, I have finally repaired the photo galleries I
-  set up for Hailey and Brett.  If you go to <a
-  href="http://hailey.bulock.com">http://hailey.bulock.com</a> or <a
-  href="http://brett.bulock.com">http://brett.bulock.com</a> you can now see all
+  set up for Hailey and Brett.  If you go to [http://hailey.bulock.com](http://hailey.bulock.com) or [http://brett.bulock.com](http://brett.bulock.com) you can now see all
   the previous photos that were up. I will now have to go back and add newer
   photos.
 keywords: 'Hailey Brett photos pictures gallery '
@@ -30,4 +29,4 @@ canonicalRouteEntryId: '480'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-After much pain and suffering, I have finally repaired the photo galleries I set up for Hailey and Brett.  If you go to <a href="http://hailey.bulock.com">http://hailey.bulock.com</a> or <a href="http://brett.bulock.com">http://brett.bulock.com</a> you can now see all the previous photos that were up. I will now have to go back and add newer photos.
+After much pain and suffering, I have finally repaired the photo galleries I set up for Hailey and Brett.  If you go to [http://hailey.bulock.com](http://hailey.bulock.com) or [http://brett.bulock.com](http://brett.bulock.com) you can now see all the previous photos that were up. I will now have to go back and add newer photos.

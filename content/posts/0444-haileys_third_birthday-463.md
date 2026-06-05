@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 444
 entryId: '463'
 blogId: '2'
@@ -29,11 +30,11 @@ textMoreIgnored: false
 ---
 Yesterday was Hailey's third birthday.  We celebrated this by having a party at Bennett Park in Charlotte.  Since her picture gallery is down right now, here are some pics from that:
 
-<img src="/images/25062006131544.jpg" height="1400" width="2160" />
-<img src="/images/25062006132033.jpg" height="1440" width="2160" />
-<img src="/images/25062006132153.jpg" height="1440" width="2160" />
-<img src="/images/25062006132256.jpg" height="1440" width="2160" />
-<img src="/images/25062006132516.jpg" height="1440" width="2160" />
-<img src="/images/25062006132716.jpg" height="1440" width="2160" />
-<img src="/images/25062006132959.jpg" height="1440" width="2160" />
-<img src="/images/25062006135218.jpg" height="1440" width="2160" />
+![](/images/25062006131544.jpg)
+![](/images/25062006132033.jpg)
+![](/images/25062006132153.jpg)
+![](/images/25062006132256.jpg)
+![](/images/25062006132516.jpg)
+![](/images/25062006132716.jpg)
+![](/images/25062006132959.jpg)
+![](/images/25062006135218.jpg)

@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 347
 entryId: '340'
 blogId: '2'
@@ -21,8 +22,7 @@ excerpt: >-
   Social Libertarian/Authoritarian: -3.95 
 
 
-  You can find out what you are at <a href="http://www.politicalcompass.org/"
-  title="Political Compass">http://www.politicalcompass.org/</a>
+  You can find out what you are at [http://www.politicalcompass.org/](http://www.politicalcompass.org/ "Political Compass")
 keywords: political compass left libertarian
 createdOn: '2005-08-27 19:59:23'
 modifiedOn: '2011-10-17 15:46:06'
@@ -42,4 +42,4 @@ Your political compass
 Economic Left/Right: -3.63
 Social Libertarian/Authoritarian: -3.95 
 
-You can find out what you are at <a href="http://www.politicalcompass.org/" title="Political Compass">http://www.politicalcompass.org/</a>
+You can find out what you are at [http://www.politicalcompass.org/](http://www.politicalcompass.org/ "Political Compass")

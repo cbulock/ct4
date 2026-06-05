@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 357
 entryId: '352'
 blogId: '2'
@@ -13,10 +14,8 @@ title: IE7 Compatible
 excerpt: >-
   One good thing about the redesign of this site that I released back in June, I
   used IE conditional comments to separate the IE CSS hacks needed to render the
-  site properly.  That seemed like a good idea then, and now the <a
-  href="http://blogs.msdn.com/ie/archive/2005/10/12/480242.aspx" title="Call to
-  action: The demise of CSS hacks and broken pages">IE team working on IE7 is
-  saying</a> that this is the way these hacks need to be done.  This is because
+  site properly.  That seemed like a good idea then, and now the [IE team working on IE7 is saying](http://blogs.msdn.com/ie/archive/2005/10/12/480242.aspx "Call to
+  action: The demise of CSS hacks and broken pages") that this is the way these hacks need to be done.  This is because
   IE7 will fix most of these, so many of the old hacking techniques will
   actually break sites in IE7.
 keywords: IE7 IE browsers CSS hacks
@@ -32,4 +31,4 @@ canonicalRouteEntryId: '352'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-One good thing about the redesign of this site that I released back in June, I used IE conditional comments to separate the IE CSS hacks needed to render the site properly.  That seemed like a good idea then, and now the <a href="http://blogs.msdn.com/ie/archive/2005/10/12/480242.aspx" title="Call to action: The demise of CSS hacks and broken pages">IE team working on IE7 is saying</a> that this is the way these hacks need to be done.  This is because IE7 will fix most of these, so many of the old hacking techniques will actually break sites in IE7.
+One good thing about the redesign of this site that I released back in June, I used IE conditional comments to separate the IE CSS hacks needed to render the site properly.  That seemed like a good idea then, and now the [IE team working on IE7 is saying](http://blogs.msdn.com/ie/archive/2005/10/12/480242.aspx "Call to action: The demise of CSS hacks and broken pages") that this is the way these hacks need to be done.  This is because IE7 will fix most of these, so many of the old hacking techniques will actually break sites in IE7.

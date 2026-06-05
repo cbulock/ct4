@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 14
 entryId: '14'
 blogId: '2'
@@ -11,8 +12,8 @@ categoryId: '2'
 originalCategoryId: '2'
 title: TapWave Helix Info
 excerpt: >-
-  To anyone interested in handheld gaming, <a
-  href="http://www.brighthand.com/article/Tapwave_Slowly_Releasing_Info_on_Helix">Brighthand</a>
+  To anyone interested in handheld gaming,
+  [Brighthand](http://www.brighthand.com/article/Tapwave_Slowly_Releasing_Info_on_Helix)
   has an article giving more details on the upcoming TapWave Helix game machine
   running PalmOS.  It looks like it will be a jack-of-all-trades type device
   that probably won't be as good as the PSP at gaming, but will have a huge
@@ -32,5 +33,5 @@ canonicalRouteEntryId: '14'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-To anyone interested in handheld gaming, <a href="http://www.brighthand.com/article/Tapwave_Slowly_Releasing_Info_on_Helix">Brighthand</a> has an article giving more details on the upcoming TapWave Helix game machine running PalmOS.  It looks like it will be a jack-of-all-trades type device that probably won't be as good as the PSP at gaming, but will have a huge collection of Palm software available for it and you will finally be able to have a good PDA and a decent gaming machine in one, without having to carry both your Palm and Gameboy.  One thing this device has that will blow away the Gameboy and PSP is the screen.  This will have a 480x320 screen and will be very nice for gaming.
- <img src="http://www.brighthand.com/images/Tapwave_Helix_Diagram.gif" alt="" /><i>(Image from Brighthand.com)</i>
+To anyone interested in handheld gaming, [Brighthand](http://www.brighthand.com/article/Tapwave_Slowly_Releasing_Info_on_Helix) has an article giving more details on the upcoming TapWave Helix game machine running PalmOS.  It looks like it will be a jack-of-all-trades type device that probably won't be as good as the PSP at gaming, but will have a huge collection of Palm software available for it and you will finally be able to have a good PDA and a decent gaming machine in one, without having to carry both your Palm and Gameboy.  One thing this device has that will blow away the Gameboy and PSP is the screen.  This will have a 480x320 screen and will be very nice for gaming.
+ ![](http://www.brighthand.com/images/Tapwave_Helix_Diagram.gif)*(Image from Brighthand.com)*

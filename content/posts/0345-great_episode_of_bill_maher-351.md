@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 345
 entryId: '351'
 blogId: '2'
@@ -30,4 +31,4 @@ canonicalRouteEntryId: '351'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I almost feel as if there is some chance the American people will realize the truth behind Bush.  I am watching Real Time with Bill Maher, and both Ann Coulter and <a href="http://andrewsullivan.com">Andrew Sullivan</a> as bashing Bush.  It's unreal.  I would never thought these people would be talking like this.  I feel so much relief right now.  If you haven't seen this one yet, catch a rerun.  I am so happy even heavy conservatives are finally fed up with Bush.
+I almost feel as if there is some chance the American people will realize the truth behind Bush.  I am watching Real Time with Bill Maher, and both Ann Coulter and [Andrew Sullivan](http://andrewsullivan.com) as bashing Bush.  It's unreal.  I would never thought these people would be talking like this.  I feel so much relief right now.  If you haven't seen this one yet, catch a rerun.  I am so happy even heavy conservatives are finally fed up with Bush.

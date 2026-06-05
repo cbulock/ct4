@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 135
 entryId: '130'
 blogId: '2'
@@ -11,9 +12,7 @@ categoryId: null
 originalCategoryId: null
 title: 'WMD, Now in a Neighborhood Near You'
 excerpt: >-
-  <img
-  src="http://www.washingtonpost.com/wp-adv/advertisers/lockheedmartin/45406_force_120x600_wpost.gif" 
-  alt="" />
+  ![](http://www.washingtonpost.com/wp-adv/advertisers/lockheedmartin/45406_force_120x600_wpost.gif)
 
   OK.  I seen this advertisement, and it seemed a bit strange to me.  Why do
   they show a missle launcher being right next to the market and a residential
@@ -32,5 +31,5 @@ canonicalRouteEntryId: '130'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<img src="http://www.washingtonpost.com/wp-adv/advertisers/lockheedmartin/45406_force_120x600_wpost.gif"  alt="" />
+![](http://www.washingtonpost.com/wp-adv/advertisers/lockheedmartin/45406_force_120x600_wpost.gif)
 OK.  I seen this advertisement, and it seemed a bit strange to me.  Why do they show a missle launcher being right next to the market and a residential area as being a positive thing.  Yes, thank you Lockheed Martin for being weapons capable of killing numerous people into our backyards.

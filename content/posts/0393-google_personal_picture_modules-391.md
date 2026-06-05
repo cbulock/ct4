@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 393
 entryId: '391'
 blogId: '2'
@@ -11,7 +12,7 @@ categoryId: '1'
 originalCategoryId: '1'
 title: Google Personal Picture Modules
 excerpt: >-
-  If you use the <a href="http://www.google.com/ig">Google Personal</a>
+  If you use the [Google Personal](http://www.google.com/ig)
   homepage, I have created my first custom modules for that.  Just random pics
   of my kids, like the ones that show up on the side of this site.
 keywords: google personal pictures kids hailey brett
@@ -27,7 +28,7 @@ canonicalRouteEntryId: '391'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-If you use the <a href="http://www.google.com/ig">Google Personal</a> homepage, I have created my first custom modules for that.  Just random pics of my kids, like the ones that show up on the side of this site.
+If you use the [Google Personal](http://www.google.com/ig) homepage, I have created my first custom modules for that.  Just random pics of my kids, like the ones that show up on the side of this site.
 If you want to add the modules, just click on the 'Add content' link in the top right corner, then under where it says create a section, you can add the following addresses:
 http://www.cbulock.com/google/hailey.xml
 http://www.cbulock.com/google/brett.xml

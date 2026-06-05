@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 259
 entryId: '246'
 blogId: '2'
@@ -11,11 +12,11 @@ categoryId: '9'
 originalCategoryId: '9'
 title: We're Sorry Rest of World
 excerpt: >-
-  <img src="http://sorry.obey.org/sorryworld1.jpg" alt="Sorry Everybody" />
+  ![Sorry Everybody](http://sorry.obey.org/sorryworld1.jpg)
 
 
-  <a href="http://www.sorryeverybody.com/" title="Sorry
-  Everybody">http://www.sorryeverybody.com/</a>
+  [http://www.sorryeverybody.com/](http://www.sorryeverybody.com/ "Sorry
+  Everybody")
 
 
   Make sure to check out the photo gallery.
@@ -33,8 +34,8 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 
-<img alt="Sorry Everybody" src="http://sorry.obey.org/sorryworld1.jpg" />
+![Sorry Everybody](http://sorry.obey.org/sorryworld1.jpg)
 
-<a title="Sorry Everybody" href="http://www.sorryeverybody.com/">http://www.sorryeverybody.com/</a>
+[http://www.sorryeverybody.com/](http://www.sorryeverybody.com/ "Sorry Everybody")
 
 Make sure to check out the photo gallery.

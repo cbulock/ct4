@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 206
 entryId: '199'
 blogId: '2'
@@ -11,9 +12,7 @@ categoryId: '5'
 originalCategoryId: '5'
 title: Movable Type 3.1
 excerpt: >-
-  Man, <a
-  href="http://www.movabletype.org/news/2004/08/movable_type_31_launched.shtml" 
-  title="Movable Type 3.1 Launched">Movable Type 3.1</a> looks like it rocks. 
+  Man, [Movable Type 3.1](http://www.movabletype.org/news/2004/08/movable_type_31_launched.shtml "Movable Type 3.1 Launched") looks like it rocks. 
   Now there is a lot of good plugins, especially MTBlacklist, the greatest
   plugin of all.  Might almost be worth paying for.  Dynamic PHP pages, made by
   the coolest MT guy and now employee of SixApart, Brad Choate.
@@ -30,5 +29,5 @@ canonicalRouteEntryId: '199'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Man, <a href="http://www.movabletype.org/news/2004/08/movable_type_31_launched.shtml"  title="Movable Type 3.1 Launched">Movable Type 3.1</a> looks like it rocks.  Now there is a lot of good plugins, especially MTBlacklist, the greatest plugin of all.  Might almost be worth paying for.  Dynamic PHP pages, made by the coolest MT guy and now employee of SixApart, Brad Choate.
+Man, [Movable Type 3.1](http://www.movabletype.org/news/2004/08/movable_type_31_launched.shtml "Movable Type 3.1 Launched") looks like it rocks.  Now there is a lot of good plugins, especially MTBlacklist, the greatest plugin of all.  Might almost be worth paying for.  Dynamic PHP pages, made by the coolest MT guy and now employee of SixApart, Brad Choate.
 Yes, I am very tired while writing this.  Long day at work, and a long week taking care of a sick daughter, all equaling no sleep, lot's of drain.  At least I have tommorrow off of work.

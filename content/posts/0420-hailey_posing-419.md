@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 420
 entryId: '419'
 blogId: '2'
@@ -28,6 +29,6 @@ textMoreIgnored: false
 ---
 Hailey wanted to pose for some pictures, so I took some with my phone.  They turned out pretty good, so here they are:
 
-<img src="/images/13062006100554.jpg" height="480" width="640" />
-<img src="/images/13062006100607.jpg" height="480" width="640" />
-<img src="/images/13062006100618.jpg" height="480" width="640" />
+![](/images/13062006100554.jpg)
+![](/images/13062006100607.jpg)
+![](/images/13062006100618.jpg)

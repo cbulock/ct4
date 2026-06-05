@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 521
 entryId: '550'
 blogId: '2'
@@ -32,4 +33,4 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 I used to think Firefox used too much memory.  I posted about this before.  I got home from the bar tonight, and this was just out of control.  WTF is it using 3GB of memory for?  I only had 25 tabs open.  Since this software is open source, you'd think there would be someone checking for memory leaks.  I think the whole extension system needs an overhaul cause even Internet Explorer ain't this bad.  When Internet Explorer is beating you with stability issues, you should be ashamed.
-<img src="/images/20102007021701.jpg" height="792" width="530" />
+![](/images/20102007021701.jpg)

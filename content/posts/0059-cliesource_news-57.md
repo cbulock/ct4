@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 59
 entryId: '57'
 blogId: '2'
@@ -11,8 +12,8 @@ categoryId: '2'
 originalCategoryId: '2'
 title: Cliesource News
 excerpt: >-
-  Reggie, the founder of <a href="http://www.cliesource.com"
-  title="ClieSource">Cliesource</a> has asked me to be a moderator at the site. 
+  Reggie, the founder of [Cliesource](http://www.cliesource.com) has asked me
+  to be a moderator at the site. 
   Cliesource is basically my home away from my actual house and work and I would
   love to be able to contribute to the site more, so I accepted his offer. I
   will now be going Reggie, Joel, Rod(rldunn) and Leslie(yellowrose) as part of
@@ -30,4 +31,4 @@ canonicalRouteEntryId: '57'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Reggie, the founder of <a href="http://www.cliesource.com" title="ClieSource">Cliesource</a> has asked me to be a moderator at the site.  Cliesource is basically my home away from my actual house and work and I would love to be able to contribute to the site more, so I accepted his offer. I will now be joining Reggie, Joel, Rod(rldunn) and Leslie(yellowrose) as part of the ClieSource staff.
+Reggie, the founder of [Cliesource](http://www.cliesource.com), has asked me to be a moderator at the site.  Cliesource is basically my home away from my actual house and work and I would love to be able to contribute to the site more, so I accepted his offer. I will now be joining Reggie, Joel, Rod(rldunn) and Leslie(yellowrose) as part of the ClieSource staff.

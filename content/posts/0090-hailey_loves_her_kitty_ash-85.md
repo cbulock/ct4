@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 90
 entryId: '85'
 blogId: '2'
@@ -24,5 +25,5 @@ canonicalRouteEntryId: '85'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<img src="/images/13062006111714.jpg" height="480 width="640" />
+![](/images/13062006111714.jpg)
 OK, so the pictures a bit blurry. :)

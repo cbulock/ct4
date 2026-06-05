@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 198
 entryId: '191'
 blogId: '2'
@@ -14,8 +15,8 @@ excerpt: >-
   Design your very own Bush.
 
 
-  <a href="http://homepage.mac.com/krousen/Bush%20site/index.html" title="Build
-  a better Bush">Build a Better Bush</a>
+  [Build a Better Bush](http://homepage.mac.com/krousen/Bush%20site/index.html "Build
+  a better Bush")
 keywords: bush design face
 createdOn: '2004-08-10 08:34:21'
 modifiedOn: '2011-10-17 15:46:06'
@@ -31,4 +32,4 @@ textMoreIgnored: false
 ---
 Design your very own Bush.
 
-<a href="http://homepage.mac.com/krousen/Bush%20site/index.html" title="Build a better Bush">Build a Better Bush</a>
+[Build a Better Bush](http://homepage.mac.com/krousen/Bush%20site/index.html "Build a better Bush")

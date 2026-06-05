@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 53
 entryId: '51'
 blogId: '2'
@@ -12,9 +13,7 @@ originalCategoryId: '5'
 title: Minor Site Update
 excerpt: >-
   I put an add-on to my website today.  After helping a friend get colored
-  scrollbars to work on his website, I came across <a
-  href="http://www.freemoby.com/A/cat_movable_type.html"
-  title="FreeMoby">freemoby.com</a>.  While I was there I found a wealth of info
+  scrollbars to work on his website, I came across [freemoby.com](http://www.freemoby.com/A/cat_movable_type.html "FreeMoby").  While I was there I found a wealth of info
   about Movable Type (the software this website runs on).
 keywords: website titles
 createdOn: '2003-12-09 01:11:06'
@@ -29,4 +28,4 @@ canonicalRouteEntryId: '51'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I put an add-on to my website today.  After helping a friend get colored scrollbars to work on his website, I came across <a href="http://www.freemoby.com/A/cat_movable_type.html" title="FreeMoby">freemoby.com</a>.  While I was there I found a wealth of info about Movable Type (the software this website runs on).  One cool feature is <a href="http://www.kryogenix.org/code/browser/nicetitle/" title="Nice Titles">nice titles.</a>  It adds a nice little box to links that have a title tag in them.  Unfortunately, this feature isn't supported in my browser of choice, Opera. :(
+I put an add-on to my website today.  After helping a friend get colored scrollbars to work on his website, I came across [freemoby.com](http://www.freemoby.com/A/cat_movable_type.html "FreeMoby").  While I was there I found a wealth of info about Movable Type (the software this website runs on).  One cool feature is [nice titles.](http://www.kryogenix.org/code/browser/nicetitle/ "Nice Titles")  It adds a nice little box to links that have a title tag in them.  Unfortunately, this feature isn't supported in my browser of choice, Opera. :(

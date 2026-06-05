@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 163
 entryId: '158'
 blogId: '2'
@@ -13,9 +14,7 @@ title: Learn to Code to the Proper Way
 excerpt: >-
   Not an extremely comprehensive site, but I have found it to be informative. 
   If your like me, and still have trouble thinking of webpage design as XHTML
-  and CSS as opposed to old school HTML, then <a
-  href="http://tom.me.uk/html-to-css/" title="Converting HTML to CSS">this is
-  the page for you.</a>
+  and CSS as opposed to old school HTML, then [this is the page for you.](http://tom.me.uk/html-to-css/ "Converting HTML to CSS")
 keywords: web design XHTML CSS HTML
 createdOn: '2004-06-02 13:52:36'
 modifiedOn: '2011-10-17 15:46:06'
@@ -29,4 +28,4 @@ canonicalRouteEntryId: '158'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Not an extremely comprehensive site, but I have found it to be informative.  If your like me, and still have trouble thinking of webpage design as XHTML and CSS as opposed to old school HTML, then <a href="http://tom.me.uk/html-to-css/" title="Converting HTML to CSS">this is the page for you.</a>
+Not an extremely comprehensive site, but I have found it to be informative.  If your like me, and still have trouble thinking of webpage design as XHTML and CSS as opposed to old school HTML, then [this is the page for you.](http://tom.me.uk/html-to-css/ "Converting HTML to CSS")

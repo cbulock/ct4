@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import LegacyContent from '../../../components/LegacyContent.astro';
+import MarkdownContent from '../../../components/MarkdownContent.astro';
 import {
 	formatShortDate,
 	getCanonicalEntries,
@@ -27,7 +27,6 @@ export const getStaticPaths = () =>
 			props: { entry },
 		},
 	]);
-
 const { entry } = Astro.props;
 const category = entry.categoryId ? getCategoryById(entry.categoryId) : null;
 const formattedDate = new Date(entry.createdOn).toLocaleDateString('en-us', {
@@ -53,7 +52,7 @@ const formattedTime = new Date(entry.createdOn).toLocaleTimeString('en-us');
 						</div>
 						<h1 class="surface-heading">{entry.title}</h1>
 					</header>
-					<LegacyContent content={entry.body} />
+					<MarkdownContent content={entry.body} />
 				</article>
 			</div>
 		</cindor-card>

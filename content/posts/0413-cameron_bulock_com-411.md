@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 413
 entryId: '411'
 blogId: '2'
@@ -30,4 +31,4 @@ canonicalRouteEntryId: '411'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-There isn't much here yet, but soon I am working on a new site with the tentative name of <a href="http://cameron.bulock.com" title="Cameron Bulock .com">Cameron Bulock .com</a>.  This will be a place where I can do some experimenting with different web projects and things and will be a place where I can do some web-based things outside of the scope of this blog.  Any way's, just wanted to get this link out, come by and check back at this site sometime in the future.
+There isn't much here yet, but soon I am working on a new site with the tentative name of [Cameron Bulock .com](http://cameron.bulock.com "Cameron Bulock .com").  This will be a place where I can do some experimenting with different web projects and things and will be a place where I can do some web-based things outside of the scope of this blog.  Any way's, just wanted to get this link out, come by and check back at this site sometime in the future.

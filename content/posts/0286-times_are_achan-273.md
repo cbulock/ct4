@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 286
 entryId: '273'
 blogId: '4'
@@ -24,4 +25,4 @@ canonicalRouteEntryId: '273'
 isCanonicalRouteEntry: true
 textMoreIgnored: true
 ---
-http://www.lansingstatejournal.com/apps/pbcs.dll/article?AID=/20041229/NEWS01/412290345/1001/RSS
+<http://www.lansingstatejournal.com/apps/pbcs.dll/article?AID=/20041229/NEWS01/412290345/1001/RSS>

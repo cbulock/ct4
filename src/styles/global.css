@@ -302,7 +302,7 @@ img {
 	row-gap: var(--space-3);
 }
 
-.legacy-content {
+.markdown-content {
 	color: var(--fg);
 	line-height: 1.85;
 	margin-top: var(--space-3);
@@ -310,40 +310,102 @@ img {
 	font-size: 1.08rem;
 }
 
-.legacy-content a {
+.markdown-content p,
+.markdown-content ul,
+.markdown-content ol,
+.markdown-content li,
+.markdown-content blockquote,
+.markdown-content pre,
+.markdown-content table {
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.markdown-content a {
 	color: var(--accent);
 }
 
-.legacy-content p,
-.legacy-content ul,
-.legacy-content ol,
-.legacy-content table,
-.legacy-content pre,
-.legacy-content blockquote {
+.markdown-content p,
+.markdown-content ul,
+.markdown-content ol,
+.markdown-content table,
+.markdown-content pre,
+.markdown-content blockquote {
 	margin-block: 1.35rem;
 	max-width: 100%;
 }
 
-.legacy-content li + li {
+.markdown-content li + li {
 	margin-top: 0.5rem;
 }
 
-.legacy-content > :first-child {
+.markdown-content > :first-child {
 	margin-top: 0;
 }
 
-.legacy-content > :last-child {
+.markdown-content > :last-child {
 	margin-bottom: 0;
 }
 
-.legacy-content pre {
+.markdown-content pre,
+.markdown-content cindor-code-block {
+	display: block;
+	margin-block: 1.35rem;
+	max-width: 100%;
+}
+
+.markdown-content pre {
 	overflow-x: auto;
 	max-width: 100%;
 }
 
-.legacy-content img,
-.legacy-content table {
+.markdown-content :is(p, li, blockquote) > code {
+	padding: 0.1em 0.3em;
+	border-radius: 0.35rem;
+	background: var(--accent-muted);
+	font-family: var(--font-mono);
+	font-size: 0.95em;
+}
+
+.markdown-content .youtube-embed {
+	position: relative;
+	margin-block: 1.35rem;
 	max-width: 100%;
+	padding-bottom: 56.25%;
+	border-radius: var(--radius-lg);
+	overflow: hidden;
+	background: var(--surface-inverse);
+}
+
+.markdown-content .youtube-embed iframe {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+.markdown-content img,
+.markdown-content table {
+	max-width: 100%;
+}
+
+.markdown-content .footer_note {
+	margin-block: 1.35rem;
+	padding: 0.85rem 1rem;
+	border-left: 0.25rem solid var(--accent);
+	background: var(--surface);
+	color: var(--fg-muted);
+	font-size: 0.96em;
+	max-width: 100%;
+}
+
+.markdown-content .footer_note > :first-child {
+	margin-top: 0;
+}
+
+.markdown-content .footer_note > :last-child {
+	margin-bottom: 0;
 }
 
 .site-footer {

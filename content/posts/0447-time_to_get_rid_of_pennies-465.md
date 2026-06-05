@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 447
 entryId: '465'
 blogId: '2'
@@ -12,10 +13,10 @@ originalCategoryId: null
 title: Time to Get Rid of Pennies
 excerpt: >-
   Not that I didn't already think this, but I was just reading this article at
-  CNN.com, <a
-  href='http://www.cnn.com/2006/US/07/02/poor.penny.ap/index.html?section=cnn_topstories'
-  title='Anti-penny push provokes passions'>"Anti-penny push provokes
-  passions"</a> and I really truly believe pennies have to go sooner than later.
+  CNN.com, ["Anti-penny push provokes
+  passions"](http://www.cnn.com/2006/US/07/02/poor.penny.ap/index.html?section=cnn_topstories
+  "Anti-penny push provokes passions") and I really truly believe pennies have
+  to go sooner than later.
 keywords: penny pennies money
 createdOn: '2006-07-03 00:21:54'
 modifiedOn: '2007-08-25 17:29:48'
@@ -29,11 +30,10 @@ canonicalRouteEntryId: '465'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<p>Not that I didn't already think this, but I was just reading this article at CNN.com, <a href='http://www.cnn.com/2006/US/07/02/poor.penny.ap/index.html?section=cnn_topstories' title='Anti-penny push provokes passions'>"Anti-penny push provokes passions"</a> and I really truly believe pennies have to go sooner than later.</p>
-<p>The big thing was this quote:</p>
-<blockquote>
-<p>
-For the first time, the U.S. Mint has said pennies are costing more than 1 cent to make this year, thanks to higher metal prices.
-</p>
-</blockquote>
-<p>I mean, what more does it take.  A penny was just supposed to represent a certain value, not actually be valued at a penny.  But, technically, a penny is worth more than a penny, since it cost more to make it than it's face value.  Who likes them anyway?  Is it just that people don't want to lose a tradition.  They take up space and are more of a hassle to deal with then they are worth.  Though, they do mention the idea of plastic pennies. If they are going to keep them, they might as well make them out of plastic.</p>
+Not that I didn't already think this, but I was just reading this article at CNN.com, ["Anti-penny push provokes passions"](http://www.cnn.com/2006/US/07/02/poor.penny.ap/index.html?section=cnn_topstories "Anti-penny push provokes passions") and I really truly believe pennies have to go sooner than later.
+
+The big thing was this quote:
+
+> For the first time, the U.S. Mint has said pennies are costing more than 1 cent to make this year, thanks to higher metal prices.
+
+I mean, what more does it take.  A penny was just supposed to represent a certain value, not actually be valued at a penny.  But, technically, a penny is worth more than a penny, since it cost more to make it than it's face value.  Who likes them anyway?  Is it just that people don't want to lose a tradition.  They take up space and are more of a hassle to deal with then they are worth.  Though, they do mention the idea of plastic pennies. If they are going to keep them, they might as well make them out of plastic.

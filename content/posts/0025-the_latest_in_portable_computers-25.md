@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 25
 entryId: '25'
 blogId: '2'
@@ -11,10 +12,10 @@ categoryId: '2'
 originalCategoryId: '2'
 title: The Latest in Portable Computers
 excerpt: >-
-  At <a href="http://www.cliesource.com">ClieSource</a>, Ayasin posted a sneak
-  peek of the next Clie coming out.  Looks like they improved the audio system a
-  bit, and it will be a pretty powerful machine.  And, in the tradition of the
-  NZ series of Clie models, they didn't quite consider the size of this unit.
+  At [ClieSource](http://www.cliesource.com), Ayasin posted a sneak peek of the
+  next Clie coming out.  Looks like they improved the audio system a bit, and it
+  will be a pretty powerful machine.  And, in the tradition of the NZ series of
+  Clie models, they didn't quite consider the size of this unit.
 keywords: portable computing NZ
 createdOn: '2003-08-09 00:53:43'
 modifiedOn: '2011-10-17 15:46:06'
@@ -28,5 +29,5 @@ canonicalRouteEntryId: '25'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-At <a href="http://www.cliesource.com">ClieSource</a>, Ayasin posted a sneak peek of the next Clie coming out.  Looks like they improved the audio system a bit, and it will be a pretty powerful machine.  And, in the tradition of the NZ series of Clie models, they didn't quite consider the size of this unit.  I thought the NZ was a bit big, but they might have gone a bit overboard with this one.  I don't know what they will do for the next NZ device. :)
-<img src="http://home.austin.rr.com/eyasin/Clie.jpg" alt="" />
+At [ClieSource](http://www.cliesource.com), Ayasin posted a sneak peek of the next Clie coming out.  Looks like they improved the audio system a bit, and it will be a pretty powerful machine.  And, in the tradition of the NZ series of Clie models, they didn't quite consider the size of this unit.  I thought the NZ was a bit big, but they might have gone a bit overboard with this one.  I don't know what they will do for the next NZ device. :)
+![](http://home.austin.rr.com/eyasin/Clie.jpg)

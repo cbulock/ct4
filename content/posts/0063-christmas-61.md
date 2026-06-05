@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 63
 entryId: '61'
 blogId: '2'
@@ -36,5 +37,5 @@ I think everyone enjoyed the gifts they received from Nickcole and I for Christm
 My brother bought a Wavebird wireless controller for the Gamecube for me and Nickcole.  That is pretty cool.  I haven't tried it yet though. 
 Well, I'm gonna end this a bit short.  Having an IM conversation with Zakai Hamilton about ScreensOS, so that will probably take up the rest of my time before bed.
 Here's some pics my brother just send me from tonight at Christmas.  He took these using a new Sony digital camera he got:
-<img src='/images/04062006173011.jpg' height='296' width='300' />
-<img src='/images/13062006113057.jpg' height='229' width='300' />
+![](/images/04062006173011.jpg)
+![](/images/13062006113057.jpg)

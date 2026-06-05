@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 219
 entryId: '293'
 blogId: '2'
@@ -29,5 +30,5 @@ textMoreIgnored: false
 ---
 Finally got around to updating Hailey and Brett's pics on their websites.  It's been a long time coming, since before Christmas.  But, now, all the latest pics are up ready to view.
 
-<a href="http://brett.bulock.com" title="Brett's Pics">Brett's Pics</a>
-<a href="http://hailey.bulock.com" title="Hailey's Pics">Hailey's Pics</a>
+[Brett's Pics](http://brett.bulock.com "Brett's Pics")
+[Hailey's Pics](http://hailey.bulock.com "Hailey's Pics")

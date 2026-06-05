@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 33
 entryId: '33'
 blogId: '2'
@@ -28,10 +29,10 @@ textMoreIgnored: false
 ---
 Since one of the cool features of my new phone is a camera, here are some pics that I took with the phone.
 
-<a href="http://www.cbulock.com/pics/teddy.jpg">This one is a picture of my sister Teddy.</a>
+[This one is a picture of my sister Teddy.](http://www.cbulock.com/pics/teddy.jpg)
 
-<a href="http://www.cbulock.com/pics/haileyandnickcole.jpg">Here's Hailey with Nickcole.</a>
+[Here's Hailey with Nickcole.](http://www.cbulock.com/pics/haileyandnickcole.jpg)
 
-<a href="http://www.cbulock.com/pics/outside.jpg">Just a random picture I took while driving.</a>
+[Just a random picture I took while driving.](http://www.cbulock.com/pics/outside.jpg)
 
 I'd say the image quality is fairly decent for what it does.  Maybe if I get around to it, I will set up a way to upload the pictures from the phone, straight to my web site.  Then I have lot's of pics to show!

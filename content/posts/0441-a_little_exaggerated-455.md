@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 441
 entryId: '455'
 blogId: '2'
@@ -30,4 +31,4 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 Just saw this ad in my GMail.  I've used the Express software at work, it does do wonders on a dialup, but to call it DSL is just lying to people.  I guess if it brings in customers and keeps my job, I can't complain too much.  But, I'm the guy they bitch at when they switched from DSL to dialup and are greatly disappointed.
-<img src='/images/05062006121722.jpg' height='52' width='344' />
+![](/images/05062006121722.png)

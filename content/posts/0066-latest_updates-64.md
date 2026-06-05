@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 66
 entryId: '64'
 blogId: '2'
@@ -30,4 +31,4 @@ isCanonicalRouteEntry: true
 textMoreIgnored: true
 ---
 Well, it has been a bumpy month for this website.  Due to a number of outages and basically crappy support from Cirtex Hosting, I decided to move on.  They did provide me with free hosting, which was nice, but I was getting what I paid for.  So, in some crazy error on my part, I moved the site to EQ Servers.  Bad idea.  Within days of getting the site up and running, a hacker broke into the server and defaced all the websites.  No big deal, was able to restore.  Then days later after I made a number of minor updates to this site (which I will be redoing here shortly), EQ Servers restored my site from a backup days before.  So, days worth of info were lost.  I contacted the host, Kane Hart, and he said he could probably restore the data from another backup.  That was the last I ever heard from him.  Now he will never respond to any support tickets or e-mails.
-Well, now the site has been moved once again, this time to <a title="Personal Sites" href="http://www.personalsites.org">PersonalSites.org</a>.  They have some pretty nice deals and seem to have a good reputation.  Hopefully this will be the last move for a while.
+Well, now the site has been moved once again, this time to [PersonalSites.org](http://www.personalsites.org "Personal Sites").  They have some pretty nice deals and seem to have a good reputation.  Hopefully this will be the last move for a while.

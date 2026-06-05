@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 319
 entryId: '314'
 blogId: '2'
@@ -11,40 +12,7 @@ categoryId: '4'
 originalCategoryId: '4'
 title: How Normal Are You?
 excerpt: >-
-  <table width="400" border="1" cellspacing="0" cellpadding="2">
-
-  <tr><td style="background-color:#66CCFF">
-
-  <div style='color:black; font-size: 14pt; font-family:Georgia, Times New
-  Roman, Times, serif;'>
-
-  <b>You Are 35% Normal
-
-
-  <em>(Occasionally Normal)</em>
-
-  </b></div></td></tr>
-
-  <tr><td>
-
-
-  <img src="http://www.quizdiva.net/bt/occasionally-normal.jpg" alt="" />
-
-
-  You sure do march to your own beat...
-
-
-  But you're so weird, people wonder if it's a beat at all
-
-
-  You think on a totally different wavelength
-
-
-  And it's often a chore to get people to understand you</td></tr></table>
-
-
-  <a href="http://www.blogthings.com/hownormalareyouquiz/">How Normal Are
-  You?</a>
+  You are 35% normal - occasionally normal. You sure do march to your own beat.
 keywords: normal quiz test
 createdOn: '2005-04-26 09:32:57'
 modifiedOn: '2011-10-17 15:46:06'
@@ -58,23 +26,17 @@ canonicalRouteEntryId: '314'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<table width="400" border="1" cellspacing="0" cellpadding="2">
-<tr><td style="background-color:#66CCFF">
-<div style='color:black; font-size: 14pt; font-family:Georgia, Times New Roman, Times, serif;'>
-<b>You Are 35% Normal
+**You Are 35% Normal**  
+*(Occasionally Normal)*
 
-<em>(Occasionally Normal)</em>
-</b></div></td></tr>
-<tr><td>
-
-<img src="http://www.quizdiva.net/bt/occasionally-normal.jpg" alt="" />
+![](http://www.quizdiva.net/bt/occasionally-normal.jpg)
 
 You sure do march to your own beat...
 
-But you're so weird, people wonder if it's a beat at all
+But you're so weird, people wonder if it's a beat at all.
 
-You think on a totally different wavelength
+You think on a totally different wavelength.
 
-And it's often a chore to get people to understand you</td></tr></table>
+And it's often a chore to get people to understand you.
 
-<a href="http://www.blogthings.com/hownormalareyouquiz/">How Normal Are You?</a>
+[How Normal Are You?](http://www.blogthings.com/hownormalareyouquiz/)

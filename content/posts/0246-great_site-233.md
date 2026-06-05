@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 246
 entryId: '233'
 blogId: '2'
@@ -24,4 +25,4 @@ canonicalRouteEntryId: '233'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<a href="http://www.georgewbush.org/">http://www.georgewbush.org/</a>
+[http://www.georgewbush.org/](http://www.georgewbush.org/)

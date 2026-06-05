@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 152
 entryId: '147'
 blogId: '2'
@@ -13,9 +14,8 @@ title: Local Channels Coming Soon on DirecTV in My Area
 excerpt: >-
   DirecTV's 7S satellite is going to be launching on May 4th, which will soon be
   bringing local channels to a number of area's, including the Lansing, MI area
-  where I am located in.  This is good news.  More info can be found at the <a
-  href="http://www.sea-launch.com/current_launch.htm" title="Sea Launch Current
-  Launch page">Sea Launch</a> website.
+  where I am located in.  This is good news.  More info can be found at the [Sea Launch](http://www.sea-launch.com/current_launch.htm "Sea Launch Current
+  Launch page") website.
 keywords: direcTV local channels TV satellite
 createdOn: '2004-05-02 22:29:54'
 modifiedOn: '2011-10-17 15:46:06'
@@ -29,4 +29,4 @@ canonicalRouteEntryId: '147'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-DirecTV's 7S satellite is going to be launching on May 4th, which will soon be bringing local channels to a number of area's, including the Lansing, MI area where I am located in.  This is good news.  More info can be found at the <a href="http://www.sea-launch.com/current_launch.htm" title="Sea Launch Current Launch page">Sea Launch</a> website.
+DirecTV's 7S satellite is going to be launching on May 4th, which will soon be bringing local channels to a number of area's, including the Lansing, MI area where I am located in.  This is good news.  More info can be found at the [Sea Launch](http://www.sea-launch.com/current_launch.htm "Sea Launch Current Launch page") website.

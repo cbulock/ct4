@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 483
 entryId: '509'
 blogId: '2'
@@ -11,7 +12,7 @@ categoryId: '14'
 originalCategoryId: '14'
 title: Testing posting from cell
 excerpt: |
-  <img src='/images/10022007214502.jpg' height='480' width='640' />
+  ![](/images/10022007214502.jpg)
 keywords: ''
 createdOn: '2007-02-10 21:45:04'
 modifiedOn: '2011-10-17 15:46:06'
@@ -25,4 +26,4 @@ canonicalRouteEntryId: '509'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<img src="/images/10022007214502.jpg" height="480" width="640" />
+![](/images/10022007214502.jpg)

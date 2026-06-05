@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 79
 entryId: '74'
 blogId: '2'
@@ -25,5 +26,5 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 Here's some fun pics of Hailey's bad hair day! :)
-<img src="/images/13062006112029.jpg" height="360" width="480" />
-<img src="/images/13062006112338.jpg" height="360" width="480" />
+![](/images/13062006112029.jpg)
+![](/images/13062006112338.jpg)

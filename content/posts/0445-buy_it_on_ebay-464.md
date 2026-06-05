@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 445
 entryId: '464'
 blogId: '2'
@@ -14,12 +15,12 @@ excerpt: >-
   Items for sale on eBay currently:
 
 
-  <a href='http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=190002613675'>iPod
-  Shuffle 1GB</a>
+  [iPod Shuffle
+  1GB](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=190002613675)
 
 
-  <a href='http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=190002618213'>Hot
-  Shots Golf: Open Tee for PSP</a>
+  [Hot Shots Golf: Open Tee for
+  PSP](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=190002618213)
 
 
   If you are interested in these, please bid on them!
@@ -36,15 +37,16 @@ canonicalRouteEntryId: '464'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<p>Items for sale on eBay currently through Sunday:</p>
+Items for sale on eBay currently through Sunday:
 
-<p class='footer_note'>These auctions are over!</p>
-<p>
-<a href='http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=190002613675'>iPod Shuffle 1GB</a><br />
-<img src='/images/27062006113500.jpg' height='509' width='420' />
-</p>
-<p>
-<a href='http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=190002618213'>Hot Shots Golf: Open Tee for PSP</a><br />
-<img src='/images/27062006115702.jpg' height='612' width='450' />
-</p>
-<p>If you are interested in these, please bid on them!</p>
+:::footer-note
+These auctions are over!
+:::
+
+[iPod Shuffle 1GB](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=190002613675)
+![](/images/27062006113500.jpg)
+
+[Hot Shots Golf: Open Tee for PSP](http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=190002618213)
+![](/images/27062006115702.jpg)
+
+If you are interested in these, please bid on them!

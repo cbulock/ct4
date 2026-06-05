@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 35
 entryId: '35'
 blogId: '2'
@@ -35,4 +36,4 @@ Now, whenever I want to send an app, or a ringtone to my phone, all I have to do
 Sending things back to the PC is just as easy.  If I want to send a picture to my PC, in the imaging app, I can choose the picture, click Options>Send>Bluetooth. Then I have have to select my PC's device name from the list and the file is send right to a folder in My Documents.
 That process was easy, but the hard part is the PC Suite that comes with the phone and lets you sync your data with MS Outlook. I'd really like to have this feature since my Sony Clie syncs with MS Outlook using Intellisync Lite. I haven't got it working yet, but I have done quite a bit to so far trying.
 
-<i>To be continued...</i>
+*To be continued...*

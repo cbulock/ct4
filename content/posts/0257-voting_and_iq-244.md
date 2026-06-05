@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 257
 entryId: '244'
 blogId: '2'
@@ -17,8 +18,7 @@ excerpt: >-
   States ordered by IQ and who they voted for.  Seems to be a bit of a pattern.
 
 
-  <a href="http://attenuation.net/files/iq.htm" title="IQ and Politics">IQ and
-  Politics</a>
+  [IQ and Politics](http://attenuation.net/files/iq.htm "IQ and Politics")
 keywords: election voting IQ
 createdOn: '2004-11-05 18:50:54'
 modifiedOn: '2011-10-17 15:46:06'
@@ -36,4 +36,4 @@ This explains alot.
 
 States ordered by IQ and who they voted for.  Seems to be a bit of a pattern.
 
-<a href="http://attenuation.net/files/iq.htm" title="IQ and Politics">IQ and Politics</a>
+[IQ and Politics](http://attenuation.net/files/iq.htm "IQ and Politics")

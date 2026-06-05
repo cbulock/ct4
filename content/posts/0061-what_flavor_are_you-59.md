@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 61
 entryId: '59'
 blogId: '2'
@@ -11,19 +12,8 @@ categoryId: '4'
 originalCategoryId: '4'
 title: What Flavor Are You?
 excerpt: >-
-  <table><tr><td>
-
-  <a href="http://quiz.ravenblack.net/flavour.pl"><img width="100" height="100"
-  src="http://quiz.ravenblack.net/flavour/0.png" alt="What Flavor Are You? Mmm,
-  I am Lemon Flavored." /></a>Mmm, I am <b>Lemon</b> Flavored.<br /><br />
-
-  I am bitter and twisted. Expect from me acerbic humour and sharp commentary.
-  While I may seem nasty at first, I'm actually quite good company if I like
-  you, so long as you don't mind a bit of cutting to the chase. <a
-  href="http://quiz.ravenblack.net/flavour.pl" title="What Flavour Are
-  You?">What Flavour Are You?</a>
-
-  </td></tr></table>
+  Mmm, I am Lemon flavored. I am bitter and twisted, but actually pretty good
+  company if I like you.
 keywords: flavor quiz
 createdOn: '2003-12-22 18:00:06'
 modifiedOn: '2011-10-17 15:46:06'
@@ -37,7 +27,10 @@ canonicalRouteEntryId: '59'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<table><tr><td>
-<a href="http://quiz.ravenblack.net/flavour.pl"><img width="100" height="100" src="http://quiz.ravenblack.net/flavour/0.png" alt="What Flavor Are You? Mmm, I am Lemon Flavored." /></a>Mmm, I am <b>Lemon</b> Flavored.<br /><br />
-I am bitter and twisted. Expect from me acerbic humour and sharp commentary. While I may seem nasty at first, I'm actually quite good company if I like you, so long as you don't mind a bit of cutting to the chase. <a href="http://quiz.ravenblack.net/flavour.pl" title="What Flavour Are You?">What Flavour Are You?</a>
-</td></tr></table>
+[![What Flavor Are You? Mmm, I am Lemon Flavored.](http://quiz.ravenblack.net/flavour/0.png)](http://quiz.ravenblack.net/flavour.pl)
+
+Mmm, I am **Lemon** Flavored.
+
+I am bitter and twisted. Expect from me acerbic humour and sharp commentary. While I may seem nasty at first, I'm actually quite good company if I like you, so long as you don't mind a bit of cutting to the chase.
+
+[What Flavour Are You?](http://quiz.ravenblack.net/flavour.pl "What Flavour Are You?")

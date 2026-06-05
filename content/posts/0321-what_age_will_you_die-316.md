@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 321
 entryId: '316'
 blogId: '2'
@@ -11,32 +12,8 @@ categoryId: '4'
 originalCategoryId: '4'
 title: What Age Will You Die?
 excerpt: >-
-  <table width="400" border="1" cellspacing="0" cellpadding="2">
-
-  <tr><td style="background-color:#66CCFF">
-
-  <div style="font-family:Georgia, Times New Roman, Times, serif; color:black;
-  font-size: 14pt;">
-
-  <b>You Will Die at Age 70</b></div></td></tr>
-
-  <tr><td>
-
-  <div style="color:#0000CC;">
-
-  70
-
-  </div>
-
-
-  You're pretty average when it comes to how you live...
-
-
-  And how you'll die as well.</td></tr></table>
-
-
-  <a href="http://www.blogthings.com/whatagewillyoudiequiz/">What Age Will You
-  Die?</a>
+  You will die at age 70. You're pretty average when it comes to how you live
+  and how you'll die as well.
 keywords: age die test quiz
 createdOn: '2005-04-29 16:19:59'
 modifiedOn: '2011-10-17 15:46:06'
@@ -50,17 +27,12 @@ canonicalRouteEntryId: '316'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<table width="400" border="1" cellspacing="0" cellpadding="2">
-<tr><td style="background-color:#66CCFF">
-<div style="font-family:Georgia, Times New Roman, Times, serif; color:black; font-size: 14pt;">
-<b>You Will Die at Age 70</b></div></td></tr>
-<tr><td>
-<div style="color:#0000CC;">
+**You Will Die at Age 70**
+
 70
-</div>
 
 You're pretty average when it comes to how you live...
 
-And how you'll die as well.</td></tr></table>
+And how you'll die as well.
 
-<a href="http://www.blogthings.com/whatagewillyoudiequiz/">What Age Will You Die?</a>
+[What Age Will You Die?](http://www.blogthings.com/whatagewillyoudiequiz/)

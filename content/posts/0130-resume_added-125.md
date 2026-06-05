@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 130
 entryId: '125'
 blogId: '2'
@@ -11,11 +12,9 @@ categoryId: '3'
 originalCategoryId: '3'
 title: Resume Added
 excerpt: >-
-  I just added a <a href="http://www.cbulock.com/resume.html"
-  title="Resume">resume</a> to the side of this page now.  Anyone wanting to
+  I just added a [resume](http://www.cbulock.com/resume.html "Resume") to the side of this page now.  Anyone wanting to
   hire my can now easily access this information and quickly hire me for a high
-  paying job. ;) I also finally got around to updating the <a
-  href="http://www.cbulock.com/my_family.html" title="My Family">family pics</a>
+  paying job. ;) I also finally got around to updating the [family pics](http://www.cbulock.com/my_family.html "My Family")
   section of this page.  Those links can be found on the side here under the
   section 'My Own Pages'.
 keywords: resume website updates
@@ -31,4 +30,4 @@ canonicalRouteEntryId: '125'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I just added a <a href="http://www.cbulock.com/resume.html" title="Resume">resume</a> to the side of this page now.  Anyone wanting to hire my can now easily access this information and quickly hire me for a high paying job. ;) I also finally got around to updating the <a href="http://www.cbulock.com/my_family.html" title="My Family">family pics</a> section of this page.  Those links can be found on the side here under the section 'My Own Pages'.
+I just added a [resume](http://www.cbulock.com/resume.html "Resume") to the side of this page now.  Anyone wanting to hire my can now easily access this information and quickly hire me for a high paying job. ;) I also finally got around to updating the [family pics](http://www.cbulock.com/my_family.html "My Family") section of this page.  Those links can be found on the side here under the section 'My Own Pages'.

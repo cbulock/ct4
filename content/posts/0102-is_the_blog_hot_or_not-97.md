@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 102
 entryId: '97'
 blogId: '2'
@@ -11,8 +12,7 @@ categoryId: '5'
 originalCategoryId: '5'
 title: Is the Blog HOT or NOT?
 excerpt: >-
-  <a href="http://blog.hotornot.com/r/?eid=EMKR&key=ALYP">Is my Blog HOT or
-  NOT?</a> 
+  [Is my Blog HOT or NOT?](http://blog.hotornot.com/r/?eid=EMKR&key=ALYP) 
 
   I have entered this site to be rated by whoever. If you like this blog, (or
   even if you don't) rate it so I know what people think.  Give it a bad rating,
@@ -30,5 +30,5 @@ canonicalRouteEntryId: '97'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<a href="http://blog.hotornot.com/r/?eid=EMKR&key=ALYP">Is my Blog HOT or NOT?</a> 
+[Is my Blog HOT or NOT?](http://blog.hotornot.com/r/?eid=EMKR&key=ALYP) 
 I have entered this site to be rated by whoever. If you like this blog, (or even if you don't) rate it so I know what people think.  Give it a bad rating, and I will hunt you down. :)

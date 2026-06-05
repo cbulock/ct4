@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 277
 entryId: '265'
 blogId: '4'
@@ -25,4 +26,4 @@ isCanonicalRouteEntry: true
 textMoreIgnored: true
 ---
 
-http://www.baou.com/newswire/main.php?action=recent&amp;rid=1949
+<http://www.baou.com/newswire/main.php?action=recent&amp;rid=1949>

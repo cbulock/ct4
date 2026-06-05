@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 29
 entryId: '29'
 blogId: '2'
@@ -15,9 +16,8 @@ excerpt: >-
   last post.  Anyways, here are the first pics that have been released of the
   Zodiac:
 
-  <img src="http://www.palminfocenter.com/images/tapwave_zodiac_2l.jpg" alt=""
-  /> <img src="http://www.palminfocenter.com/images/tapwave_zodiac_1.jpg" alt=""
-  />
+  ![](http://www.palminfocenter.com/images/tapwave_zodiac_2l.jpg)
+  ![](http://www.palminfocenter.com/images/tapwave_zodiac_1.jpg)
 keywords: Tapwave Zodiac pics
 createdOn: '2003-09-05 15:43:53'
 modifiedOn: '2011-10-17 15:46:06'
@@ -32,4 +32,4 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 I should have probably included some actual pics of the Zodiac itself in the last post.  Anyways, here are the first pics that have been released of the Zodiac:
-<img src="http://www.palminfocenter.com/images/tapwave_zodiac_2l.jpg" alt="" /> <img src="http://www.palminfocenter.com/images/tapwave_zodiac_1.jpg" alt="" />
+![](http://www.palminfocenter.com/images/tapwave_zodiac_2l.jpg) ![](http://www.palminfocenter.com/images/tapwave_zodiac_1.jpg)

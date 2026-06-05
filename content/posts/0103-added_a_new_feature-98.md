@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 103
 entryId: '98'
 blogId: '2'
@@ -12,8 +13,7 @@ originalCategoryId: '5'
 title: Added a New Feature
 excerpt: >-
   Today I added a feature to allow a "sideblog" or "blogroll" to the side of
-  this site.  Actually, I will just be posting links to threads at <a
-  href="http://www.cliesource.com" title="ClieSource">ClieSource</a> that I find
+  this site.  Actually, I will just be posting links to threads at [ClieSource](http://www.cliesource.com "ClieSource") that I find
   helpful, funny or just crazy.  Just threads I like for one reason or another. 
   But, it's all automated and very easy for me to post to (otherwise I would
   never use it. :) ).
@@ -30,5 +30,5 @@ canonicalRouteEntryId: '98'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Today I added a feature to allow a "sideblog" or "blogroll" to the side of this site.  Actually, I will just be posting links to threads at <a href="http://www.cliesource.com" title="ClieSource">ClieSource</a> that I find helpful, funny or just crazy.  Just threads I like for one reason or another.  But, it's all automated and very easy for me to post to (otherwise I would never use it. :) ).
-Special thanks to <a href="http://www.rayners.org/2003/01/06/mtotherblog_v_025.php" title="MTOtherBlog (v 0.25)">David Raynes and his the MTOtherBlog plugin</a> for Movable Type.
+Today I added a feature to allow a "sideblog" or "blogroll" to the side of this site.  Actually, I will just be posting links to threads at [ClieSource](http://www.cliesource.com "ClieSource") that I find helpful, funny or just crazy.  Just threads I like for one reason or another.  But, it's all automated and very easy for me to post to (otherwise I would never use it. :) ).
+Special thanks to [David Raynes and his the MTOtherBlog plugin](http://www.rayners.org/2003/01/06/mtotherblog_v_025.php "MTOtherBlog (v 0.25)") for Movable Type.

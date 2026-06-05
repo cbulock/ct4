@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 142
 entryId: '137'
 blogId: '2'
@@ -29,6 +30,6 @@ textMoreIgnored: false
 ---
 On Wednesday, Hailey went and got her first haircut.  It wasn't a full haircut or anything, but she did get her bangs chopped so she can now see without having her hair in a pigtail. Here are some pics from that.
 
-<img src="/images/13062006105444.jpg" height="480" width="640" />
-<img src="/images/13062006105525.jpg" height="480" width="640" />
-<img src="/images/13062006105538.jpg" height="480" width="640" />
+![](/images/13062006105444.jpg)
+![](/images/13062006105525.jpg)
+![](/images/13062006105538.jpg)

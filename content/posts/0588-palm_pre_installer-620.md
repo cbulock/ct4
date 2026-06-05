@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 588
 entryId: '620'
 blogId: '2'
@@ -18,7 +19,7 @@ excerpt: >-
   Pre to USB, and copying and pasting URL's on the Pre isn't too user friendly.
 
 
-  <pre>
+  ```
 
   # /bin/sh
 
@@ -30,21 +31,21 @@ excerpt: >-
 
   mount -o remount,ro /
 
-  </pre>
+  ```
 
 
   You can then just name it something like install and chmod +x install and
   easily install any ipk file either locally or over the internet like so:
 
 
-  <pre>
+  ```
 
   ./install
   http://forums.precentral.net/spe_attachment/download-24521-com.palm.app
 
   .switcharoo_0.9.0_all.ipk
 
-  </pre>
+  ```
 
 
   That installs the Switcharoo wallpaper switch app.
@@ -61,21 +62,21 @@ canonicalRouteEntryId: '620'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<p>I created a little install script for my Pre. It makes it easy to install homebrew apps. This requires root access.  There are some apps that allow you to install directly from the Pre and also apps that work if the Pre is connected over USB.  I don't really prefer these methods as I never connect my Pre to USB, and copying and pasting URL's on the Pre isn't too user friendly.</p>
+I created a little install script for my Pre. It makes it easy to install homebrew apps. This requires root access.  There are some apps that allow you to install directly from the Pre and also apps that work if the Pre is connected over USB.  I don't really prefer these methods as I never connect my Pre to USB, and copying and pasting URL's on the Pre isn't too user friendly.
 
-<pre>
+```
 # /bin/sh
 mount -o remount,rw /
 ipkg -o /var install $1
 luna-send -n 1 palm://com.palm.applicationManager/rescan {}
 mount -o remount,ro /
-</pre>
+```
 
-<p>You can then just name it something like install and chmod +x install and easily install any ipk file either locally or over the internet like so:</p>
+You can then just name it something like install and chmod +x install and easily install any ipk file either locally or over the internet like so:
 
-<pre>
+```
 ./install http://forums.precentral.net/spe_attachment/download-24521-com.palm.app
 .switcharoo_0.9.0_all.ipk
-</pre>
+```
 
-<p>That installs the Switcharoo wallpaper switch app.</p>
+That installs the Switcharoo wallpaper switch app.

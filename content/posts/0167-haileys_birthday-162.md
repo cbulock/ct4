@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 167
 entryId: '162'
 blogId: '2'
@@ -12,9 +13,8 @@ originalCategoryId: '1'
 title: Hailey's Birthday
 excerpt: >-
   Hailey's first birthday is soon approaching.  This Saturday we are celebrating
-  it at McDonald's at 1pm.  Her actually birthday is the <a
-  href="http://www.cbulock.com/archives/000006.html" title="Hailey Mae Bulock -
-  Born June 24, 2003">24th</a>, but this was the most convenient time to
+  it at McDonald's at 1pm.  Her actually birthday is the [24th](http://www.cbulock.com/archives/000006.html "Hailey Mae Bulock -
+  Born June 24, 2003"), but this was the most convenient time to
   celebrate it.  We bought her gifts the other day.  One of them she already
   has, a red plastic bouncy ball.  She loves that.  He also got her a doll for
   the bath tub, a duck for the bath tub, and a couple of other things that I
@@ -32,4 +32,4 @@ canonicalRouteEntryId: '162'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Hailey's first birthday is soon approaching.  This Saturday we are celebrating it at McDonald's at 1pm.  Her actually birthday is the <a href="http://www.cbulock.com/archives/000006.html" title="Hailey Mae Bulock - Born June 24, 2003">24th</a>, but this was the most convenient time to celebrate it.  We bought her gifts the other day.  One of them she already has, a red plastic bouncy ball.  She loves that.  He also got her a doll for the bath tub, a duck for the bath tub, and a couple of other things that I can't remember.  She won't get those until Saturday.
+Hailey's first birthday is soon approaching.  This Saturday we are celebrating it at McDonald's at 1pm.  Her actually birthday is the [24th](http://www.cbulock.com/archives/000006.html "Hailey Mae Bulock - Born June 24, 2003"), but this was the most convenient time to celebrate it.  We bought her gifts the other day.  One of them she already has, a red plastic bouncy ball.  She loves that.  He also got her a doll for the bath tub, a duck for the bath tub, and a couple of other things that I can't remember.  She won't get those until Saturday.

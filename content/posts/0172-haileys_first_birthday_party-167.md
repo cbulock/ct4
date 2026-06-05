@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 172
 entryId: '167'
 blogId: '2'
@@ -29,6 +30,5 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 Yesterday we celebrated Hailey's first birthday by having a party at McDonald's.  She got a lot of gifts including books and dolls.  She seems to like everything she got.  A number of people came including many of Nickcole's family members and my parent's and siblings. 
-<a href="http://hailey.bulock.com/v/birthday_party/000_0012.jpg" title="Hailey's Favorite Gift"><img src="http://hailey.bulock.com/d/476-3/000_0012.jpg" alt="Hailey's Favorite Gift" /></a>
-There are more picture's of Hailey's party in on <a href="http://hailey.bulock.com/v/birthday_party/" title="First Birthday Party">her website.
-</a>
+[![Hailey's Favorite Gift](http://hailey.bulock.com/d/476-3/000_0012.jpg)](http://hailey.bulock.com/v/birthday_party/000_0012.jpg "Hailey's Favorite Gift")
+There are more picture's of Hailey's party in on [her website.](http://hailey.bulock.com/v/birthday_party/ "First Birthday Party")

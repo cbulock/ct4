@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 326
 entryId: '321'
 blogId: '2'
@@ -11,14 +12,13 @@ categoryId: '5'
 originalCategoryId: '5'
 title: Google Sitemaps
 excerpt: >-
-  I just seen that Google came out with a new <a
-  href="https://www.google.com/webmasters/sitemaps" title="Google
-  Sitemaps">Sitemap</a> feature.  This is kind of cool as it allows you to
-  basically tell search engines what pages you have available instead of them
-  just having to find them.  So, I went ahead and setup a sitemap using the <a
-  href="https://www.google.com/webmasters/sitemaps/docs/en/sitemap-generator.html"
-  title="Installing and executing Sitemap Generator">Python script</a> they have
-  made available.
+  I just seen that Google came out with a new
+  [Sitemap](https://www.google.com/webmasters/sitemaps "Google Sitemaps")
+  feature.  This is kind of cool as it allows you to basically tell search
+  engines what pages you have available instead of them just having to find
+  them.  So, I went ahead and setup a sitemap using the [Python
+  script](https://www.google.com/webmasters/sitemaps/docs/en/sitemap-generator.html
+  "Installing and executing Sitemap Generator") they have made available.
 
   To do this, I simply downloaded the script, copied the sitemap_gen.py to a
   folder on my server.
@@ -35,45 +35,59 @@ canonicalRouteEntryId: '321'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<p class="footer_note">This entry is actually out of date now.  I have a more up to date version found <a href="http://www.cbulock.com/2005/06/sitemaps_-_latest_update.html" title="Sitemaps - Latest Update">here</a></p>
+:::footer-note
+This entry is actually out of date now.  I have a more up to date version found [here](http://www.cbulock.com/2005/06/sitemaps_-_latest_update.html "Sitemaps - Latest Update")
+:::
 
-<p>I just seen that Google came out with a new <a href="https://www.google.com/webmasters/sitemaps" title="Google Sitemaps">Sitemap</a> feature.  This is kind of cool as it allows you to basically tell search engines what pages you have available instead of them just having to find them.  So, I went ahead and setup a sitemap using the <a href="https://www.google.com/webmasters/sitemaps/docs/en/sitemap-generator.html" title="Installing and executing Sitemap Generator">Python script</a> they have made available.
-To do this, I simply downloaded the script, copied the sitemap_gen.py to a folder on my server.  Then I created the following config.xml file and saved it in the same folder:</p>
+I just seen that Google came out with a new [Sitemap](https://www.google.com/webmasters/sitemaps "Google Sitemaps") feature.  This is kind of cool as it allows you to basically tell search engines what pages you have available instead of them just having to find them.  So, I went ahead and setup a sitemap using the [Python script](https://www.google.com/webmasters/sitemaps/docs/en/sitemap-generator.html "Installing and executing Sitemap Generator") they have made available.
+To do this, I simply downloaded the script, copied the sitemap_gen.py to a folder on my server.  Then I created the following config.xml file and saved it in the same folder:
 
-<code>
-&lt;?xml version="1.0" encoding="UTF-8"?&gt;<br />
-<br />
-&lt;site<br />
-  base_url="http://www.cbulock.com/"<br />
-  store_into="/home/cbulock/public_html/sitemap.xml.gz"<br />
-  verbose="1"<br />
-  &gt;<br />
-	<br />
-  &lt;urllist  path="urllist.txt"  encoding="UTF-8"  /&gt;<br />
-<br />
-&lt;/site&gt;
-</code>
+```
+<?xml version="1.0" encoding="UTF-8"?>
 
-<p>What this does is looks for a urllist.txt file that contains all the URL's for the map.  It then outputs a sitemap.xml.gz file that search engines (just Google currently) can use.  To create the urllist.txt file, I created a new index template in Movable Type.  The index template simply outputs the urllist.txt file to the same directoryas the sitemap_gen.py and config.xml. This template just outputs all the Individual, Monthly, and Category archive page links.  I also placed a link to my main index page to.  The Movable Type template looks like this:</p>
+<site
 
-<code>
-http://www.cbulock.com/ changefreq=daily priority=1.0<br />
-<br />
-&lt;MTArchiveList archive_type="Individual"&gt;<br />
-&lt;$MTArchiveLink encode_xml="1"$&gt; lastmod=&lt;$MTArchiveDate format="%Y-%m-%dT%H:%M:%S"$&gt;&lt;$MTBlogTimezone$&gt; priority=0.8<br />
-&lt;/MTArchiveList&gt;<br />
-<br />
-&lt;MTArchiveList archive_type="Category"&gt;<br />
-&lt;$MTArchiveLink encode_xml="1"$&gt; changefreq=weekly priority=0.7<br />
-&lt;/MTArchiveList&gt;<br />
-<br />
-&lt;MTArchiveList archive_type="Monthly"&gt;<br />
-&lt;$MTArchiveLink encode_xml="1"$&gt; changefreq=monthly priority=0.5<br />
-&lt;/MTArchiveList&gt;
-</code>
+  base_url="http://www.cbulock.com/"
 
-<p>The changefreq and priority attributes can be changed.  All the details on how to use those can be found on the <a href="https://www.google.com/webmasters/sitemaps/docs/en/sitemap-generator.html" title="Installing and executing Sitemap Generator">Sitemap Generator instruction</a> page.</p>
+  store_into="/home/cbulock/public_html/sitemap.xml.gz"
 
-<p>After you have the script uploaded, the config.xml file setup and the urllist.txt outputted by Movable Type, you can then run the script.  This requires telnet or SSH access to your server.  The commands are also listed on Googles instruction page.  I have setup a cron job that runs the script once a day.  And that's about all that's required to get this up and running.</p>
+  verbose="1"
 
-<p>There is still some more work on the template that I plan on doing.  For instance, I have a number of pages that are generated by a seperate blog.  I will need to add those to the map and also set it up to give the lastmod attribute to every page.  I only spent about 20 minutes on the template so far.  To see my latest updates to the template, <a href="http://www.cbulock.com/templates/Sitemap%20URL%20List" title="Sitemap URL List">here is the latest copy of the template</a> that I am using.</p>
+  >
+
+	
+
+  <urllist  path="urllist.txt"  encoding="UTF-8"  />
+
+</site>
+```
+
+What this does is looks for a urllist.txt file that contains all the URL's for the map.  It then outputs a sitemap.xml.gz file that search engines (just Google currently) can use.  To create the urllist.txt file, I created a new index template in Movable Type.  The index template simply outputs the urllist.txt file to the same directoryas the sitemap_gen.py and config.xml. This template just outputs all the Individual, Monthly, and Category archive page links.  I also placed a link to my main index page to.  The Movable Type template looks like this:
+
+```
+http://www.cbulock.com/ changefreq=daily priority=1.0
+
+<MTArchiveList archive_type="Individual">
+
+<$MTArchiveLink encode_xml="1"$> lastmod=<$MTArchiveDate format="%Y-%m-%dT%H:%M:%S"$><$MTBlogTimezone$> priority=0.8
+
+</MTArchiveList>
+
+<MTArchiveList archive_type="Category">
+
+<$MTArchiveLink encode_xml="1"$> changefreq=weekly priority=0.7
+
+</MTArchiveList>
+
+<MTArchiveList archive_type="Monthly">
+
+<$MTArchiveLink encode_xml="1"$> changefreq=monthly priority=0.5
+
+</MTArchiveList>
+```
+
+The changefreq and priority attributes can be changed.  All the details on how to use those can be found on the [Sitemap Generator instruction](https://www.google.com/webmasters/sitemaps/docs/en/sitemap-generator.html "Installing and executing Sitemap Generator") page.
+
+After you have the script uploaded, the config.xml file setup and the urllist.txt outputted by Movable Type, you can then run the script.  This requires telnet or SSH access to your server.  The commands are also listed on Googles instruction page.  I have setup a cron job that runs the script once a day.  And that's about all that's required to get this up and running.
+
+There is still some more work on the template that I plan on doing.  For instance, I have a number of pages that are generated by a seperate blog.  I will need to add those to the map and also set it up to give the lastmod attribute to every page.  I only spent about 20 minutes on the template so far.  To see my latest updates to the template, [here is the latest copy of the template](http://www.cbulock.com/templates/Sitemap%20URL%20List "Sitemap URL List") that I am using.

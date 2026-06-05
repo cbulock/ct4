@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 6
 entryId: '6'
 blogId: '2'
@@ -26,5 +27,5 @@ canonicalRouteEntryId: '6'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Been really busy lately.  Hailey likes to be awake at night so I have been away from the computer for a while.  I have been missing my buddies up at <a href="http://www.cliesource.com" title="ClieSource">ClieSource</a>.  It's alright though, I've been getting to spend lots of time with my daughter!  Anyways, here's a pic.
-<img src="/images/13062006114354.jpg" height="216" width="324" />
+Been really busy lately.  Hailey likes to be awake at night so I have been away from the computer for a while.  I have been missing my buddies up at [ClieSource](http://www.cliesource.com "ClieSource").  It's alright though, I've been getting to spend lots of time with my daughter!  Anyways, here's a pic.
+![](/images/13062006114354.jpg)

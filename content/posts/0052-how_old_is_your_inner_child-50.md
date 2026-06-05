@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 52
 entryId: '50'
 blogId: '2'
@@ -11,22 +12,27 @@ categoryId: '4'
 originalCategoryId: '4'
 title: How Old is Your Inner Child?
 excerpt: >-
-  <img src="http://images.quizilla.com/J/jsimner/1062436747_sixteen.jpg" 
-  alt="My inner child is sixteen years old today"/><br /><p><b>My inner child is
-  sixteen years old!</b></p>
+  ![My inner child is sixteen years old
+  today](http://images.quizilla.com/J/jsimner/1062436747_sixteen.jpg)
 
-  <p>
+  **My inner child is sixteen years old!**
 
-  Life's not fair! It's never been fair, but while<br />adults might just accept
-  that, I know<br />something's gotta change. And it's gonna<br />change, just
-  as soon as I become an adult and<br />get some power of my own.
 
-  <br /><br /><a
-  href="http://quizilla.com/users/jsimner/quizzes/How%20Old%20is%20Your%20Inner%20Child%3F/">
-  How Old is Your Inner Child?</a><br /> brought to you by <a
-  href="http://quizilla.com">Quizilla</a>
+  Life's not fair! It's never been fair, but while
 
-  </p>
+  adults might just accept that, I know
+
+  something's gotta change. And it's gonna
+
+  change, just as soon as I become an adult and
+
+  get some power of my own.
+
+
+  [How Old is Your Inner
+  Child?](http://quizilla.com/users/jsimner/quizzes/How%20Old%20is%20Your%20Inner%20Child%3F/)
+
+  brought to you by [Quizilla](http://quizilla.com)
 keywords: inner child quiz
 createdOn: '2003-12-08 01:26:57'
 modifiedOn: '2011-10-17 15:46:06'
@@ -40,8 +46,14 @@ canonicalRouteEntryId: '50'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<img src="http://images.quizilla.com/J/jsimner/1062436747_sixteen.jpg"  alt="My inner child is sixteen years old today"/><br /><p><b>My inner child is sixteen years old!</b></p>
-<p>
-Life's not fair! It's never been fair, but while<br />adults might just accept that, I know<br />something's gotta change. And it's gonna<br />change, just as soon as I become an adult and<br />get some power of my own.
-<br /><br /><a href="http://quizilla.com/users/jsimner/quizzes/How%20Old%20is%20Your%20Inner%20Child%3F/"> How Old is Your Inner Child?</a><br /> brought to you by <a href="http://quizilla.com">Quizilla</a>
-</p>
+![My inner child is sixteen years old today](http://images.quizilla.com/J/jsimner/1062436747_sixteen.jpg)
+**My inner child is sixteen years old!**
+
+Life's not fair! It's never been fair, but while
+adults might just accept that, I know
+something's gotta change. And it's gonna
+change, just as soon as I become an adult and
+get some power of my own.
+
+[How Old is Your Inner Child?](http://quizilla.com/users/jsimner/quizzes/How%20Old%20is%20Your%20Inner%20Child%3F/)
+brought to you by [Quizilla](http://quizilla.com)

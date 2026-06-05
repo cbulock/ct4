@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 322
 entryId: '317'
 blogId: '2'
@@ -11,36 +12,8 @@ categoryId: '4'
 originalCategoryId: '4'
 title: Does Your English Cut the Mustard?
 excerpt: >-
-  <table style="font-family: sans-serif; font-size: 12pt; color:#000;"
-  border="0" cellspacing="0" cellpadding="5">
-
-  <tr><td align="center" style="background-color:#FFCC00">
-
-  <h3>Your English Skills:</h3>
-
-  </td></tr>
-
-  <tr><td style="background-color:#FFD91A">
-
-  Spelling: 80%</td></tr>
-
-  <tr><td style="background-color:#FFE633">
-
-  Grammar: 60%</td></tr>
-
-  <tr><td style="background-color:#FFF24D">
-
-  Punctuation: 40%</td></tr>
-
-  <tr><td style="background-color:#FFFF66">
-
-  Vocabulary: 20%</td></tr>
-
-  </table>
-
-
-  <a href="http://www.blogthings.com/englishcutthemustardquiz/">Does Your
-  English Cut the Mustard?</a>
+  Your English skills: spelling 80%, grammar 60%, punctuation 40%, and
+  vocabulary 20%.
 keywords: english test quiz
 createdOn: '2005-04-29 16:30:38'
 modifiedOn: '2011-10-17 15:46:06'
@@ -54,18 +27,13 @@ canonicalRouteEntryId: '317'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<table style="font-family: sans-serif; font-size: 12pt; color:#000;" border="0" cellspacing="0" cellpadding="5">
-<tr><td align="center" style="background-color:#FFCC00">
-<h3>Your English Skills:</h3>
-</td></tr>
-<tr><td style="background-color:#FFD91A">
-Spelling: 80%</td></tr>
-<tr><td style="background-color:#FFE633">
-Grammar: 60%</td></tr>
-<tr><td style="background-color:#FFF24D">
-Punctuation: 40%</td></tr>
-<tr><td style="background-color:#FFFF66">
-Vocabulary: 20%</td></tr>
-</table>
+### Your English Skills
 
-<a href="http://www.blogthings.com/englishcutthemustardquiz/">Does Your English Cut the Mustard?</a>
+| Skill | Score |
+| --- | --- |
+| Spelling | 80% |
+| Grammar | 60% |
+| Punctuation | 40% |
+| Vocabulary | 20% |
+
+[Does Your English Cut the Mustard?](http://www.blogthings.com/englishcutthemustardquiz/)

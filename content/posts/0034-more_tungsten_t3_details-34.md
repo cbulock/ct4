@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 34
 entryId: '34'
 blogId: '2'
@@ -27,5 +28,5 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 It looks like the rumors of the Tungsten T3 are actually true as more details are unveiling about this device.
-<img src="http://www.pdaclub.pl/images/pda/tungsten_t3_specs.jpg" alt="T3" />
+![T3](http://www.pdaclub.pl/images/pda/tungsten_t3_specs.jpg)
 With built-in Bluetooth and a 480x320 screen supporting both landscape and portrait modes, I really am thinking this would be the ultimate device to pair up with my Nokia 3650 (sorry NX, you just can't connect to the Internet as easily).

@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 23
 entryId: '23'
 blogId: '2'
@@ -28,5 +29,5 @@ canonicalRouteEntryId: '23'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Well, now that's courts have pretty much said that file sharing services can't be held responsible for people trading copyrighted content, the RIAA is now going after individuals.  Fortunately the EFF (Electronic Frontier Foundation) is watching the backs of those targeted. They have made a webpage where you can <a href="http://www.eff.org/IP/P2P/riaasubpoenas/">search by your file sharing username or your IP address to see if the RIAA has a subpoena filed to determine your identity.</a>  This can be very useful information if you are trading a fair amount of songs on file sharing networks like Kazza.  
-<a href="http://www.eff.com/share/"><img src="http://www.eff.com/share/music-play-160.jpg" alt="" /></a>
+Well, now that's courts have pretty much said that file sharing services can't be held responsible for people trading copyrighted content, the RIAA is now going after individuals.  Fortunately the EFF (Electronic Frontier Foundation) is watching the backs of those targeted. They have made a webpage where you can [search by your file sharing username or your IP address to see if the RIAA has a subpoena filed to determine your identity.](http://www.eff.org/IP/P2P/riaasubpoenas/)  This can be very useful information if you are trading a fair amount of songs on file sharing networks like Kazza.  
+[![](http://www.eff.com/share/music-play-160.jpg)](http://www.eff.com/share/)

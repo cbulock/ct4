@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 140
 entryId: '135'
 blogId: '2'
@@ -11,8 +12,7 @@ categoryId: '5'
 originalCategoryId: '5'
 title: Updated Family Pics Section
 excerpt: >-
-  I have finished updating the <a href="http://www.cbulock.com/my_family.html"
-  title="My Family">family pics</a> section of this site. I actually did most of
+  I have finished updating the [family pics](http://www.cbulock.com/my_family.html "My Family") section of this site. I actually did most of
   this a couple weeks ago when I added my resume to the site.  I had integrated
   those pages left over from the old pre-Movable Type based website.  Now
   everything here except for the NX page is based on MT.  I planned on doing
@@ -32,5 +32,5 @@ canonicalRouteEntryId: '135'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I have finished updating the <a href="http://www.cbulock.com/my_family.html" title="My Family">family pics</a> section of this site. I actually did most of this a couple weeks ago when I added my resume to the site.  I had integrated those pages left over from the old pre-Movable Type based website.  Now everything here except for the NX page is based on MT.  I planned on doing that at one time, but gave up.  I probably never will since it's pretty much just there for historical reference now since most of that info is out of date.
+I have finished updating the [family pics](http://www.cbulock.com/my_family.html "My Family") section of this site. I actually did most of this a couple weeks ago when I added my resume to the site.  I had integrated those pages left over from the old pre-Movable Type based website.  Now everything here except for the NX page is based on MT.  I planned on doing that at one time, but gave up.  I probably never will since it's pretty much just there for historical reference now since most of that info is out of date.
 But I now have some better pictures and some more up-to-date pictures of my family.  Hopefully more to come.

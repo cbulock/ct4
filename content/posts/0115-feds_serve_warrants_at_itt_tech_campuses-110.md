@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 115
 entryId: '110'
 blogId: '2'
@@ -14,10 +15,7 @@ excerpt: >-
   Here is some interesting news about the FBI searching the ITT Tech
   headquarters.  I wonder what was going on?  Maybe they found out ITT Tech is a
   bunch of lying bastards.  It's about time they have payed for their bullshit.
-  <a
-  href="http://www.cnn.com/2004/TECH/biztech/02/26/itttech.subpoenas.ap/index.html"
-  title="Feds serve warrants at ITT Tech campuses">Feds serve warrants at ITT
-  Tech campuses</a>
+  [Feds serve warrants at ITT Tech campuses](http://www.cnn.com/2004/TECH/biztech/02/26/itttech.subpoenas.ap/index.html "Feds serve warrants at ITT Tech campuses")
 keywords: ITT Tech school fbi
 createdOn: '2004-02-27 22:35:27'
 modifiedOn: '2007-08-25 17:29:48'
@@ -31,4 +29,4 @@ canonicalRouteEntryId: '110'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Here is some interesting news about the FBI searching the ITT Tech headquarters.  I wonder what was going on?  Maybe they found out ITT Tech is a bunch of lying bastards.  It's about time they have paid for their bullshit. <a href="http://www.cnn.com/2004/TECH/biztech/02/26/itttech.subpoenas.ap/index.html" title="Feds serve warrants at ITT Tech campuses">Feds serve warrants at ITT Tech campuses</a>
+Here is some interesting news about the FBI searching the ITT Tech headquarters.  I wonder what was going on?  Maybe they found out ITT Tech is a bunch of lying bastards.  It's about time they have paid for their bullshit. [Feds serve warrants at ITT Tech campuses](http://www.cnn.com/2004/TECH/biztech/02/26/itttech.subpoenas.ap/index.html "Feds serve warrants at ITT Tech campuses")

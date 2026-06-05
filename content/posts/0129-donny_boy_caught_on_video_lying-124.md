@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 129
 entryId: '124'
 blogId: '2'
@@ -13,8 +14,7 @@ title: Donny Boy Caught on Video Lying
 excerpt: >-
   Not that this is really shocking or anything, it just gave me a nice laugh. 
   Here's a video of Donald Rumsfeld flat out lying on an interview and then
-  proved wrong on air.  Look's like it was on the show Meet the Press.  <a
-  href="http://www.moveon.org/censure/caughtonvideo/">http://www.moveon.org/censure/caughtonvideo/</a>
+  proved wrong on air.  Look's like it was on the show Meet the Press.  [http://www.moveon.org/censure/caughtonvideo/](http://www.moveon.org/censure/caughtonvideo/)
 keywords: lies politics rumsfeld
 createdOn: '2004-03-17 15:22:24'
 modifiedOn: '2011-10-17 15:46:06'
@@ -28,4 +28,4 @@ canonicalRouteEntryId: '124'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Not that this is really shocking or anything, it just gave me a nice laugh.  Here's a video of Donald Rumsfeld flat out lying on an interview and then proved wrong on air.  Look's like it was on the show Meet the Press.  <a href="http://www.moveon.org/censure/caughtonvideo/">http://www.moveon.org/censure/caughtonvideo/</a>
+Not that this is really shocking or anything, it just gave me a nice laugh.  Here's a video of Donald Rumsfeld flat out lying on an interview and then proved wrong on air.  Look's like it was on the show Meet the Press.  [http://www.moveon.org/censure/caughtonvideo/](http://www.moveon.org/censure/caughtonvideo/)

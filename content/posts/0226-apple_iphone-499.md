@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 226
 entryId: '499'
 blogId: '2'
@@ -14,9 +15,8 @@ excerpt: >-
   Could a greater device ever be made?  Probably, but this is the greatest thing
   that has come along so far.
 
-  <a href="http://www.apple.com/iphone/"><img
-  src="http://images.apple.com/iphone/images/indexhero20070109.jpg" alt="Apple
-  iPhone" /></a>
+  [![Apple
+  iPhone](http://images.apple.com/iphone/images/indexhero20070109.jpg)](http://www.apple.com/iphone/)
 keywords: apple iphone cell
 createdOn: '2007-01-09 20:35:18'
 modifiedOn: '2011-10-17 15:46:06'
@@ -31,4 +31,4 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 Could a greater device ever be made?  Probably, but this is the greatest thing that has come along so far.
-<a href="http://www.apple.com/iphone/"><img src="http://images.apple.com/iphone/images/indexhero20070109.jpg" alt="Apple iPhone" /></a>
+[![Apple iPhone](http://images.apple.com/iphone/images/indexhero20070109.jpg)](http://www.apple.com/iphone/)

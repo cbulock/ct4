@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 306
 entryId: '301'
 blogId: '2'
@@ -29,53 +30,51 @@ textMoreIgnored: false
 ---
 You might say I am an extension junkie. I didn't quite realize quite how many extensions for Firefox I had installed until just recently. It seems that I have a total of 48 running right now. Here are the ones I currently have installed:
 
-<ul>
-<li><a href="http://www.latitudezero.org/ext/index.html">A's Currency Converter</a></li>
-<li><a href="http://scribbling.net/projects/firefoxextensions/aboutsite/">About site</a></li>
-<li><a href="http://adblock.mozdev.org/">Adblock</a></li>
-<li><a href="http://gorgias.de/mfe/">Add Bookmark Here</a></li>
-<li><a href="http://perso.wanadoo.fr/marc.boullet/ext/extensions-en.html">All-in-One Gestures</a></li>
-<li><a href="http://roachfiend.com/archives/2005/03/03/allow-right-click/">Allow Right-Click</a></li>
-<li><a href="http://jayseae.cxliv.org/bloglines_toolkit/index.html">Bloglines Toolkit</a></li>
-<li><a href="http://calculator.mozdev.org/">Calculator</a></li>
-<li><a href="http://cdn.mozdev.org/chromedit/">ChromEdit</a></li>
-<li><a href="http://www.aeruder.net/extensions/">Download Embedded</a></li>
-<li><a href="http://downloadstatusbar.mozdev.org/">Download Statusbar</a></li>
-<li><a href="http://editcss.mozdev.org/">EditCSS</a></li>
-<li><a href="http://fireftp.mozdev.org/">fireFTP</a></li>
-<li><a href="http://gorgias.de/mfe/">FLST</a></li>
-<li><a href="http://forecastfox.mozdev.org/">ForecastFox</a></li>
-<li><a href="http://www.iosart.com/foxytunes/firefox/">FoxyTunes</a></li>
-<li><a href="http://www.meatme.net/publish/post.php/6">Gcache</a></li>
-<li><a href="http://www.nexgenmedia.net/extensions/">Gmail Notifier</a></li>
-<li><a href="http://www.tapouillo.com/firefox_extension/">Google Pagerank Status</a></li>
-<li><a href="http://ackroyd.de/googlepreview/">GooglePreview</a></li>
-<li><a href="http://greasemonkey.mozdev.org/">GreaseMonkey</a></li>
-<li><a href="https://nic-nac-project.de/~kaosmos/hiddenprefs-FF-en.html">HiddenPrefs</a></li>
-<li><a href="http://users.skynet.be/mgueury/mozilla/">HTML Validator</a></li>
-<li><a href="http://ieview.mozdev.org/">IEview</a></li>
-<li><a href="http://blog.warmbrain.com/justblogit/">JustBlogIt</a></li>
-<li><a href="http://livehttpheaders.mozdev.org/">Live HTTP Headers</a></li>
-<li><a href="http://heygom.com/extensions/">Livelines</a></li>
-<li><a href="http://mapit.mozdev.org/">MapIt!</a></li>
-<li><a href="http://mozilla.dorando.at/readme.html">miniT</a></li>
-<li><a href="http://www.mozilla.org/projects/calendar/">Mozilla Calendar</a></li>
-<li><a href="http://www.mrtech.com/extensions/">MR Tech's Local Install</a></li>
-<li><a href="http://www.mrchucho.net/projects.php#nextimage">Next Image</a></li>
-<li><a href="http://www.extensionsmirror.nl/index.php?showtopic=856">Open link in...</a></li>
-<li><a href="http://tecwizards.de/mozilla/">Paste and Go</a></li>
-<li><a href="http://reloadevery.mozdev.org/">Reload Every</a></li>
-<li><a href="http://www.extensionsmirror.nl/index.php?showtopic=166">SessionSaver</a></li>
-<li><a href="http://v2studio.com/k/moz/">Slim Extension List</a></li>
-<li><a href="http://spellbound.sourceforge.net/">SpellBound</a></li>
-<li><a href="http://www.extensionsmirror.nl/index.php?showtopic=944&hl=stopreload">Stop/Reload</a></li>
-<li><a href="http://www.pryan.org/mozilla/site/TheOneKEA/tabprefs/">Tabbrowser Preferences</a></li>
-<li><a href="http://www.ctomer.com/index.php?cat=3">Translate</a></li>
-<li><a href="http://www.bitstorm.org/extensions/">Tweak Network</a></li>
-<li><a href="http://blog.codefront.net/mozilla/unreadtabs/">Unread Tabs</a></li>
-<li><a href="http://www.chrispederick.com/work/firefox/useragentswitcher/">User Agent Switcher</a></li>
-<li><a href="http://www.bitstorm.org/extensions/">View Cookies</a></li>
-<li><a href="http://www.chrispederick.com/work/firefox/webdeveloper/">Web Developer</a></li>
-<li><a href="http://wmlbrowser.mozdev.org/">WMLbrowser</a></li>
-<li><a href="http://www.meatme.net/publish/post.php/8">xMirror</a></li>
-</ul>
+- [A's Currency Converter](http://www.latitudezero.org/ext/index.html)
+- [About site](http://scribbling.net/projects/firefoxextensions/aboutsite/)
+- [Adblock](http://adblock.mozdev.org/)
+- [Add Bookmark Here](http://gorgias.de/mfe/)
+- [All-in-One Gestures](http://perso.wanadoo.fr/marc.boullet/ext/extensions-en.html)
+- [Allow Right-Click](http://roachfiend.com/archives/2005/03/03/allow-right-click/)
+- [Bloglines Toolkit](http://jayseae.cxliv.org/bloglines_toolkit/index.html)
+- [Calculator](http://calculator.mozdev.org/)
+- [ChromEdit](http://cdn.mozdev.org/chromedit/)
+- [Download Embedded](http://www.aeruder.net/extensions/)
+- [Download Statusbar](http://downloadstatusbar.mozdev.org/)
+- [EditCSS](http://editcss.mozdev.org/)
+- [fireFTP](http://fireftp.mozdev.org/)
+- [FLST](http://gorgias.de/mfe/)
+- [ForecastFox](http://forecastfox.mozdev.org/)
+- [FoxyTunes](http://www.iosart.com/foxytunes/firefox/)
+- [Gcache](http://www.meatme.net/publish/post.php/6)
+- [Gmail Notifier](http://www.nexgenmedia.net/extensions/)
+- [Google Pagerank Status](http://www.tapouillo.com/firefox_extension/)
+- [GooglePreview](http://ackroyd.de/googlepreview/)
+- [GreaseMonkey](http://greasemonkey.mozdev.org/)
+- [HiddenPrefs](https://nic-nac-project.de/~kaosmos/hiddenprefs-FF-en.html)
+- [HTML Validator](http://users.skynet.be/mgueury/mozilla/)
+- [IEview](http://ieview.mozdev.org/)
+- [JustBlogIt](http://blog.warmbrain.com/justblogit/)
+- [Live HTTP Headers](http://livehttpheaders.mozdev.org/)
+- [Livelines](http://heygom.com/extensions/)
+- [MapIt!](http://mapit.mozdev.org/)
+- [miniT](http://mozilla.dorando.at/readme.html)
+- [Mozilla Calendar](http://www.mozilla.org/projects/calendar/)
+- [MR Tech's Local Install](http://www.mrtech.com/extensions/)
+- [Next Image](http://www.mrchucho.net/projects.php#nextimage)
+- [Open link in...](http://www.extensionsmirror.nl/index.php?showtopic=856)
+- [Paste and Go](http://tecwizards.de/mozilla/)
+- [Reload Every](http://reloadevery.mozdev.org/)
+- [SessionSaver](http://www.extensionsmirror.nl/index.php?showtopic=166)
+- [Slim Extension List](http://v2studio.com/k/moz/)
+- [SpellBound](http://spellbound.sourceforge.net/)
+- [Stop/Reload](http://www.extensionsmirror.nl/index.php?showtopic=944&hl=stopreload)
+- [Tabbrowser Preferences](http://www.pryan.org/mozilla/site/TheOneKEA/tabprefs/)
+- [Translate](http://www.ctomer.com/index.php?cat=3)
+- [Tweak Network](http://www.bitstorm.org/extensions/)
+- [Unread Tabs](http://blog.codefront.net/mozilla/unreadtabs/)
+- [User Agent Switcher](http://www.chrispederick.com/work/firefox/useragentswitcher/)
+- [View Cookies](http://www.bitstorm.org/extensions/)
+- [Web Developer](http://www.chrispederick.com/work/firefox/webdeveloper/)
+- [WMLbrowser](http://wmlbrowser.mozdev.org/)
+- [xMirror](http://www.meatme.net/publish/post.php/8)

@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 296
 entryId: '285'
 blogId: '2'
@@ -28,4 +29,4 @@ textMoreIgnored: false
 ---
 Not anyone that I know, but I sent off this person a GMail invite and got a very personal thanks in return.  Was very nice. :)
 
-<img src="/images/13062006103929.jpg" height="450" width="600" />
+![](/images/13062006103929.jpg)

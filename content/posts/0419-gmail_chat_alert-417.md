@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 419
 entryId: '417'
 blogId: '2'
@@ -16,8 +17,7 @@ excerpt: >-
   new messages.  Saw this the other day and thought I would pass it along.
 
 
-  <a
-  href="http://ftp.rz.tu-bs.de/pub/mirror/downloads.mozdev.org/click2tab/gchatalert.xpi">http://ftp.rz.tu-bs.de/pub/mirror/downloads.mozdev.org/click2tab/gchatalert.xpi</a>
+  [http://ftp.rz.tu-bs.de/pub/mirror/downloads.mozdev.org/click2tab/gchatalert.xpi](http://ftp.rz.tu-bs.de/pub/mirror/downloads.mozdev.org/click2tab/gchatalert.xpi)
 
 
   This adds a new message sound that alerts you of new mail.  It's the same
@@ -37,6 +37,6 @@ textMoreIgnored: false
 ---
 Google always seems to impress me and the chat client in Gmail is just the newest thing they have impressed me with.  But, it's hard to know when you get new messages.  Saw this the other day and thought I would pass it along.
 
-<a href="http://ftp.rz.tu-bs.de/pub/mirror/downloads.mozdev.org/click2tab/gchatalert.xpi">http://ftp.rz.tu-bs.de/pub/mirror/downloads.mozdev.org/click2tab/gchatalert.xpi</a>
+[http://ftp.rz.tu-bs.de/pub/mirror/downloads.mozdev.org/click2tab/gchatalert.xpi](http://ftp.rz.tu-bs.de/pub/mirror/downloads.mozdev.org/click2tab/gchatalert.xpi)
 
 This adds a new message sound that alerts you of new mail.  It's the same sound AIM uses for new messages.  Very, very useful.

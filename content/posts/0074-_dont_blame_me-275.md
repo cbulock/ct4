@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 74
 entryId: '275'
 blogId: '4'
@@ -24,4 +25,4 @@ canonicalRouteEntryId: '275'
 isCanonicalRouteEntry: true
 textMoreIgnored: true
 ---
-http://dontblamemeivoted4kerry.com/
+<http://dontblamemeivoted4kerry.com/>

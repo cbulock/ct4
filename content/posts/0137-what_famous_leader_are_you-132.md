@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 137
 entryId: '132'
 blogId: '2'
@@ -10,11 +11,11 @@ convertBreaks: '0'
 categoryId: '4'
 originalCategoryId: '4'
 title: What Famous Leader Are You?
-excerpt: >-
-  <img src="http://similarminds.com/images/leader/5.jpg" alt="Einstein" /><br
-  /><a href="http://similarminds.com/othertests.html">What Famous Leader Are
-  You?</a><br /><a href="http://similarminds.com">personality tests by
-  similarminds.com</a>
+excerpt: |-
+  ![Einstein](http://similarminds.com/images/leader/5.jpg)
+
+  - [What Famous Leader Are You?](http://similarminds.com/othertests.html)
+  - [personality tests by similarminds.com](http://similarminds.com)
 keywords: leader quiz Einstein
 createdOn: '2004-03-30 10:50:16'
 modifiedOn: '2011-10-17 15:46:06'
@@ -28,4 +29,7 @@ canonicalRouteEntryId: '132'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<img src="http://similarminds.com/images/leader/5.jpg" alt="Einstein" /><br /><a href="http://similarminds.com/othertests.html">What Famous Leader Are You?</a><br /><a href="http://similarminds.com">personality tests by similarminds.com</a>
+![Einstein](http://similarminds.com/images/leader/5.jpg)
+
+- [What Famous Leader Are You?](http://similarminds.com/othertests.html)
+- [personality tests by similarminds.com](http://similarminds.com)

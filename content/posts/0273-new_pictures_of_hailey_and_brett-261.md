@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 273
 entryId: '261'
 blogId: '2'
@@ -16,10 +17,10 @@ excerpt: >-
   both have some up-to-date pictures.
 
 
-  <a title="Hailey's Pics" href="http://hailey.bulock.com">Hailey's Album</a>
+  [Hailey's Album](http://hailey.bulock.com "Hailey's Pics")
 
 
-  <a title="Brett's Pics" href="http://brett.bulock.com">Brett's Album</a>
+  [Brett's Album](http://brett.bulock.com "Brett's Pics")
 keywords: hailey brett pics pictures photos
 createdOn: '2004-12-09 12:51:20'
 modifiedOn: '2011-10-17 15:46:06'
@@ -36,6 +37,6 @@ textMoreIgnored: false
 
 In case you haven't looked at Hailey or Brett's photo albums recently, they both have some up-to-date pictures.
 
-<a href="http://hailey.bulock.com" title="Hailey's Pics">Hailey's Album</a>
+[Hailey's Album](http://hailey.bulock.com "Hailey's Pics")
 
-<a href="http://brett.bulock.com" title="Brett's Pics">Brett's Album</a>
+[Brett's Album](http://brett.bulock.com "Brett's Pics")

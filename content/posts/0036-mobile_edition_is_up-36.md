@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 36
 entryId: '36'
 blogId: '2'
@@ -30,4 +31,4 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 I have been working on a number of website changes today.  One thing you might notice is my Clie NX page is not up right now.  I am moving it over to a Movable Type based system like this page so it will be easier to update in the future.  Right now I am in the process of moving content from the current page to the new page.
-Also, I have made some modifications to my website and now have a mobile edition up.  The address is <a href="http://www.cbulock.com/mobile">http://www.cbulock.com/mobile</a>.  I hope everything works right with that page and it get's updated properly.
+Also, I have made some modifications to my website and now have a mobile edition up.  The address is [http://www.cbulock.com/mobile](http://www.cbulock.com/mobile).  I hope everything works right with that page and it get's updated properly.

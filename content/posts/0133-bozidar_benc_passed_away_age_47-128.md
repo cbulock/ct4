@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 133
 entryId: '128'
 blogId: '2'
@@ -30,9 +31,10 @@ textMoreIgnored: false
 ---
 In very sad news, Bozidar Benc, one of the most revolutionary programmers for the Palm platform has passed away.    He was the creator of apps such as Launcher III and Launcher X and was basically the man who created the modern launcher that apps such as ZLauncher have been based on.
 
-<blockquote><p>"It's with the greatest of regret that I pass on the sad news that Bozidar Benc passed away yesterday. As some of you may know he was involved in a serious car accident in early February. Hopes were high for a full recovery, but unfortunately his condition worsened and finally he succumbed to complications caused by the original injuries. 
+> "It's with the greatest of regret that I pass on the sad news that Bozidar Benc passed away yesterday. As some of you may know he was involved in a serious car accident in early February. Hopes were high for a full recovery, but unfortunately his condition worsened and finally he succumbed to complications caused by the original injuries. 
+>
+> Bozidar was 47 and is survived by his wife and two daughters. 
+>
+> He will be sadly missed."
 
-Bozidar was 47 and is survived by his wife and two daughters. 
-
-He will be sadly missed."</p></blockquote>
-More info at <a href="http://www.launcherxplanet.com/forums//index.php?act=ST&f=4&t=1279" title="Bozidar Benc R.I.P.">LauncherXplanet</a>.
+More info at [LauncherXplanet](http://www.launcherxplanet.com/forums//index.php?act=ST&f=4&t=1279 "Bozidar Benc R.I.P.").

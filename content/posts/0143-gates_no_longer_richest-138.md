@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 143
 entryId: '138'
 blogId: '2'
@@ -29,4 +30,4 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 It is now time for Bill Gates to step down from the throne that the computer era of the '90's gave to him.  That is the throne of being richest person in the world.  He can blame Bush for the reason why he is no longer richest (Bush can be blamed for a lot of things actually).  Gate's currently has a wealth of $47 billion. But, Ingvar Kamprad has a wealth of 400 billion crowns, a Swedish currency.  That equals $53 billion.  Apparently due to the American dollar losing value, Gate's riches are no longer as big as they once were.
-<a href="http://news.com.com/2100-1014_3-5184773.html?tag=nefd_top" title="Swede overtakes Gates as world's richest">Swede overtakes Gates as world's richest</a>
+[Swede overtakes Gates as world's richest](http://news.com.com/2100-1014_3-5184773.html?tag=nefd_top "Swede overtakes Gates as world's richest")

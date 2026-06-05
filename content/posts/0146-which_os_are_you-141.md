@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 146
 entryId: '141'
 blogId: '2'
@@ -11,11 +12,11 @@ categoryId: '4'
 originalCategoryId: '4'
 title: Which OS Are You?
 excerpt: >-
-  <a href="http://bbspot.com/News/2003/01/os_quiz.php"><img
-  src="http://www.bbspot.com/Images/News_Features/2003/01/os_quiz/trsdos.jpg"
-  width=300 height=90 border=0 alt="You are TRSDOS. Compatibility is always an
-  issue with you.  You feel the world has passed you by. Time has not treated
-  you well." /></a><br />Which OS are You?
+  [![You are TRSDOS. Compatibility is always an issue with you. You feel the
+  world has passed you by. Time has not treated you
+  well.](http://www.bbspot.com/Images/News_Features/2003/01/os_quiz/trsdos.jpg)](http://bbspot.com/News/2003/01/os_quiz.php)
+
+  Which OS are You?
 keywords: OS computers quiz
 createdOn: '2004-04-15 22:12:15'
 modifiedOn: '2011-10-17 15:46:06'
@@ -29,4 +30,5 @@ canonicalRouteEntryId: '141'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<a href="http://bbspot.com/News/2003/01/os_quiz.php"><img src="http://www.bbspot.com/Images/News_Features/2003/01/os_quiz/trsdos.jpg" width="300" height="90" alt="You are TRSDOS. Compatibility is always an issue with you.  You feel the world has passed you by. Time has not treated you well." /></a><br />Which OS are You?
+[![You are TRSDOS. Compatibility is always an issue with you. You feel the world has passed you by. Time has not treated you well.](http://www.bbspot.com/Images/News_Features/2003/01/os_quiz/trsdos.jpg)](http://bbspot.com/News/2003/01/os_quiz.php)
+Which OS are You?

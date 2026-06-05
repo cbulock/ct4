@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 308
 entryId: '303'
 blogId: '2'
@@ -26,7 +27,7 @@ textMoreIgnored: false
 ---
 Brian sent me some pics taken on Easter, here are some of them:
 
-<img src="/images/13062006010444.jpg" height="512" width="768" />
-<img src="/images/13062006010516.jpg" height="512" width="768" />
-<img src="/images/13062006010644.jpg" height="512" width="768" />
-<img src="/images/13062006010752.jpg" height="512" width="768" />
+![](/images/13062006010444.jpg)
+![](/images/13062006010516.jpg)
+![](/images/13062006010644.jpg)
+![](/images/13062006010752.jpg)

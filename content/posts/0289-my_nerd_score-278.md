@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 289
 entryId: '278'
 blogId: '2'
@@ -11,9 +12,8 @@ categoryId: '4'
 originalCategoryId: '4'
 title: My Nerd Score
 excerpt: >-
-  <a href="http://www.wxplotter.com/ft_nq.php"><img
-  src="http://www.wxplotter.com/images/ft/nq.php?val=2741" alt="I am nerdier
-  than 80% of all people. Are you nerdier? Click here to find out!" /> </a>
+  [![I am nerdier than 80% of all people. Are you nerdier? Click here to find
+  out!](http://www.wxplotter.com/images/ft/nq.php?val=2741)](http://www.wxplotter.com/ft_nq.php)
 keywords: nerd quiz
 createdOn: '2005-01-07 10:10:46'
 modifiedOn: '2011-10-17 15:46:06'
@@ -27,4 +27,4 @@ canonicalRouteEntryId: '278'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<a href="http://www.wxplotter.com/ft_nq.php"><img src="http://www.wxplotter.com/images/ft/nq.php?val=2741" alt="I am nerdier than 80% of all people. Are you nerdier? Click here to find out!" /></a>
+[![I am nerdier than 80% of all people. Are you nerdier? Click here to find out!](http://www.wxplotter.com/images/ft/nq.php?val=2741)](http://www.wxplotter.com/ft_nq.php)

@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 254
 entryId: '241'
 blogId: '2'
@@ -33,8 +34,7 @@ textMoreIgnored: false
 Now that the presidential election has been decided, it comes with much disappointment with the outcome and fear that over half of the people that live in this country actually wanted Bush to continue as President.  I have trouble putting into words how I feel about this, so I have provided links to posts by Russell Beattie and Shaun McGill.  They have both provided very good points of view and I agree with their opinions.
 
 Shaun's posting on Outspoken:
-<a href="http://outspoken.typepad.com/outspoken/2004/11/time_to_step_ba.html" title="Time to step back">Time to step back</a>
+[Time to step back](http://outspoken.typepad.com/outspoken/2004/11/time_to_step_ba.html "Time to step back")
 
 Russell's posting on his Notebook:
-<a href="http://www.russellbeattie.com/notebook/1008132.html" title="More than disappointed">More than disappointed
-</a>
+[More than disappointed](http://www.russellbeattie.com/notebook/1008132.html "More than disappointed")

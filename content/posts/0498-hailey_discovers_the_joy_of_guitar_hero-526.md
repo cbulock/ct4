@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 498
 entryId: '526'
 blogId: '2'
@@ -28,5 +29,5 @@ textMoreIgnored: false
 ---
 Hailey seems to learn things very quickly.  She started playing Guitar Hero with the help of Brian.  She's actually pretty good already.
 
-<img src="/images/24052007220436.jpg" height="480" width="640" />
-<img src="/images/24052007220528.jpg" height="480" width="640" />
+![](/images/24052007220436.jpg)
+![](/images/24052007220528.jpg)

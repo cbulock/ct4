@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 443
 entryId: '462'
 blogId: '2'
@@ -26,6 +27,6 @@ textMoreIgnored: false
 ---
 Here's some pics I took of Hailey and Brett not too long ago:
 
-<img src="/images/23062006015609.jpg" height="480" width="640" />
-<img src="/images/23062006020024.jpg" height="480" width="640" />
-<img src="/images/23062006020158.jpg" height="480" width="640" />
+![](/images/23062006015609.jpg)
+![](/images/23062006020024.jpg)
+![](/images/23062006020158.jpg)

@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 189
 entryId: '182'
 blogId: '2'
@@ -11,8 +12,7 @@ categoryId: '9'
 originalCategoryId: '9'
 title: 'Funny Yet True, A Must See'
 excerpt: >-
-  <a href="http://jibjab.com/thisland.html" title="JibJab.com">This Land,
-  Starring George Bush & John Kerry</a>
+  [This Land, Starring George Bush & John Kerry](http://jibjab.com/thisland.html "JibJab.com")
 keywords: funny john kerry george bush politics flash movie
 createdOn: '2004-07-14 08:48:53'
 modifiedOn: '2011-10-17 15:46:06'
@@ -26,4 +26,4 @@ canonicalRouteEntryId: '182'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<a href="http://jibjab.com/thisland.html" title="JibJab.com">This Land, Starring George Bush & John Kerry</a>
+[This Land, Starring George Bush & John Kerry](http://jibjab.com/thisland.html "JibJab.com")

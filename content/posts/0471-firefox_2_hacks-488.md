@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 471
 entryId: '488'
 blogId: '2'
@@ -30,7 +31,7 @@ canonicalRouteEntryId: '488'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I've just had the pleasure of installing Firefox 2 for the fourth time.  Nothing wrong with the program, this was just the fourth computer I've had to set it up on.  Each time, I end up going through and changing some config settings to make the program work more like I want it to.  Things such as turning off the tab scrolling, removing the tabs list dropdown, putting the close button to the right like FF1.5.  I never remember the config settings, so I end up googling until I find all the settings.  <a href="http://mozillalinks.org/wp/2006/10/firefox-2-tweaks-tab-browsing/">mozilla links</a> has all the config settings I have to keep tracking down, so I wanted to pass this along as it's nice to have all this info in one place.
+I've just had the pleasure of installing Firefox 2 for the fourth time.  Nothing wrong with the program, this was just the fourth computer I've had to set it up on.  Each time, I end up going through and changing some config settings to make the program work more like I want it to.  Things such as turning off the tab scrolling, removing the tabs list dropdown, putting the close button to the right like FF1.5.  I never remember the config settings, so I end up googling until I find all the settings.  [mozilla links](http://mozillalinks.org/wp/2006/10/firefox-2-tweaks-tab-browsing/) has all the config settings I have to keep tracking down, so I wanted to pass this along as it's nice to have all this info in one place.
 UPDATE (12-07-2006):
 I noticed that the auto image resizing option is not only on by default like it was in Firefox 1, but there is now no option to turn it off through the GUI.  Here is a fix to disable that:
-<a href="http://www.liewcf.com/blog/archives/2006/10/firefox-2-tip-stop-automatic-image-resizing/">http://www.liewcf.com/blog/archives/2006/10/firefox-2-tip-stop-automatic-image-resizing/</a>
+[http://www.liewcf.com/blog/archives/2006/10/firefox-2-tip-stop-automatic-image-resizing/](http://www.liewcf.com/blog/archives/2006/10/firefox-2-tip-stop-automatic-image-resizing/)

@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 283
 entryId: '272'
 blogId: '2'
@@ -13,12 +14,12 @@ title: Gotta Get a PSP
 excerpt: >-
   Everytime I hear more info on the PSP, I just want to have it more and more. 
   It just sounds so good.  And the looks, wow, it's a beautiful machine.  I just
-  got done reading some good info over at Gear Live.  <br />
+  got done reading some good info over at Gear Live.
 
-  <a
-  href="http://www.gearlive.com/index.php/news/article/the_top_ten_things_you_need_to_know_about_sonys_psp/"
-  title="The Top Ten Things You Need to Know About Sonyâ€™s PSP">The Top Ten
-  Things You Need to Know About Sonyâ€™s PSP</a>
+
+  [The Top Ten Things You Need to Know About Sonyâ€™s
+  PSP](http://www.gearlive.com/index.php/news/article/the_top_ten_things_you_need_to_know_about_sonys_psp/
+  "The Top Ten Things You Need to Know About Sonyâ€™s PSP")
 keywords: gaming PSP handheld sony
 createdOn: '2004-12-29 22:55:11'
 modifiedOn: '2011-10-17 15:46:06'
@@ -32,5 +33,6 @@ canonicalRouteEntryId: '272'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<img src="/images/13062006104215.jpg" height="337" width="450" /><br />Everytime I hear more info on the PSP, I just want to have it more and more.  It just sounds so good.  And the looks, wow, it's a beautiful machine.  I just got done reading some good info over at Gear Live.  <br />
-<a title="The Top Ten Things You Need to Know About Sonyâ€™s PSP" href="http://www.gearlive.com/index.php/news/article/the_top_ten_things_you_need_to_know_about_sonys_psp/">The Top Ten Things You Need to Know About Sonyâ€™s PSP</a>
+![](/images/13062006104215.jpg)
+Everytime I hear more info on the PSP, I just want to have it more and more.  It just sounds so good.  And the looks, wow, it's a beautiful machine.  I just got done reading some good info over at Gear Live.
+[The Top Ten Things You Need to Know About Sonyâ€™s PSP](http://www.gearlive.com/index.php/news/article/the_top_ten_things_you_need_to_know_about_sonys_psp/ "The Top Ten Things You Need to Know About Sonyâ€™s PSP")

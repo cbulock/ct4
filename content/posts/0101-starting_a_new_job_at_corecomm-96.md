@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 101
 entryId: '96'
 blogId: '2'
@@ -12,7 +13,7 @@ originalCategoryId: '3'
 title: Starting a New Job at CoreComm
 excerpt: >-
   I will be starting a new job soon.  I will be working as phone technical
-  support at <a href="http://www.core.com" title="CoreComm">CoreComm</a>.  I
+  support at [CoreComm](http://www.core.com "CoreComm").  I
   will be starting there on the 24th.  I don't know if I'll like the hours
   though, I will probably be working 12 noon - 8PM. That will basically take up
   my whole day.  But, at least I will be working somewhere where I can move up
@@ -30,4 +31,4 @@ canonicalRouteEntryId: '96'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I will be starting a new job soon.  I will be working as phone technical support at <a href="http://www.core.com" title="CoreComm">CoreComm</a>.  I will be starting there on the 24th.  I don't know if I'll like the hours though, I will probably be working 12 noon - 8PM. That will basically take up my whole day.  But, at least I will be working somewhere where I can move up and advance my career.
+I will be starting a new job soon.  I will be working as phone technical support at [CoreComm](http://www.core.com "CoreComm").  I will be starting there on the 24th.  I don't know if I'll like the hours though, I will probably be working 12 noon - 8PM. That will basically take up my whole day.  But, at least I will be working somewhere where I can move up and advance my career.

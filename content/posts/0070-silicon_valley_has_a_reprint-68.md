@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 70
 entryId: '68'
 blogId: '2'
@@ -11,11 +12,11 @@ categoryId: null
 originalCategoryId: null
 title: Silicon Valley has a re-print
 excerpt: >-
-  <img alt="Original Macintosh"
-  src="http://www.siliconvalley.com/images/mercurynews/mercurynews/7731/59771421476.jpg"
-  />Silicon Valley has a <a title="A look at secret new Apple computer"
-  href="http://www.siliconvalley.com/mld/siliconvalley/7731271.htm">re-print of
-  an article</a> that announced the original Mac 20 years ago.
+  ![Original
+  Macintosh](http://www.siliconvalley.com/images/mercurynews/mercurynews/7731/59771421476.jpg)Silicon
+  Valley has a [re-print of an
+  article](http://www.siliconvalley.com/mld/siliconvalley/7731271.htm "A look at
+  secret new Apple computer") that announced the original Mac 20 years ago.
 keywords: mac macintosh computer history
 createdOn: '2004-01-19 01:01:00'
 modifiedOn: '2007-08-25 17:29:48'
@@ -29,8 +30,11 @@ canonicalRouteEntryId: '68'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<img alt="Original Macintosh" src="http://www.siliconvalley.com/images/mercurynews/mercurynews/7731/59771421476.jpg" />Silicon Valley has a <a title="A look at secret new Apple computer" href="http://www.siliconvalley.com/mld/siliconvalley/7731271.htm">re-print of an article</a> that announced the original Mac 20 years ago.
+![Original Macintosh](http://www.siliconvalley.com/images/mercurynews/mercurynews/7731/59771421476.jpg)Silicon Valley has a [re-print of an article](http://www.siliconvalley.com/mld/siliconvalley/7731271.htm "A look at secret new Apple computer") that announced the original Mac 20 years ago.
 Some interesting quotes:
-<blockquote><p><i>For $2,495, Macintosh buyers will get a computer that operates unusually quickly and is directed by a mouse - a handheld device that, when slid across a table top, moves the cursor on the Mac's screen.</i></p></blockquote>
-<blockquote><p><i>The user also will be able to divide the screen into a variety of compartments, or ``windows,'' that each can be used to perform different jobs. For example, the user could be writing a letter on one part of the screen, then create a window and begin another.</i></p></blockquote>
+
+> *For $2,495, Macintosh buyers will get a computer that operates unusually quickly and is directed by a mouse - a handheld device that, when slid across a table top, moves the cursor on the Mac's screen.*
+
+> *The user also will be able to divide the screen into a variety of compartments, or ``windows,'' that each can be used to perform different jobs. For example, the user could be writing a letter on one part of the screen, then create a window and begin another.*
+
 Gotta love how they had to describe what a &quot;mouse&quot; and &quot;windows&quot; are.  Crazy to think that only 20 years ago these were not everyday terms.

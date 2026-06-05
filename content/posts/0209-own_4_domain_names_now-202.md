@@ -1,4 +1,5 @@
 ---
+contentFormat: markdown
 sortOrder: 209
 entryId: '202'
 blogId: '2'
@@ -12,9 +13,7 @@ originalCategoryId: '5'
 title: Own 4 Domain Names Now
 excerpt: >-
   I now own four domain names, cbulock.com, bulock.com, cbulock.info, and
-  bulock.info.  There is a great deal right now where you can get <a
-  href="http://www.domainsite.com" title="DomainSite.com">free .info domain
-  names.</a> Apparently this deal is only good until the 9th, so if you want
+  bulock.info.  There is a great deal right now where you can get [free .info domain names.](http://www.domainsite.com "DomainSite.com") Apparently this deal is only good until the 9th, so if you want
   your own domain name, hurry.
 keywords: free domain name
 createdOn: '2004-09-06 22:58:18'
@@ -29,4 +28,4 @@ canonicalRouteEntryId: '202'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I now own four domain names, cbulock.com, bulock.com, cbulock.info, and bulock.info.  There is a great deal right now where you can get <a href="http://www.domainsite.com" title="DomainSite.com">free .info domain names.</a> Apparently this deal is only good until the 9th, so if you want your own domain name, hurry. They don't seem to have this advertised anywhere on their site either, but if you put a .info domain name into your shopping cart, it will show as being free.  This is for one year, and after that the prices are $6.99 a year.   Not sure what I will do with the .info names I acquired, so far they just point to this page.  Well, in the next 24 hours or so, once the names propagate.
+I now own four domain names, cbulock.com, bulock.com, cbulock.info, and bulock.info.  There is a great deal right now where you can get [free .info domain names.](http://www.domainsite.com "DomainSite.com") Apparently this deal is only good until the 9th, so if you want your own domain name, hurry. They don't seem to have this advertised anywhere on their site either, but if you put a .info domain name into your shopping cart, it will show as being free.  This is for one year, and after that the prices are $6.99 a year.   Not sure what I will do with the .info names I acquired, so far they just point to this page.  Well, in the next 24 hours or so, once the names propagate.
