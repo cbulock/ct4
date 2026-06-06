@@ -32,4 +32,4 @@ textMoreIgnored: false
 ---
 Yesterday we celebrated Hailey's 5th birthday party.  There was quite a turnout of family members.  My mom actually came this time and a lot of Nickcole's family that I haven't seen in quite a while were there.  Hannah and Hailey's cousin were also there, so thankfully there were more kids than just her and Brett.  I posted pics on Facebook for this event also:
 
-<a href='http://www.facebook.com/album.php?aid=41921&l=d2512&id=503316760'>Hailey's 5th Birthday Party</a>
+[Hailey's 5th Birthday Party](http://www.facebook.com/album.php?aid=41921&l=d2512&id=503316760)

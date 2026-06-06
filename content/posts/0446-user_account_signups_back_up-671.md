@@ -13,18 +13,18 @@ originalCategoryId: '5'
 title: User Account Signups Back Up
 excerpt: >-
   I've been slowly adding in new stuff to my site and making everything cleaner
-  since it's <a
-  href='http://www.cbulock.com/2011/01/site_rewrite_now_live.html'>launch on Jan
-  13th</a>. Probably the biggest updates so far went up last night and tonight. 
-  I have restored the ability to create user accounts.  This went missing since
-  the new site launched.  It was done sloppily with the old site, but I did it
-  right this time.  If you aren't signed in, you should see a Sign Up link in
-  the top left corner. I don't currently use any type of CAPTCHA, but I do
-  filter sign ups using the <a
-  href='http://www.projecthoneypot.org/services_overview.php'>Project Honeypot
-  HTTP blacklist</a>.  I may restore the simple question and answer based
-  CAPTCHA that I had implemented on the old site for the anonymous comment form.
-  The blacklist seems to be pretty effective though.
+  since it's [launch on Jan
+  13th](http://www.cbulock.com/2011/01/site_rewrite_now_live.html). Probably the
+  biggest updates so far went up last night and tonight.  I have restored the
+  ability to create user accounts.  This went missing since the new site
+  launched.  It was done sloppily with the old site, but I did it right this
+  time.  If you aren't signed in, you should see a Sign Up link in the top left
+  corner. I don't currently use any type of CAPTCHA, but I do filter sign ups
+  using the [Project Honeypot HTTP
+  blacklist](http://www.projecthoneypot.org/services_overview.php).  I may
+  restore the simple question and answer based CAPTCHA that I had implemented on
+  the old site for the anonymous comment form. The blacklist seems to be pretty
+  effective though.
 keywords: website logins login captcha
 createdOn: '2011-03-24 00:12:53'
 modifiedOn: '2011-10-17 15:46:06'
@@ -38,4 +38,4 @@ canonicalRouteEntryId: '671'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I've been slowly adding in new stuff to my site and making everything cleaner since it's <a href='http://www.cbulock.com/2011/01/site_rewrite_now_live.html'>launch on Jan 13th</a>. Probably the biggest updates so far went up last night and tonight.  I have restored the ability to create user accounts.  This went missing since the new site launched.  It was done sloppily with the old site, but I did it right this time.  If you aren't signed in, you should see a Sign Up link in the top left corner. I don't currently use any type of CAPTCHA, but I do filter sign ups using the <a href='http://www.projecthoneypot.org/services_overview.php'>Project Honeypot HTTP blacklist</a>.  I may restore the simple question and answer based CAPTCHA that I had implemented on the old site for the anonymous comment form. The blacklist seems to be pretty effective though.
+I've been slowly adding in new stuff to my site and making everything cleaner since it's [launch on Jan 13th](http://www.cbulock.com/2011/01/site_rewrite_now_live.html). Probably the biggest updates so far went up last night and tonight.  I have restored the ability to create user accounts.  This went missing since the new site launched.  It was done sloppily with the old site, but I did it right this time.  If you aren't signed in, you should see a Sign Up link in the top left corner. I don't currently use any type of CAPTCHA, but I do filter sign ups using the [Project Honeypot HTTP blacklist](http://www.projecthoneypot.org/services_overview.php).  I may restore the simple question and answer based CAPTCHA that I had implemented on the old site for the anonymous comment form. The blacklist seems to be pretty effective though.

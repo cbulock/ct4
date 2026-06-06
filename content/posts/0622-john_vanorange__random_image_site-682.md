@@ -18,7 +18,7 @@ excerpt: >-
   link now that the site is at a nicely mature point in it's development.
 
 
-  <a href='http://johnvanorange.com'>John VanOrange</a>
+  [John VanOrange](http://johnvanorange.com)
 keywords: john vanorange android code github images
 createdOn: '2012-08-16 13:33:04'
 modifiedOn: '2012-08-16 13:34:45'
@@ -34,12 +34,12 @@ textMoreIgnored: false
 ---
 My last post was back in April and was about some work I was doing renaming tons of random images.  That was part of some work I was doing in building a website that hosts tons of random funny images.  Thought I should share that link now that the site is at a nicely mature point in it's development.
 
-<a href='http://johnvanorange.com'>John VanOrange</a>
+[John VanOrange](http://johnvanorange.com)
 
 The idea is simple.  View an image, click the image, or hit the spacebar to view another. If you create an account, you also have the option to save your favorites.
 
-I have also open sourced all the code for this.  It can be viewed on <a href='https://github.com/cbulock/JohnVanOrange'>Github</a>.
+I have also open sourced all the code for this.  It can be viewed on [Github](https://github.com/cbulock/JohnVanOrange).
 
-I've also created an <a href='https://play.google.com/store/apps/details?id=com.johnvanorange.cbulock'>Android app</a> that can be downloaded from the <a href='https://play.google.com/store/apps/details?id=com.johnvanorange.cbulock'>Google Play Store</a>.
+I've also created an [Android app](https://play.google.com/store/apps/details?id=com.johnvanorange.cbulock) that can be downloaded from the [Google Play Store](https://play.google.com/store/apps/details?id=com.johnvanorange.cbulock).
 
-Of course, I've released the <a href='https://github.com/cbulock/JohnVanOrange-Android'>source code</a> for that as well.
+Of course, I've released the [source code](https://github.com/cbulock/JohnVanOrange-Android) for that as well.

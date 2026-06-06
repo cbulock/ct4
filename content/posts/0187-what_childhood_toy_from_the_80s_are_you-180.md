@@ -26,8 +26,7 @@ excerpt: >-
   [What childhood toy from the 80s are
   you?](http://quizilla.com/users/littlelilly/quizzes/What%20childhood%20toy%20from%20the%2080s%20are%20you%3F%20/)
 
-  <p style="font-size:small">brought to you by
-  [Quizilla](http://quizilla.com)</p>
+  brought to you by [Quizilla](http://quizilla.com)
 keywords: toy quiz Etch-a-sketch
 createdOn: '2004-07-11 22:32:06'
 modifiedOn: '2011-10-17 15:46:06'
@@ -48,4 +47,6 @@ artsy type who doesn't need to actually utilize
 a single muscle group in order to have fun.
 Doesn't matter though, you're still cool.
 
-[What childhood toy from the 80s are you?](http://quizilla.com/users/littlelilly/quizzes/What%20childhood%20toy%20from%20the%2080s%20are%20you%3F%20/)<p style="font-size:small">brought to you by [Quizilla](http://quizilla.com)</p>
+[What childhood toy from the 80s are you?](http://quizilla.com/users/littlelilly/quizzes/What%20childhood%20toy%20from%20the%2080s%20are%20you%3F%20/)
+
+brought to you by [Quizilla](http://quizilla.com)

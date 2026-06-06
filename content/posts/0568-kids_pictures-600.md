@@ -32,14 +32,14 @@ textMoreIgnored: false
 ---
 I've uploaded a number of pictures of the kids and such recently to Facebook.  I plan to update their picture album websites and combine them into one,  but I haven't gotten around to doing that.  Once that is done, I will get more pictures up on there as well.  Facebook is just so much easier though.  Anyhow, here are the recent uploads from the past couple months.
 
-<a href='http://www.facebook.com/album.php?aid=49602&l=eb521&id=503316760'>Visit to Grand Haven</a>
+[Visit to Grand Haven](http://www.facebook.com/album.php?aid=49602&l=eb521&id=503316760)
 
-<a href='http://www.facebook.com/album.php?aid=52034&l=4cfcc&id=503316760'>Hailey's First Day of School</a>
+[Hailey's First Day of School](http://www.facebook.com/album.php?aid=52034&l=4cfcc&id=503316760)
 
-<a href='http://www.facebook.com/album.php?aid=53030&l=83c72&id=503316760'>Hailey's First Soccer Game</a>
+[Hailey's First Soccer Game](http://www.facebook.com/album.php?aid=53030&l=83c72&id=503316760)
 
-<a href='http://www.facebook.com/album.php?aid=56645&l=848bb&id=503316760'>Brett's 4th Birthday Party</a>
+[Brett's 4th Birthday Party](http://www.facebook.com/album.php?aid=56645&l=848bb&id=503316760)
 
-<a href='http://www.facebook.com/album.php?aid=56986&l=20435&id=503316760'>Hailey's Artwork</a>
+[Hailey's Artwork](http://www.facebook.com/album.php?aid=56986&l=20435&id=503316760)
 
-<a href='http://www.facebook.com/album.php?aid=58264&l=683ac&id=503316760'>Other Various Soccer Pictures</a>
+[Other Various Soccer Pictures](http://www.facebook.com/album.php?aid=58264&l=683ac&id=503316760)

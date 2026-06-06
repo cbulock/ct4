@@ -12,9 +12,9 @@ categoryId: '8'
 originalCategoryId: '8'
 title: Pebble Smartwatch Review
 excerpt: >-
-  I got a <a href='http://getpebble.com/'>Pebble</a> smartwatch a little over a
-  week ago. I've been asked how I liked it a number of times, so I decided I
-  should probably just write an actual review down.
+  I got a [Pebble](http://getpebble.com/) smartwatch a little over a week ago.
+  I've been asked how I liked it a number of times, so I decided I should
+  probably just write an actual review down.
 
 
   For anyone unaware of what the Pebble is, it is a watch that connects to your
@@ -39,7 +39,7 @@ canonicalRouteEntryId: '689'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I got a <a href='http://getpebble.com/'>Pebble</a> smartwatch a little over a week ago. I've been asked how I liked it a number of times, so I decided I should probably just write an actual review down.
+I got a [Pebble](http://getpebble.com/) smartwatch a little over a week ago. I've been asked how I liked it a number of times, so I decided I should probably just write an actual review down.
 
 For anyone unaware of what the Pebble is, it is a watch that connects to your phone via Bluetooth.  An app runs on the phone and can enable the watch to have enhanced functions beyond what a normal watch would.
 
@@ -54,8 +54,8 @@ The charging is pretty slick. The watch does require a proprietary charger, but 
 
 For the software side of things, I can only say what the experience is like from an Android phone. It sounds like the iPhone software has much more limitations, and the experience with those phones isn't quite as nice. The default software that Pebble has for Android does a lot of what you need. It will allow the watch to display phone calls, texts, Hangout messages, Facebook messages, calendar reminders and possibly a few other notifications. These pop up on the watch, and the watch will vibrate to alert there is a notification.  I find this to work really well.  With my phone being in my pocket, I often don't notice when there is an incoming call or incoming alerts. It is now really easy to not miss these, plus you can see right away who is calling, or if a message is important or not.  For the phone calls, you can even push a button to ignore calls right from the watch.
 
-Thankfully, the default software isn't the only software you have to use.  You can install other apps that can push alerts to the watch.  I installed a free app, <a href='https://play.google.com/store/apps/details?id=com.dattasmoon.pebble.plugin&hl=en'>Pebble Notifier</a>. With that, you can have any notifications from any app on your phone be sent to the watch. You can choose which apps you want. With that, I am able to get any alert I want to show up on my watch.
+Thankfully, the default software isn't the only software you have to use.  You can install other apps that can push alerts to the watch.  I installed a free app, [Pebble Notifier](https://play.google.com/store/apps/details?id=com.dattasmoon.pebble.plugin&hl=en). With that, you can have any notifications from any app on your phone be sent to the watch. You can choose which apps you want. With that, I am able to get any alert I want to show up on my watch.
 
-Beyond the notifications is the watch faces. The watch comes with a few basic ones that are nice, but there are so many more options out there.  For starters, there is a great site, <a href='http://www.mypebblefaces.com/'>My Pebble Faces</a>, that let has tons of options available. I was using some watch faces from there, but then I discovered something even better. <a href='https://play.google.com/store/apps/details?id=com.pennas.pebblecanvas&hl=en'>Canvas for Pebble</a> has the ability to create customized watch faces directly from the phone. It has a number of data layers and you can customize the position and display of each layer.  Currently, I have the date, time, current temperature and phone battery level all displaying on my watch.  You can also optionally have calendar events and the current track playing on your phone show as well.
+Beyond the notifications is the watch faces. The watch comes with a few basic ones that are nice, but there are so many more options out there.  For starters, there is a great site, [My Pebble Faces](http://www.mypebblefaces.com/), that let has tons of options available. I was using some watch faces from there, but then I discovered something even better. [Canvas for Pebble](https://play.google.com/store/apps/details?id=com.pennas.pebblecanvas&hl=en) has the ability to create customized watch faces directly from the phone. It has a number of data layers and you can customize the position and display of each layer.  Currently, I have the date, time, current temperature and phone battery level all displaying on my watch.  You can also optionally have calendar events and the current track playing on your phone show as well.
 
 With a week or so of usage, I'm overall really happy with the watch.  The ability to have notifications readily available is one of the big reason's I was excited about Google Glass. I feel having them on my watch is the next best thing, and it looks less socially awkward.  There are some other smartwatches that will be available in the near future, but this one is really nice as a 1st gen model.

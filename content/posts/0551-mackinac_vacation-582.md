@@ -16,7 +16,7 @@ excerpt: >-
   weekend, Hailey, Brett, Kim and I went up north and stayed in Mackinaw City. 
   The trip was pretty exciting.  This was the first time I had ever taken the
   kids on such a long car ride.  Amazingly, they never slept the whole way up
-  and there were really well behaved in the car.  
+  and there were really well behaved in the car.
 keywords: >-
   mackinac island mackinaw city st ignac castle rock mystery spot bridge lake
   swimming
@@ -38,6 +38,6 @@ The third day we pretty much just did random stuff.  We went to Pirates Adventur
 On the last day, we got up early and checked out of the hotel.  We then made one final trip over the bridge so we could buy some pasties.  We also stopped by Castle Rock and climbed up that.  The kids barely made it up there.  We then departed for home.  I was really happy to get away from work and just the generally day to day schedule that I have to live by.  It was exciting to be able to just do whatever and whenever.  Since most of the trip wasn't really planned out, there was lots of time for just being spontaneous.  I hope I can get some money together and do something like this again in the near future.
 Also, I have pictures of the vacation.  They are currently up on Facebook.
 
-<a href='http://www.facebook.com/album.php?aid=41310&l=7c146&id=503316760'>Day 2 on the Island</a>
+[Day 2 on the Island](http://www.facebook.com/album.php?aid=41310&l=7c146&id=503316760)
 
-<a href='http://www.facebook.com/album.php?aid=41312&l=ee323&id=503316760'>Day's 3 and 4</a>
+[Day's 3 and 4](http://www.facebook.com/album.php?aid=41312&l=ee323&id=503316760)

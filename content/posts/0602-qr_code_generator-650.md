@@ -12,11 +12,11 @@ categoryId: '5'
 originalCategoryId: '5'
 title: QR Code Generator
 excerpt: >-
-  Just wanted to share something I worked on last weekend, a <a
-  href='http://www.cbulock.com/qr/'>QR Code Generator</a>. It doesn't do a whole
-  lot at this point, just makes some basic text and vCard QR Codes.  But, I did
-  want to experiment was jQuery UI and I did some of that with this page.  I
-  think it turned out pretty well overall.
+  Just wanted to share something I worked on last weekend, a [QR Code
+  Generator](http://www.cbulock.com/qr/). It doesn't do a whole lot at this
+  point, just makes some basic text and vCard QR Codes.  But, I did want to
+  experiment was jQuery UI and I did some of that with this page.  I think it
+  turned out pretty well overall.
 keywords: qr code generator jquery ui
 createdOn: '2010-07-29 11:17:34'
 modifiedOn: '2011-10-17 15:46:06'
@@ -30,4 +30,4 @@ canonicalRouteEntryId: '650'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Just wanted to share something I worked on last weekend, a <a href='http://www.cbulock.com/qr/'>QR Code Generator</a>. It doesn't do a whole lot at this point, just makes some basic text and vCard QR Codes.  But, I did want to experiment was jQuery UI and I did some of that with this page.  I think it turned out pretty well overall.
+Just wanted to share something I worked on last weekend, a [QR Code Generator](http://www.cbulock.com/qr/). It doesn't do a whole lot at this point, just makes some basic text and vCard QR Codes.  But, I did want to experiment was jQuery UI and I did some of that with this page.  I think it turned out pretty well overall.

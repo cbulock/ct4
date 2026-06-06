@@ -30,4 +30,4 @@ textMoreIgnored: false
 ---
 I created a page detailing the current state of my phone. Thought people might be curious as to what ROM, kernel and other mods I prefer, so I threw this page together giving that info, and links where to download everything.
 
-Check it out at <a href='http://nexus.cbulock.com'>nexus.cbulock.com</a>.
+Check it out at [nexus.cbulock.com](http://nexus.cbulock.com).

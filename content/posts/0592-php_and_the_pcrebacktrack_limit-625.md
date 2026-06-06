@@ -31,4 +31,4 @@ canonicalRouteEntryId: '625'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Just came across this today. Looks like in PHP 5.2, they decided to add a <a href='http://bugs.php.net/bug.php?id=40846'>100000 byte limit</a> to regular expression matches.  This can stop a lot of searches on long strings, and the worst part is that PHP doesn't throw any error when that limit is reached. If you are using the perl-compatible regular expressions in PHP, you will likely want to change the pcre.backtrack_limit in the php.ini file to something larger than 100000.
+Just came across this today. Looks like in PHP 5.2, they decided to add a [100000 byte limit](http://bugs.php.net/bug.php?id=40846) to regular expression matches.  This can stop a lot of searches on long strings, and the worst part is that PHP doesn't throw any error when that limit is reached. If you are using the perl-compatible regular expressions in PHP, you will likely want to change the pcre.backtrack_limit in the php.ini file to something larger than 100000.

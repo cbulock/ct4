@@ -12,9 +12,8 @@ categoryId: null
 originalCategoryId: null
 title: England's Knife Dilemma
 excerpt: >-
-  <a
-  href='http://go.reuters.com/newsArticle.jhtml?type=oddlyEnoughNews&storyID=12584278&src=rss/oddlyEnoughNews'>Shops
-  still selling knives to children</a>
+  [Shops still selling knives to
+  children](http://go.reuters.com/newsArticle.jhtml?type=oddlyEnoughNews&storyID=12584278&src=rss/oddlyEnoughNews)
 
 
   This link is to an article about the knife problem they are having with kids
@@ -34,6 +33,6 @@ canonicalRouteEntryId: '461'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-<a href='http://go.reuters.com/newsArticle.jhtml?type=oddlyEnoughNews&storyID=12584278&src=rss/oddlyEnoughNews'>Shops still selling knives to children</a>
+[Shops still selling knives to children](http://go.reuters.com/newsArticle.jhtml?type=oddlyEnoughNews&storyID=12584278&src=rss/oddlyEnoughNews)
 
 This link is to an article about the knife problem they are having with kids in England.  I just thought it was interesting because we don't have this issue in the US, but that's because we have a gun problem.  Mainly, it seems not having guns doesn't solve the problem, it just shifts it elsewhere.

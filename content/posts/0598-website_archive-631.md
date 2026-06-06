@@ -12,14 +12,13 @@ categoryId: '5'
 originalCategoryId: '5'
 title: Website Archive
 excerpt: >-
-  Around <a href='http://www.cbulock.com/2004/06/website_ideas.html'>six years
-  ago</a>, I mentioned that I planned to get archived versions of my old website
-  designs online. It only took me six years, but I finally got around to doing
-  it.  I have some <a href='http://www.cbulock.com/archive/'>links and some
-  short summaries</a> posted to three different historical sites.  One funny
-  thing I noted, on the oldest page which dates to around 1997-1998, there is a
-  guestbook link that is still active.  The last post was from my brother 11
-  years ago lol.
+  Around [six years ago](http://www.cbulock.com/2004/06/website_ideas.html), I
+  mentioned that I planned to get archived versions of my old website designs
+  online. It only took me six years, but I finally got around to doing it.  I
+  have some [links and some short summaries](http://www.cbulock.com/archive/)
+  posted to three different historical sites.  One funny thing I noted, on the
+  oldest page which dates to around 1997-1998, there is a guestbook link that is
+  still active.  The last post was from my brother 11 years ago lol.
 keywords: website archive omega's lair cbulock.com
 createdOn: '2010-05-10 21:13:33'
 modifiedOn: '2011-10-17 15:46:06'
@@ -33,4 +32,4 @@ canonicalRouteEntryId: '631'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-Around <a href='http://www.cbulock.com/2004/06/website_ideas.html'>six years ago</a>, I mentioned that I planned to get archived versions of my old website designs online. It only took me six years, but I finally got around to doing it.  I have some <a href='http://www.cbulock.com/archive/'>links and some short summaries</a> posted to three different historical sites.  One funny thing I noted, on the oldest page which dates to around 1997-1998, there is a guestbook link that is still active.  The last post was from my brother 11 years ago lol.
+Around [six years ago](http://www.cbulock.com/2004/06/website_ideas.html), I mentioned that I planned to get archived versions of my old website designs online. It only took me six years, but I finally got around to doing it.  I have some [links and some short summaries](http://www.cbulock.com/archive/) posted to three different historical sites.  One funny thing I noted, on the oldest page which dates to around 1997-1998, there is a guestbook link that is still active.  The last post was from my brother 11 years ago lol.

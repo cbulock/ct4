@@ -12,17 +12,15 @@ categoryId: '6'
 originalCategoryId: '6'
 title: Palm Pre Review Update
 excerpt: >-
-  I have an updated review posted for the Palm Pre on <a
-  href='http://www.gadgetnutz.com'>GadgetNutz</a>. It's mostly the same review I
-  had <a href='http://www.cbulock.com/2009/06/palm_pre_review.html'>posted
-  here</a> previously, but it's updated with my <a
-  href='http://www.gadgetnutz.com/2009/07/09/palm-pre-review-one-month-in/'>one
-  month impressions</a>.
+  I have an updated review posted for the Palm Pre on
+  [GadgetNutz](http://www.gadgetnutz.com). It's mostly the same review I had
+  [posted here](http://www.cbulock.com/2009/06/palm_pre_review.html) previously,
+  but it's updated with my [one month
+  impressions](http://www.gadgetnutz.com/2009/07/09/palm-pre-review-one-month-in/).
 
   Additionally, I don't post on this blog near as much as I used to.  I mostly
-  just post updates on Twitter, so you can <a
-  href='http://twitter.com/cameronb'>follow me</a> to get the latest info on
-  there.
+  just post updates on Twitter, so you can [follow
+  me](http://twitter.com/cameronb) to get the latest info on there.
 keywords: palm pre review gadgetnutz twitter
 createdOn: '2009-07-17 16:42:06'
 modifiedOn: '2011-10-17 15:46:06'
@@ -36,5 +34,5 @@ canonicalRouteEntryId: '619'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I have an updated review posted for the Palm Pre on <a href='http://www.gadgetnutz.com'>GadgetNutz</a>. It's mostly the same review I had <a href='http://www.cbulock.com/2009/06/palm_pre_review.html'>posted here</a> previously, but it's updated with my <a href='http://www.gadgetnutz.com/2009/07/09/palm-pre-review-one-month-in/'>one month impressions</a>.
-Additionally, I don't post on this blog near as much as I used to.  I mostly just post updates on Twitter, so you can <a href='http://twitter.com/cameronb'>follow me</a> to get the latest info on there.
+I have an updated review posted for the Palm Pre on [GadgetNutz](http://www.gadgetnutz.com). It's mostly the same review I had [posted here](http://www.cbulock.com/2009/06/palm_pre_review.html) previously, but it's updated with my [one month impressions](http://www.gadgetnutz.com/2009/07/09/palm-pre-review-one-month-in/).
+Additionally, I don't post on this blog near as much as I used to.  I mostly just post updates on Twitter, so you can [follow me](http://twitter.com/cameronb) to get the latest info on there.

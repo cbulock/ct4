@@ -32,6 +32,6 @@ isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
 I've now gotten fairly far along in the progress of my new website. It's to the point now where it's fully functional.  There are still some pieces missing that I need to get done before I replace my existing site with the new one. I hope to get it integrated with Facebook so that you can login with Facebook for comments. I may also allow logging in with Twitter at some point, but that will be further off.
-Beyond that, I just need to add some of the features like the links that are across the top of the page.  If anyone is interested in checking out the new look, I have it online at <a href='http://ct3.cbulock.com'>http://ct3.cbulock.com</a>.
+Beyond that, I just need to add some of the features like the links that are across the top of the page.  If anyone is interested in checking out the new look, I have it online at [http://ct3.cbulock.com](http://ct3.cbulock.com).
 
 Since that is still in development, if it is down for you, that means I may be working on it.  Feel free to leave any feedback.

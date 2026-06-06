@@ -13,11 +13,11 @@ originalCategoryId: '15'
 title: Database Admin PHP Class
 excerpt: >-
   I've got around to releasing a PHP class that I use for MySQL database
-  administration.  It's released under the <a
-  href='http://www.gnu.org/licenses/lgpl.txt'>LGPL</a>.  I plan to do a more
-  detailed write-up about this soon.  Basically, this class will allow you to
-  add, edit, delete, and cross-reference data from databases and requires only
-  minutes to setup with basically no HTML to do.
+  administration.  It's released under the
+  [LGPL](http://www.gnu.org/licenses/lgpl.txt).  I plan to do a more detailed
+  write-up about this soon.  Basically, this class will allow you to add, edit,
+  delete, and cross-reference data from databases and requires only minutes to
+  setup with basically no HTML to do.
 keywords: php programming class database MySQL admin
 createdOn: '2007-05-11 00:10:54'
 modifiedOn: '2011-10-17 15:46:06'
@@ -31,7 +31,7 @@ canonicalRouteEntryId: '523'
 isCanonicalRouteEntry: true
 textMoreIgnored: false
 ---
-I've got around to releasing a PHP class that I use for MySQL database administration.  It's released under the <a href='http://www.gnu.org/licenses/lgpl.txt'>LGPL</a>.  I plan to do a more detailed write-up about this soon.  Basically, this class will allow you to add, edit, delete, and cross-reference data from databases and requires only minutes to setup with basically no HTML to do.
+I've got around to releasing a PHP class that I use for MySQL database administration.  It's released under the [LGPL](http://www.gnu.org/licenses/lgpl.txt).  I plan to do a more detailed write-up about this soon.  Basically, this class will allow you to add, edit, delete, and cross-reference data from databases and requires only minutes to setup with basically no HTML to do.
 
 The code can be found here:
-<a href='http://www.cbulock.com/dataadmin/'>Database Admin Class</a>
+[Database Admin Class](http://www.cbulock.com/dataadmin/)
