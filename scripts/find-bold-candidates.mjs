@@ -50,7 +50,6 @@ const main = () => {
 			const excerpt = String(data.excerpt ?? '');
 			return { fileName, data, content, excerpt };
 		})
-		.filter((post) => (post.data.contentFormat ?? 'legacy') === 'legacy')
 		.filter((post) => hasBold(post.content) || hasBold(post.excerpt))
 		.filter((post) => hasOnlyPlainBoldTags(post.content))
 		.filter((post) => hasOnlyPlainBoldTags(post.excerpt))

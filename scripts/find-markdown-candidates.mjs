@@ -33,7 +33,6 @@ const main = async () => {
 	const limit = Number.isFinite(Number(providedLimit)) ? Number(providedLimit) : 25;
 	const posts = await loadPosts();
 	const candidates = posts
-		.filter((post) => (post.contentFormat ?? 'legacy') === 'legacy')
 		.filter((post) => !post.textMoreIgnored)
 		.filter((post) => !HTML_TAG_PATTERN.test(post.content))
 		.filter((post) => !HTML_COMMENT_PATTERN.test(post.content))

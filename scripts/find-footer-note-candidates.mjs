@@ -54,7 +54,6 @@ const main = () => {
 				excerpt,
 			};
 		})
-		.filter((post) => (post.data.contentFormat ?? 'legacy') === 'legacy')
 		.filter((post) => {
 			const result = hasFooterNotes(post.content) || hasFooterNotes(post.excerpt);
 			resetFooterNotePattern();

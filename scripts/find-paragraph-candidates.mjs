@@ -44,7 +44,6 @@ const main = () => {
 				excerpt,
 			};
 		})
-		.filter((post) => (post.data.contentFormat ?? 'legacy') === 'legacy')
 		.filter((post) => hasParagraphs(post.content) || hasParagraphs(post.excerpt))
 		.filter((post) => hasOnlyPlainParagraphTags(post.content))
 		.filter((post) => hasOnlyPlainParagraphTags(post.excerpt))

@@ -49,7 +49,6 @@ const main = () => {
 
 			return { fileName, data, content, excerpt };
 		})
-		.filter((post) => (post.data.contentFormat ?? 'legacy') === 'legacy')
 		.filter((post) => hasBreaks(post.content) || hasBreaks(post.excerpt))
 		.filter((post) => !hasJavascriptAnchors(post.content))
 		.filter((post) => !hasJavascriptAnchors(post.excerpt))
