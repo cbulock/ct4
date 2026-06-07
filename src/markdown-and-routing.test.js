@@ -67,7 +67,7 @@ describe('markdown rendering', () => {
 
 	test('renders fenced code blocks', () => {
 		expect(renderMarkdownContent('```\nline 1\nline 2\n```')).toBe(
-			'<pre class="code-block"><code class="code-block__code">line 1\nline 2\n</code></pre>\n',
+			'<cindor-code-block>line 1\nline 2\n</cindor-code-block>\n',
 		);
 	});
 

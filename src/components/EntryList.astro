@@ -11,7 +11,7 @@ const { entries } = Astro.props;
 		return (
 			<li class="entry-list__item">
 				<article class="post-card">
-					<div class="surface-card">
+					<cindor-card>
 						<div class="surface-pad">
 							<div class="card-content card-content--compact">
 								<div class="meta-row">
@@ -19,7 +19,7 @@ const { entries } = Astro.props;
 										{formatShortDate(entry.createdOn)}
 									</time>
 									{category && (
-										<span class="ui-badge ui-badge--accent">{category.label}</span>
+										<cindor-badge tone="accent">{category.label}</cindor-badge>
 									)}
 								</div>
 								<h2 class="entry-list__title">
@@ -27,7 +27,7 @@ const { entries } = Astro.props;
 								</h2>
 							</div>
 						</div>
-					</div>
+					</cindor-card>
 				</article>
 			</li>
 		);

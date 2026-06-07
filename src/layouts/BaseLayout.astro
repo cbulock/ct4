@@ -99,26 +99,41 @@ const currentYear = new Date().getFullYear();
 			})();
 		</script>
 		<title>{title}</title>
+		<script>
+			import 'cindor-ui-core/register';
+		</script>
 	</head>
 	<body>
-		<div class="site-shell">
-			<header class="site-shell__masthead">
-				<div class="site-shell__masthead-inner">
-					<div class="masthead-row">
-						<a class="site-brand" href="/">Cameron&apos;s Thoughts</a>
-						<div class="masthead-actions">
-							<Search />
-							<a class="site-nav-link" href="/archives">Archives</a>
+		<cindor-provider
+			theme="system"
+			theme-family="default"
+			primary-color="#425664"
+		>
+			<div class="site-shell">
+				<cindor-layout>
+					<cindor-layout-header>
+						<div class="site-shell__masthead">
+							<div class="site-shell__masthead-inner">
+								<div class="masthead-row">
+									<a class="site-brand" href="/">Cameron&apos;s Thoughts</a>
+									<div class="masthead-actions">
+										<Search />
+										<cindor-link class="site-nav-link" href="/archives">Archives</cindor-link>
+									</div>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-			</header>
-			<main class:list={['page-shell__inner', shellWidth === 'wide' && 'page-shell__inner--wide']}>
-				<slot />
-				<footer class="site-footer">
-					<p>{`©2003-${currentYear} Cameron Bulock`}</p>
-				</footer>
-			</main>
+					</cindor-layout-header>
+					<cindor-layout-content>
+						<div class:list={['page-shell__inner', shellWidth === 'wide' && 'page-shell__inner--wide']}>
+							<slot />
+							<footer class="site-footer">
+								<p>{`©2003-${currentYear} Cameron Bulock`}</p>
+							</footer>
+						</div>
+					</cindor-layout-content>
+				</cindor-layout>
 			</div>
+		</cindor-provider>
 	</body>
 </html>

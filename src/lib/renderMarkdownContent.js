@@ -44,9 +44,9 @@ markdownRenderer.use(markdownItContainer, 'youtube', {
 markdownRenderer.renderer.rules.fence = (tokens, index) => {
 	const token = tokens[index];
 	const language = token.info.trim().split(/\s+/u)[0];
-	const languageClass = language ? ` class="code-block__code language-${escapeHtml(language)}"` : ' class="code-block__code"';
+	const languageAttribute = language ? ` language="${escapeHtml(language)}"` : '';
 
-	return `<pre class="code-block"><code${languageClass}>${escapeHtml(token.content)}</code></pre>\n`;
+	return `<cindor-code-block${languageAttribute}>${escapeHtml(token.content)}</cindor-code-block>\n`;
 };
 
 const renderMarkdownContent = (content = '') => markdownRenderer.render(String(content));

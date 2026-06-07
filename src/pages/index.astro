@@ -10,7 +10,7 @@ const recentEntries = getCanonicalEntries().slice(1).slice(-5).reverse();
 	<div class="feed-stack">
 		{recentEntries.map((entry) => <Excerpt entry={entry} />)}
 		<div>
-			<a class="site-nav-link" href="/archives">View Older Posts</a>
+			<cindor-link class="site-nav-link" href="/archives">View Older Posts</cindor-link>
 		</div>
 	</div>
 </BaseLayout>

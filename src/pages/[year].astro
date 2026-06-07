@@ -19,8 +19,8 @@ const { entries, year } = Astro.props;
 ---
 
 <BaseLayout title={`${year} - Cameron's Thoughts`}>
-	<div class="flow-stack" data-gap="4">
+	<cindor-stack gap="4">
 		<h1 class="surface-heading">{year}</h1>
 		<EntryList entries={entries} />
-	</div>
+	</cindor-stack>
 </BaseLayout>
