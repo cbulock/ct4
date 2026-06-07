@@ -12,14 +12,14 @@ const excerptPreview = getExcerptPreview(entry.excerpt);
 ---
 
 <article class="post-card">
-	<cindor-card>
+	<div class="surface-card">
 		<div class="surface-pad surface-pad--lg">
 			<div class="card-content">
 				<div class="meta-row">
 					<time class="post-meta" datetime={entry.createdOn}>
 						{formatShortDate(entry.createdOn)}
 					</time>
-					{category && <cindor-badge tone="accent">{category.label}</cindor-badge>}
+					{category && <span class="ui-badge ui-badge--accent">{category.label}</span>}
 				</div>
 				<h2 class="excerpt__title">
 					<a href={getEntryPath(entry)}>{entry.title}</a>
@@ -27,5 +27,5 @@ const excerptPreview = getExcerptPreview(entry.excerpt);
 				{excerptPreview && <p class="post-preview">{excerptPreview}</p>}
 			</div>
 		</div>
-	</cindor-card>
+	</div>
 </article>

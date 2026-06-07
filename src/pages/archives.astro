@@ -21,40 +21,40 @@ const categories = getCategories()
 	<div class="archive-shell">
 		<h1 class="surface-heading">Archives</h1>
 		<div class="archive-grid">
-			<cindor-card>
+			<section class="surface-card">
 				<div class="surface-pad">
-					<cindor-stack gap="3">
+					<div class="flow-stack" data-gap="3">
 						<h2 class="archive-section__heading">By year</h2>
 						<ul class="archive-list" role="list">
 							{years.map((year) => (
 								<li class="archive-list__item">
 									<a class="archive-list__link" href={`/${year}`}>
 										<span>{year}</span>
-										<cindor-badge>{getEntriesForYear(year).length}</cindor-badge>
+										<span class="ui-badge">{getEntriesForYear(year).length}</span>
 									</a>
 								</li>
 							))}
 						</ul>
-					</cindor-stack>
+					</div>
 				</div>
-			</cindor-card>
-			<cindor-card>
+			</section>
+			<section class="surface-card">
 				<div class="surface-pad">
-					<cindor-stack gap="3">
+					<div class="flow-stack" data-gap="3">
 						<h2 class="archive-section__heading">By category</h2>
 						<ul class="archive-list" role="list">
 							{categories.map((category) => (
 								<li class="archive-list__item">
 									<a class="archive-list__link" href={`/cat/${category.basename}`}>
 										<span>{category.label}</span>
-										<cindor-badge>{category.entryCount}</cindor-badge>
+										<span class="ui-badge">{category.entryCount}</span>
 									</a>
 								</li>
 							))}
 						</ul>
-					</cindor-stack>
+					</div>
 				</div>
-			</cindor-card>
+			</section>
 		</div>
 	</div>
 </BaseLayout>

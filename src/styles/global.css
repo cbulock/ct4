@@ -167,6 +167,58 @@ img {
 	text-decoration: none;
 }
 
+.surface-card {
+	border: 1px solid var(--border);
+	border-radius: var(--radius-lg);
+	background: var(--surface);
+	box-shadow: var(--shadow-sm);
+}
+
+.ui-badge {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 1.75rem;
+	max-width: 100%;
+	padding: 0.125rem var(--space-2);
+	border: 1px solid var(--border);
+	border-radius: var(--radius-full);
+	background: var(--bg-subtle);
+	color: var(--fg);
+	box-sizing: border-box;
+	font-family: var(--font-mono);
+	font-size: var(--text-caption-size);
+	font-weight: var(--weight-semibold);
+	line-height: var(--text-caption-leading);
+	letter-spacing: var(--tracking-mono);
+	text-transform: uppercase;
+	white-space: normal;
+	overflow-wrap: anywhere;
+	text-align: center;
+}
+
+.ui-badge--accent {
+	border-color: var(--accent);
+	background: var(--accent-muted);
+	color: var(--accent);
+}
+
+.flow-stack {
+	display: grid;
+}
+
+.flow-stack[data-gap='2'] {
+	gap: var(--space-3);
+}
+
+.flow-stack[data-gap='3'] {
+	gap: var(--space-4);
+}
+
+.flow-stack[data-gap='4'] {
+	gap: var(--space-5);
+}
+
 .card-content {
 	display: grid;
 	gap: var(--space-5);
@@ -348,7 +400,7 @@ img {
 }
 
 .markdown-content pre,
-.markdown-content cindor-code-block {
+.markdown-content .code-block {
 	display: block;
 	margin-block: 1.35rem;
 	max-width: 100%;
@@ -357,6 +409,21 @@ img {
 .markdown-content pre {
 	overflow-x: auto;
 	max-width: 100%;
+	padding: 1rem 1.15rem;
+	border: 1px solid var(--border-strong);
+	border-radius: var(--radius-lg);
+	background: var(--surface-inverse);
+	color: var(--bg);
+	box-shadow: var(--shadow-sm);
+}
+
+.markdown-content .code-block__code {
+	display: block;
+	font-family: var(--font-mono);
+	font-size: 0.95rem;
+	font-weight: var(--weight-code);
+	line-height: 1.65;
+	white-space: pre;
 }
 
 .markdown-content :is(p, li, blockquote) > code {

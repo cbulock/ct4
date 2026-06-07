@@ -39,8 +39,8 @@ const formattedTime = new Date(entry.createdOn).toLocaleTimeString('en-us');
 ---
 
 <BaseLayout title={`${entry.title} - Cameron's Thoughts`}>
-	<cindor-stack gap="4">
-		<cindor-card>
+	<div class="flow-stack" data-gap="4">
+		<section class="surface-card">
 			<div class="surface-pad surface-pad--article">
 				<article>
 					<header class="article-header">
@@ -48,24 +48,24 @@ const formattedTime = new Date(entry.createdOn).toLocaleTimeString('en-us');
 							<time class="post-meta" datetime={entry.createdOn}>
 								{formatShortDate(entry.createdOn)}
 							</time>
-							{category && <cindor-badge tone="accent">{category.label}</cindor-badge>}
+							{category && <span class="ui-badge ui-badge--accent">{category.label}</span>}
 						</div>
 						<h1 class="surface-heading">{entry.title}</h1>
 					</header>
 					<MarkdownContent content={entry.body} />
 				</article>
 			</div>
-		</cindor-card>
-		<cindor-card>
+		</section>
+		<section class="surface-card">
 			<div class="surface-pad">
-				<cindor-stack class="meta-block" gap="2">
+				<div class="flow-stack meta-block" data-gap="2">
 					{category ? (
 						<p class="entry-meta">Category: <a href={`/cat/${category.basename}`}>{category.label}</a></p>
 					) : (
 						<p class="entry-meta">Category: Uncategorized</p>
 					)}
 					<p class="entry-meta">{`Posted on ${formattedDate} at ${formattedTime}`}</p>
-				</cindor-stack>
+				</div>
 				{entry.canonicalRouteEntryId !== entry.entryId && (
 					<p class="entry-note">
 						This entry shares a legacy path with another post and resolves to{' '}
@@ -73,6 +73,6 @@ const formattedTime = new Date(entry.createdOn).toLocaleTimeString('en-us');
 					</p>
 				)}
 			</div>
-		</cindor-card>
-	</cindor-stack>
+		</section>
+	</div>
 </BaseLayout>
