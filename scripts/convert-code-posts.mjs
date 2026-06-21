@@ -16,7 +16,7 @@ const main = async () => {
 		const filePath = path.isAbsolute(providedPath) ? providedPath : path.join(ROOT_DIR, providedPath);
 		const source = await fs.readFile(filePath, 'utf8');
 		const parsed = matter(source);
-		const nextData = { ...parsed.data, contentFormat: 'markdown' };
+		const nextData = { ...parsed.data };
 
 		if (typeof nextData.excerpt === 'string' && nextData.excerpt) {
 			nextData.excerpt = convertSupportedHtmlToMarkdown(nextData.excerpt);

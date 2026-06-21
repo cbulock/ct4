@@ -62,7 +62,6 @@ const main = () => {
 			const excerpt = String(data.excerpt ?? '');
 			return { fileName, data, content, excerpt };
 		})
-		.filter((post) => (post.data.contentFormat ?? 'legacy') === 'legacy')
 		.filter((post) => hasCodeMarkup(post.content) || hasCodeMarkup(post.excerpt))
 		.filter((post) => hasOnlyPlainPreTags(post.content))
 		.filter((post) => hasOnlyPlainPreTags(post.excerpt))

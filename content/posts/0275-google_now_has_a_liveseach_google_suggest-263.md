@@ -1,5 +1,4 @@
 ---
-contentFormat: markdown
 sortOrder: 275
 entryId: '263'
 blogId: '2'

@@ -55,7 +55,6 @@ const main = () => {
 				excerpt,
 			};
 		})
-		.filter((post) => (post.data.contentFormat ?? 'legacy') === 'legacy')
 		.filter((post) => hasBlockquotes(post.content) || hasBlockquotes(post.excerpt))
 		.filter((post) => hasOnlyPlainBlockquoteTags(post.content))
 		.filter((post) => hasOnlyPlainBlockquoteTags(post.excerpt))

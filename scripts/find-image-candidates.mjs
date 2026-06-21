@@ -39,7 +39,6 @@ const main = () => {
 				imageSources,
 			};
 		})
-		.filter((post) => (post.data.contentFormat ?? 'legacy') === 'legacy')
 		.filter((post) => post.imageSources.length > 0)
 		.filter((post) => !HTML_TAG_PATTERN.test(stripLinksAndImages(post.content)))
 		.map((post) => ({

@@ -50,7 +50,6 @@ const main = () => {
 			const excerpt = String(data.excerpt ?? '');
 			return { fileName, data, content, excerpt };
 		})
-		.filter((post) => (post.data.contentFormat ?? 'legacy') === 'legacy')
 		.filter((post) => hasH4(post.content) || hasH4(post.excerpt))
 		.filter((post) => hasOnlyPlainH4Tags(post.content))
 		.filter((post) => hasOnlyPlainH4Tags(post.excerpt))
