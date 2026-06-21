@@ -10,6 +10,8 @@
 
 # production
 /build
+/dist
+/.astro
 
 # misc
 .DS_Store
@@ -23,3 +25,5 @@ yarn-debug.log*
 yarn-error.log*
 
 thumbs
+public/search-index.json
+ux-archives.png

@@ -1,0 +1,145 @@
+<div class="site-search" data-site-search>
+	<label class="site-search__label" for="site-search-input">Search posts</label>
+	<div class="site-search__control">
+		<input
+			id="site-search-input"
+			class="site-search__input"
+			type="search"
+			name="search"
+			placeholder="Search posts"
+			autocomplete="off"
+			spellcheck="false"
+			minlength="3"
+			data-site-search-input
+		/>
+		<span class="site-search__icon" aria-hidden="true">⌕</span>
+	</div>
+	<div class="site-search__results" hidden data-site-search-results>
+		<p class="site-search__status" data-site-search-status></p>
+		<ul class="site-search__list" role="list" data-site-search-list></ul>
+	</div>
+</div>
+
+<script>
+	const searchRoot = document.querySelector('[data-site-search]');
+
+	if (searchRoot) {
+		const searchInput = searchRoot.querySelector('[data-site-search-input]');
+		const searchResults = searchRoot.querySelector('[data-site-search-results]');
+		const searchStatus = searchRoot.querySelector('[data-site-search-status]');
+		const searchList = searchRoot.querySelector('[data-site-search-list]');
+		let searchIndexPromise;
+
+		const escapeHtml = (value) =>
+			value
+				.replace(/&/g, '&amp;')
+				.replace(/</g, '&lt;')
+				.replace(/>/g, '&gt;')
+				.replace(/"/g, '&quot;')
+				.replace(/'/g, '&#39;');
+
+		const setResultsHidden = (hidden) => {
+			searchResults.hidden = hidden;
+		};
+
+		const clearResults = () => {
+			searchStatus.textContent = '';
+			searchList.innerHTML = '';
+			setResultsHidden(true);
+		};
+
+		const loadSearchIndex = () => {
+			if (!searchIndexPromise) {
+				searchIndexPromise = fetch('/search-index.json')
+					.then((response) => response.json())
+					.then((entries) =>
+						entries.map((entry) => ({
+							...entry,
+							bodyText: entry.body.toLowerCase(),
+							keywordsText: entry.keywords.toLowerCase(),
+							titleText: entry.title.toLowerCase(),
+						})),
+					)
+					.catch(() => []);
+			}
+
+			return searchIndexPromise;
+		};
+
+		const renderResults = (results, term) => {
+			if (!results.length) {
+				searchStatus.textContent = `No results for "${term}"`;
+				searchList.innerHTML = '';
+				setResultsHidden(false);
+				return;
+			}
+
+			searchStatus.textContent = `${results.length} result${results.length === 1 ? '' : 's'}`;
+			searchList.innerHTML = results
+				.map(
+					(result) =>
+						`<li class="site-search__item"><a class="site-search__link" href="${result.path}">${escapeHtml(result.title)}</a></li>`,
+				)
+				.join('');
+			setResultsHidden(false);
+		};
+
+		const runSearch = async (term) => {
+			const normalizedTerm = term.trim().toLowerCase();
+
+			if (normalizedTerm.length < 3) {
+				clearResults();
+				return;
+			}
+
+			searchStatus.textContent = 'Searching...';
+			setResultsHidden(false);
+
+			const index = await loadSearchIndex();
+			const results = index
+				.map((entry) => {
+					const score =
+						(entry.titleText.includes(normalizedTerm) ? 4 : 0) +
+						(entry.keywordsText.includes(normalizedTerm) ? 2 : 0) +
+						(entry.bodyText.includes(normalizedTerm) ? 1 : 0);
+
+					return { ...entry, score };
+				})
+				.filter((entry) => entry.score > 0)
+				.sort((left, right) => {
+					if (right.score !== left.score) {
+						return right.score - left.score;
+					}
+
+					return right.sortOrder - left.sortOrder;
+				})
+				.slice(0, 8);
+
+			renderResults(results, term.trim());
+		};
+
+		searchInput.addEventListener('focus', () => {
+			loadSearchIndex();
+			if (searchInput.value.trim().length >= 3) {
+				runSearch(searchInput.value);
+			}
+		});
+
+		searchInput.addEventListener('input', (event) => {
+			runSearch(event.target.value);
+		});
+
+		searchInput.addEventListener('keydown', (event) => {
+			if (event.key === 'Escape') {
+				searchInput.value = '';
+				clearResults();
+			}
+		});
+
+		document.addEventListener('click', (event) => {
+			if (!searchRoot.contains(event.target)) {
+				clearResults();
+			}
+		});
+	}
+</script>

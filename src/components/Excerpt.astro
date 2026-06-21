@@ -1,0 +1,31 @@
+---
+import {
+	formatShortDate,
+	getCategoryById,
+	getEntryPath,
+	getExcerptPreview,
+} from '../lib/content';
+
+const { entry } = Astro.props;
+const category = entry.categoryId ? getCategoryById(entry.categoryId) : null;
+const excerptPreview = getExcerptPreview(entry.excerpt);
+---
+
+<article class="post-card">
+	<cindor-card>
+		<div class="surface-pad surface-pad--lg">
+			<div class="card-content">
+				<div class="meta-row">
+					<time class="post-meta" datetime={entry.createdOn}>
+						{formatShortDate(entry.createdOn)}
+					</time>
+					{category && <cindor-badge tone="accent">{category.label}</cindor-badge>}
+				</div>
+				<h2 class="excerpt__title">
+					<a href={getEntryPath(entry)}>{entry.title}</a>
+				</h2>
+				{excerptPreview && <p class="post-preview">{excerptPreview}</p>}
+			</div>
+		</div>
+	</cindor-card>
+</article>
