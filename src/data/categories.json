@@ -1,0 +1,130 @@
+[
+  {
+    "sortOrder": 1,
+    "id": "1",
+    "label": "Family",
+    "basename": "family",
+    "description": "Family related posts",
+    "parent": "0"
+  },
+  {
+    "sortOrder": 2,
+    "id": "2",
+    "label": "PDA's",
+    "basename": "pdas",
+    "description": "PalmOS and any other PDA related postings.",
+    "parent": null
+  },
+  {
+    "sortOrder": 3,
+    "id": "3",
+    "label": "Work",
+    "basename": "work",
+    "description": "Employment and it's adventures ",
+    "parent": null
+  },
+  {
+    "sortOrder": 4,
+    "id": "4",
+    "label": "Personal",
+    "basename": "personal",
+    "description": "Cameron and anything related to me.",
+    "parent": null
+  },
+  {
+    "sortOrder": 5,
+    "id": "5",
+    "label": "Website",
+    "basename": "website",
+    "description": "Posts related to this website, Movable Type, and web design in general.",
+    "parent": null
+  },
+  {
+    "sortOrder": 6,
+    "id": "6",
+    "label": "Cell Phone",
+    "basename": "cell_phone",
+    "description": "Anything related to cell phones",
+    "parent": null
+  },
+  {
+    "sortOrder": 7,
+    "id": "7",
+    "label": "Computers",
+    "basename": "computers",
+    "description": "Computers and computer related posts",
+    "parent": null
+  },
+  {
+    "sortOrder": 8,
+    "id": "8",
+    "label": "Misc. Technology",
+    "basename": "misc_technology",
+    "description": "Tech posts that don't fit anywhere else.",
+    "parent": null
+  },
+  {
+    "sortOrder": 9,
+    "id": "9",
+    "label": "Politics",
+    "basename": "politics",
+    "description": "Political posts",
+    "parent": null
+  },
+  {
+    "sortOrder": 10,
+    "id": "10",
+    "label": "DirecTV / TiVo",
+    "basename": "directv_tivo",
+    "description": "DirecTV and Tivo related posts",
+    "parent": null
+  },
+  {
+    "sortOrder": 11,
+    "id": "11",
+    "label": "Gmail",
+    "basename": "gmail",
+    "description": "Gmail is the greatest mail system created to date.  Anything related to that is posted here.",
+    "parent": null
+  },
+  {
+    "sortOrder": 12,
+    "id": "12",
+    "label": "Gaming",
+    "basename": "gaming",
+    "description": "Video Games and related subjects",
+    "parent": null
+  },
+  {
+    "sortOrder": 13,
+    "id": "13",
+    "label": "Browsers",
+    "basename": "browsers",
+    "description": "Web broswer related posts, IE, Firefox, Opera, Chrome and more.",
+    "parent": null
+  },
+  {
+    "sortOrder": 14,
+    "id": "14",
+    "label": "Pictures",
+    "basename": "pictures",
+    "description": null,
+    "parent": null
+  },
+  {
+    "sortOrder": 15,
+    "id": "15",
+    "label": "Programming",
+    "basename": "programming",
+    "description": null,
+    "parent": null
+  },
+  {
+    "sortOrder": 16,
+    "id": "16",
+    "label": "Reviews",
+    "basename": "reviews",
+    "description": null,
+    "parent": null
+  }
+]

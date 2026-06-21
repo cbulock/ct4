@@ -1,0 +1,35 @@
+---
+import { formatShortDate, getCategoryById, getEntryPath } from '../lib/content';
+
+const { entries } = Astro.props;
+---
+
+<ul class="entry-list" role="list">
+	{entries.map((entry) => {
+		const category = entry.categoryId ? getCategoryById(entry.categoryId) : null;
+
+		return (
+			<li class="entry-list__item">
+				<article class="post-card">
+					<cindor-card>
+						<div class="surface-pad">
+							<div class="card-content card-content--compact">
+								<div class="meta-row">
+									<time class="post-meta" datetime={entry.createdOn}>
+										{formatShortDate(entry.createdOn)}
+									</time>
+									{category && (
+										<cindor-badge tone="accent">{category.label}</cindor-badge>
+									)}
+								</div>
+								<h2 class="entry-list__title">
+									<a href={getEntryPath(entry)}>{entry.title}</a>
+								</h2>
+							</div>
+						</div>
+					</cindor-card>
+				</article>
+			</li>
+		);
+	})}
+</ul>
