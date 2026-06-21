@@ -1,0 +1,8 @@
+---
+import { renderMarkdownContent } from '../lib/renderMarkdownContent';
+
+const { content = '', className = '' } = Astro.props;
+const renderedContent = renderMarkdownContent(content);
+---
+
+<div class:list={['markdown-content', className]} set:html={renderedContent} />
