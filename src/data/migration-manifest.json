@@ -1,0 +1,56 @@
+{
+  "entryCount": 630,
+  "categoryCount": 16,
+  "canonicalRouteCount": 629,
+  "duplicateRoutes": [
+    {
+      "routeKey": "2005/02/what_im_reading",
+      "entryId": "288",
+      "canonicalRouteEntryId": "287"
+    }
+  ],
+  "entriesWithTextMore": [
+    {
+      "entryId": "64",
+      "basename": "latest_updates"
+    },
+    {
+      "entryId": "275",
+      "basename": "_dont_blame_me"
+    },
+    {
+      "entryId": "253",
+      "basename": "tivo_to_add_ban"
+    },
+    {
+      "entryId": "255",
+      "basename": "500"
+    },
+    {
+      "entryId": "265",
+      "basename": "officialwire_ti"
+    },
+    {
+      "entryId": "273",
+      "basename": "times_are_achan"
+    }
+  ],
+  "zeroCategoryEntries": [
+    {
+      "entryId": "679",
+      "basename": "kids_have_some_interesting_thoughts"
+    },
+    {
+      "entryId": "680",
+      "basename": "kiva_and_paypal"
+    },
+    {
+      "entryId": "686",
+      "basename": "ive_been_banned_by_walmartcom"
+    },
+    {
+      "entryId": "687",
+      "basename": "snow"
+    }
+  ]
+}
