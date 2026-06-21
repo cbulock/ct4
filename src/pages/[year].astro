@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EntryList from '../components/EntryList.astro';
+import {
+	getEntriesForYear,
+	getEntryYears,
+} from '../lib/content';
+
+export const getStaticPaths = () =>
+	getEntryYears().map((year) => ({
+		params: { year },
+		props: {
+			entries: getEntriesForYear(year),
+			year,
+		},
+	}));
+
+const { entries, year } = Astro.props;
+---
+
+<BaseLayout title={`${year} - Cameron's Thoughts`}>
+	<cindor-stack gap="4">
+		<h1 class="surface-heading">{year}</h1>
+		<EntryList entries={entries} />
+	</cindor-stack>
+</BaseLayout>
