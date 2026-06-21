@@ -12,11 +12,7 @@ const HTML_TAG_PATTERN = /<(?!!--)[^>]+>/;
 const ANCHOR_OPEN_PATTERN = /<a\b[^>]*>/i;
 
 const isAnchorOnlyCandidate = (source) => {
-	const { data, content } = matter(source);
-
-	if ((data.contentFormat ?? 'legacy') !== 'legacy') {
-		return false;
-	}
+	const { content } = matter(source);
 
 	if (!ANCHOR_OPEN_PATTERN.test(content)) {
 		return false;
@@ -28,9 +24,6 @@ const isAnchorOnlyCandidate = (source) => {
 
 	return !HTML_TAG_PATTERN.test(withoutAnchors);
 };
-
-const setContentFormatMarkdown = (source) =>
-	source.replace(/^contentFormat:\s*legacy\s*$/m, 'contentFormat: markdown');
 
 const main = async () => {
 	const fileNames = (await fs.readdir(POSTS_DIR))
@@ -48,7 +41,7 @@ const main = async () => {
 		}
 
 		const parsed = matter(source);
-		const nextData = { ...parsed.data, contentFormat: 'markdown' };
+		const nextData = { ...parsed.data };
 
 		if (typeof nextData.excerpt === 'string' && hasBalancedAnchors(nextData.excerpt)) {
 			nextData.excerpt = convertSupportedHtmlToMarkdown(nextData.excerpt);
@@ -58,7 +51,7 @@ const main = async () => {
 		const convertedSource = matter.stringify(nextContent, nextData);
 
 		if (convertedSource !== source) {
-			await fs.writeFile(filePath, convertedSource.replace(/^contentFormat:\s*markdown\s*$/m, 'contentFormat: markdown'));
+			await fs.writeFile(filePath, convertedSource);
 			updatedCount += 1;
 		}
 	}
