@@ -79,6 +79,16 @@ describe('Astro markdown pipeline', () => {
 
 		expect(renderedHtml).toContain('<br>');
 	});
+
+	test('renders markdown tables via the Astro markdown plugin path', async () => {
+		const renderedHtml = await renderWithAstroMarkdownPipeline(
+			getMarkdownBodyFromPost('0064-dantes_inferno_hell_test-62.md'),
+		);
+
+		expect(renderedHtml).toContain('<table>');
+		expect(renderedHtml).toContain('<th>Level</th>');
+		expect(renderedHtml).toContain('<th>Score</th>');
+	});
 });
 
 describe('HTML conversion helpers', () => {
