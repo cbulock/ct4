@@ -72,6 +72,91 @@ const parseLegacyMarkdownBlock = (source) => {
 	return null;
 };
 
+const splitChildrenOnBreaks = (children = []) => {
+	const segments = [];
+	let currentSegment = [];
+
+	for (const child of children) {
+		if (child.type === 'break') {
+			segments.push(currentSegment);
+			currentSegment = [];
+			continue;
+		}
+
+		currentSegment.push(child);
+	}
+
+	segments.push(currentSegment);
+
+	return segments.filter((segment) => segment.length > 0);
+};
+
+const getTextFromNode = (node) => {
+	if (!node) {
+		return '';
+	}
+
+	if (typeof node.value === 'string') {
+		return node.value;
+	}
+
+	if (Array.isArray(node.children)) {
+		return node.children.map(getTextFromNode).join('');
+	}
+
+	return '';
+};
+
+const getSegmentText = (segment) =>
+	segment
+		.map(getTextFromNode)
+		.join('')
+		.replace(/\s+/g, ' ')
+		.trim();
+
+const isLegacyProseBreakParagraph = (node) => {
+	const breakCount = node.children.filter((child) => child.type === 'break').length;
+
+	if (breakCount === 0) {
+		return false;
+	}
+
+	const segments = splitChildrenOnBreaks(node.children);
+
+	if (segments.length < 2) {
+		return false;
+	}
+
+	const segmentTexts = segments.map(getSegmentText).filter(Boolean);
+
+	if (segmentTexts.length !== segments.length) {
+		return false;
+	}
+
+	const totalLength = segmentTexts.reduce((sum, text) => sum + text.length, 0);
+
+	return breakCount >= 2 || (segmentTexts.every((text) => text.length >= 48) && totalLength >= 160);
+};
+
+const expandLegacyProseBreakParagraphs = (tree) => {
+	visit(tree, 'paragraph', (node, index, parent) => {
+		if (!parent || typeof index !== 'number' || !isLegacyProseBreakParagraph(node)) {
+			return;
+		}
+
+		const segments = splitChildrenOnBreaks(node.children);
+
+		parent.children.splice(
+			index,
+			1,
+			...segments.map((segment) => ({
+				type: 'paragraph',
+				children: segment,
+			})),
+		);
+	});
+};
+
 const transformLegacyMarkdownBlocks = (tree, source) => {
 	visit(tree, 'paragraph', (node, index, parent) => {
 		if (!parent || typeof index !== 'number') {
@@ -96,11 +181,16 @@ const transformLegacyMarkdownBlocks = (tree, source) => {
 
 const remarkLegacyContainers = () => (tree, file) => {
 	transformLegacyMarkdownBlocks(tree, String(file.value ?? ''));
+	expandLegacyProseBreakParagraphs(tree);
 };
 
 export {
 	YOUTUBE_EMBED_ATTRIBUTES,
+	expandLegacyProseBreakParagraphs,
+	getSegmentText,
+	isLegacyProseBreakParagraph,
 	parseLegacyMarkdownBlock,
 	remarkLegacyContainers,
+	splitChildrenOnBreaks,
 	transformLegacyMarkdownBlocks,
 };
