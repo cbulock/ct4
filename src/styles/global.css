@@ -335,7 +335,7 @@ img {
 	max-width: 100%;
 }
 
-.markdown-content br + br {
+.markdown-content p br {
 	display: block;
 	margin-top: 0.85rem;
 	content: '';
