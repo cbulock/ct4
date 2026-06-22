@@ -12,8 +12,10 @@ import { cleanEntryBasename, getEntryPath } from './lib/routes';
 const POSTS_DIRECTORY = path.join(process.cwd(), 'content', 'posts');
 
 const renderWithAstroMarkdownPipeline = async (content) => {
+	const { default: remarkGfm } = await import('remark-gfm');
 	const file = await unified()
 		.use(remarkParse)
+		.use(remarkGfm)
 		.use(remarkLegacyContainers)
 		.use(remarkRehype)
 		.use(rehypeCindorCodeBlocks)
