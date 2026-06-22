@@ -3,6 +3,7 @@ import remarkParse from 'remark-parse';
 import { describe, expect, test } from 'vitest';
 import { convertPreCodeElement } from './lib/astro-markdown/rehypeCindorCodeBlocks.mjs';
 import {
+	isLegacySourceLineParagraph,
 	isLegacyProseBreakParagraph,
 	parseLegacyMarkdownBlock,
 	remarkLegacyContainers,
@@ -92,6 +93,28 @@ describe('legacy markdown Astro plugins', () => {
 		remarkLegacyContainers()(tree, { value: '' });
 
 		expect(tree.children).toHaveLength(2);
+		expect(tree.children.every((node) => node.type === 'paragraph')).toBe(true);
+		expect(tree.children.some((node) => node.children.some((child) => child.type === 'break'))).toBe(false);
+	});
+
+	test('detects long source-line legacy prose paragraphs', () => {
+		const source = `First long legacy prose line that should become its own paragraph because this old content was saved as wrapped lines rather than true paragraph blocks.
+Second long legacy prose line that should also become its own paragraph because it clearly continues the article body in the same wrapped style.
+Third long legacy prose line finishes the thought and keeps the total content well beyond the threshold for prose normalization.`;
+
+		expect(isLegacySourceLineParagraph(source)).toBe(true);
+		expect(isLegacySourceLineParagraph('**You Are 35% Normal**  \n*(Occasionally Normal)*')).toBe(false);
+	});
+
+	test('rewrites long source-line prose into multiple paragraph nodes', () => {
+		const source = `First long legacy prose line that should become its own paragraph because this old content was saved as wrapped lines rather than true paragraph blocks.
+Second long legacy prose line that should also become its own paragraph because it clearly continues the article body in the same wrapped style.
+Third long legacy prose line finishes the thought and keeps the total content well beyond the threshold for prose normalization.`;
+		const tree = unified().use(remarkParse).parse(source);
+
+		remarkLegacyContainers()(tree, { value: source });
+
+		expect(tree.children).toHaveLength(3);
 		expect(tree.children.every((node) => node.type === 'paragraph')).toBe(true);
 		expect(tree.children.some((node) => node.children.some((child) => child.type === 'break'))).toBe(false);
 	});
