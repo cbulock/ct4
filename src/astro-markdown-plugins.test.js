@@ -118,4 +118,19 @@ Third long legacy prose line finishes the thought and keeps the total content we
 		expect(tree.children.every((node) => node.type === 'paragraph')).toBe(true);
 		expect(tree.children.some((node) => node.children.some((child) => child.type === 'break'))).toBe(false);
 	});
+
+	test('rewrites paragraphs that mix one hard break with embedded newline text', () => {
+		const source = `First long legacy prose line that ends with a markdown hard break because that is how the exporter originally marked the first paragraph boundary.  
+Second long legacy prose line keeps going as plain wrapped source text without another explicit hard break.
+Third long legacy prose line still belongs as its own paragraph even though the parser leaves it inside the same text node.
+Fourth long legacy prose line finishes the block and should not remain trapped behind inline break markup.`;
+		const tree = unified().use(remarkParse).parse(source);
+
+		remarkLegacyContainers()(tree, { value: '' });
+
+		expect(tree.children).toHaveLength(4);
+		expect(tree.children.every((node) => node.type === 'paragraph')).toBe(true);
+		expect(tree.children.some((node) => node.children.some((child) => child.type === 'break'))).toBe(false);
+		expect(tree.children[1].children[0].value.startsWith('Second long legacy prose line')).toBe(true);
+	});
 });

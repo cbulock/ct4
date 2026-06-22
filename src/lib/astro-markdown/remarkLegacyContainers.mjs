@@ -91,6 +91,49 @@ const splitChildrenOnBreaks = (children = []) => {
 	return segments.filter((segment) => segment.length > 0);
 };
 
+const splitChildrenOnLegacyBoundaries = (children = []) => {
+	const segments = [];
+	let currentSegment = [];
+
+	const pushSegment = () => {
+		if (currentSegment.length > 0) {
+			segments.push(currentSegment);
+			currentSegment = [];
+		}
+	};
+
+	for (const child of children) {
+		if (child.type === 'break') {
+			pushSegment();
+			continue;
+		}
+
+		if (child.type === 'text' && child.value.includes('\n')) {
+			const parts = child.value.split('\n');
+
+			parts.forEach((part, index) => {
+				if (part.length > 0) {
+					currentSegment.push({
+						...child,
+						value: part,
+					});
+				}
+
+				if (index < parts.length - 1) {
+					pushSegment();
+				}
+			});
+			continue;
+		}
+
+		currentSegment.push(child);
+	}
+
+	pushSegment();
+
+	return segments;
+};
+
 const getTextFromNode = (node) => {
 	if (!node) {
 		return '';
@@ -154,13 +197,7 @@ const isLegacySourceLineParagraph = (nodeSource) => {
 };
 
 const isLegacyProseBreakParagraph = (node) => {
-	const breakCount = node.children.filter((child) => child.type === 'break').length;
-
-	if (breakCount === 0) {
-		return false;
-	}
-
-	const segments = splitChildrenOnBreaks(node.children);
+	const segments = splitChildrenOnLegacyBoundaries(node.children);
 
 	if (segments.length < 2) {
 		return false;
@@ -174,7 +211,7 @@ const isLegacyProseBreakParagraph = (node) => {
 
 	const totalLength = segmentTexts.reduce((sum, text) => sum + text.length, 0);
 
-	return breakCount >= 2 || (segmentTexts.every((text) => text.length >= 48) && totalLength >= 160);
+	return segments.length >= 3 || (segmentTexts.every((text) => text.length >= 48) && totalLength >= 160);
 };
 
 const expandLegacyProseBreakParagraphs = (tree, source) => {
@@ -203,7 +240,7 @@ const expandLegacyProseBreakParagraphs = (tree, source) => {
 			return;
 		}
 
-		const segments = splitChildrenOnBreaks(node.children);
+		const segments = splitChildrenOnLegacyBoundaries(node.children);
 
 		parent.children.splice(
 			index,
@@ -255,6 +292,7 @@ export {
 	parseLegacyMarkdownBlock,
 	parseParagraphLineChildren,
 	remarkLegacyContainers,
+	splitChildrenOnLegacyBoundaries,
 	splitChildrenOnBreaks,
 	transformLegacyMarkdownBlocks,
 };
