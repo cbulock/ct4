@@ -33,6 +33,17 @@ describe('frontmatter helper', () => {
 		expect(content).toBe('Body text\n');
 	});
 
+	test('preserves string types for numeric-looking values through round-trip', () => {
+		const data = { entryId: '1', blogId: '42' };
+		const stringified = stringifyFrontmatter('', data);
+		const { data: parsed } = parseFrontmatter(stringified);
+
+		expect(typeof parsed.entryId).toBe('string');
+		expect(typeof parsed.blogId).toBe('string');
+		expect(parsed.entryId).toBe('1');
+		expect(parsed.blogId).toBe('42');
+	});
+
 	test('returns raw content when no frontmatter is present', () => {
 		expect(stringifyFrontmatter('', { title: 'Empty' })).toContain(
 			'title: Empty',
