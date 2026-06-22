@@ -1,6 +1,6 @@
 ---
+import { render } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import MarkdownContent from '../../../components/MarkdownContent.astro';
 import {
 	formatShortDate,
 	getCanonicalEntries,
@@ -8,8 +8,8 @@ import {
 	getEntryPath,
 } from '../../../lib/content';
 
-export const getStaticPaths = () =>
-	getCanonicalEntries().flatMap((entry) => [
+export const getStaticPaths = async () =>
+	(await getCanonicalEntries()).flatMap((entry) => [
 		{
 			params: {
 				year: entry.routeYear,
@@ -26,9 +26,11 @@ export const getStaticPaths = () =>
 			},
 			props: { entry },
 		},
-	]);
+]);
 const { entry } = Astro.props;
 const category = entry.categoryId ? getCategoryById(entry.categoryId) : null;
+const renderedEntry = entry._contentEntry ? await render(entry._contentEntry) : null;
+const RenderedContent = renderedEntry?.Content;
 const formattedDate = new Date(entry.createdOn).toLocaleDateString('en-us', {
 	weekday: 'long',
 	year: 'numeric',
@@ -52,7 +54,9 @@ const formattedTime = new Date(entry.createdOn).toLocaleTimeString('en-us');
 						</div>
 						<h1 class="surface-heading">{entry.title}</h1>
 					</header>
-					<MarkdownContent content={entry.body} />
+					<div class="markdown-content">
+						<RenderedContent />
+					</div>
 				</article>
 			</div>
 		</cindor-card>

@@ -7,14 +7,21 @@ import {
 	getEntryYears,
 } from '../lib/content';
 
-const years = getEntryYears().slice().reverse();
-const categories = getCategories()
+const years = (await getEntryYears()).slice().reverse();
+const categories = await Promise.all(
+	getCategories()
 	.slice()
 	.sort((left, right) => left.label.localeCompare(right.label))
-	.map((category) => ({
+	.map(async (category) => ({
 		...category,
-		entryCount: getEntriesForCategory(category.id).length,
-	}));
+		entryCount: (await getEntriesForCategory(category.id)).length,
+	})),
+);
+const entriesPerYear = new Map(
+	await Promise.all(
+		years.map(async (year) => [year, (await getEntriesForYear(year)).length]),
+	),
+);
 ---
 
 <BaseLayout title="Archives - Cameron's Thoughts" shellWidth="wide">
@@ -30,7 +37,7 @@ const categories = getCategories()
 								<li class="archive-list__item">
 									<a class="archive-list__link" href={`/${year}`}>
 										<span>{year}</span>
-										<cindor-badge>{getEntriesForYear(year).length}</cindor-badge>
+										<cindor-badge>{entriesPerYear.get(year)}</cindor-badge>
 									</a>
 								</li>
 							))}

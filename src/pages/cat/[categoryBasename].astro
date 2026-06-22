@@ -6,14 +6,16 @@ import {
 	getEntriesForCategory,
 } from '../../lib/content';
 
-export const getStaticPaths = () =>
-	getCategories().map((category) => ({
+export const getStaticPaths = async () =>
+	(await Promise.all(
+		getCategories().map(async (category) => ({
 		params: { categoryBasename: category.basename },
 		props: {
 			category,
-			entries: getEntriesForCategory(category.id),
+			entries: await getEntriesForCategory(category.id),
 		},
-	}));
+		})),
+	));
 
 const { category, entries } = Astro.props;
 ---
