@@ -1,19 +1,14 @@
 <div class="site-search" data-site-search>
-	<label class="site-search__label" for="site-search-input">Search posts</label>
-	<div class="site-search__control">
-		<input
-			id="site-search-input"
-			class="site-search__input"
-			type="search"
-			name="search"
-			placeholder="Search posts"
-			autocomplete="off"
-			spellcheck="false"
-			minlength="3"
-			data-site-search-input
-		/>
-		<span class="site-search__icon" aria-hidden="true">⌕</span>
-	</div>
+	<label id="site-search-input-label" class="site-search__label" for="site-search-input">Search posts</label>
+	<cindor-search
+		id="site-search-input"
+		class="site-search__input"
+		name="search"
+		placeholder="Search posts"
+		autocomplete="off"
+		data-site-search-input
+		aria-labelledby="site-search-input-label"
+	></cindor-search>
 	<div class="site-search__results" hidden data-site-search-results>
 		<p class="site-search__status" data-site-search-status></p>
 		<ul class="site-search__list" role="list" data-site-search-list></ul>
@@ -126,7 +121,7 @@
 		});
 
 		searchInput.addEventListener('input', (event) => {
-			runSearch(event.target.value);
+			runSearch(event.currentTarget.value);
 		});
 
 		searchInput.addEventListener('keydown', (event) => {
