@@ -13,9 +13,11 @@ const POSTS_DIRECTORY = path.join(process.cwd(), 'content', 'posts');
 
 const renderWithAstroMarkdownPipeline = async (content) => {
 	const { default: remarkGfm } = await import('remark-gfm');
+	const { default: remarkBreaks } = await import('remark-breaks');
 	const file = await unified()
 		.use(remarkParse)
 		.use(remarkGfm)
+		.use(remarkBreaks)
 		.use(remarkLegacyContainers)
 		.use(remarkRehype)
 		.use(rehypeCindorCodeBlocks)
@@ -70,6 +72,12 @@ describe('Astro markdown pipeline', () => {
 
 		expect(renderedHtml).toContain('<cindor-code-block language="html">');
 		expect(renderedHtml).toContain('MTArchiveList');
+	});
+
+	test('renders single newlines as hard breaks (remark-breaks parity with old markdown-it breaks:true)', async () => {
+		const renderedHtml = await renderWithAstroMarkdownPipeline('First line\nSecond line');
+
+		expect(renderedHtml).toContain('<br>');
 	});
 });
 
