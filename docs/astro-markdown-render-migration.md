@@ -35,13 +35,12 @@ Goal: replace CT4's custom `markdown-it` rendering path with Astro content entri
 - [x] Rewrite `src/markdown-and-routing.test.js` around the Astro-rendered output instead of direct `renderMarkdownContent()` snapshots.
 - [x] Add at least one integration-style test that renders a real collection entry with custom directives.
 - [x] Remove `markdown-it`, `markdown-it-container`, and the old custom renderer files after parity is proven.
-- [ ] Remove `gray-matter` if no remaining scripts/runtime code still need it.
-- [ ] Remove dead React-era content formatting helpers if they are no longer referenced.
+- [x] Remove `gray-matter` if no remaining scripts/runtime code still need it.
+- [x] Remove dead React-era content formatting helpers if they are no longer referenced.
 
 ## Notes
 
 - The real risk is not collection loading; it is preserving the custom directive/code-block behavior without regressing old posts.
 - Using the `glob()` loader lets CT4 keep its current top-level `content/posts` layout for now instead of forcing a file move first.
-- `gray-matter` still remains because the content-migration and search-index scripts still import it.
-- `package.json` no longer declares `markdown-it` or `markdown-it-container`, but the checked-in `package-lock.json` was already conflicted before this cleanup pass and needs to be normalized separately.
-- The legacy React app files still exist in `src/App.jsx` and `src/components/**/*.jsx`; they are outside the Astro markdown-render migration scope and should be removed only as a separate cleanup pass.
+- `gray-matter` is no longer part of the repo runtime or helper-script path.
+- The legacy React SPA and its helper files were removed in a later cleanup pass, so CT4 now has a single Astro app path.

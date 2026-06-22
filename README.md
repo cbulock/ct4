@@ -1,6 +1,6 @@
 # Cameron's Thoughts
 
-This repository is being migrated from a Create React App single-page app to an Astro-based static site.
+This repository is an Astro-based static site for Cameron's Thoughts.
 
 ## Content model
 
