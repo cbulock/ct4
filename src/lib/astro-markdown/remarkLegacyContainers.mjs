@@ -114,6 +114,45 @@ const getSegmentText = (segment) =>
 		.replace(/\s+/g, ' ')
 		.trim();
 
+const getParagraphSourceLines = (nodeSource = '') =>
+	nodeSource
+		.split(/\r?\n/u)
+		.map((line) => line.replace(/\s+$/u, ''))
+		.filter((line) => line.trim().length > 0);
+
+const getLineText = (line = '') =>
+	line
+		.replace(/[*_`[\]<>]/g, '')
+		.replace(/\([^)]*\)/g, '')
+		.replace(/\s+/g, ' ')
+		.trim();
+
+const parseParagraphLineChildren = (line) => {
+	const parsedNodes = parseMarkdownFragment(line);
+	const paragraphNode = parsedNodes.find((node) => node.type === 'paragraph');
+
+	return paragraphNode?.children ?? [{ type: 'text', value: line }];
+};
+
+const isLegacySourceLineParagraph = (nodeSource) => {
+	const lines = getParagraphSourceLines(nodeSource);
+
+	if (lines.length < 2) {
+		return false;
+	}
+
+	const lineTexts = lines.map(getLineText).filter(Boolean);
+
+	if (lineTexts.length !== lines.length) {
+		return false;
+	}
+
+	const totalLength = lineTexts.reduce((sum, text) => sum + text.length, 0);
+	const longLineCount = lineTexts.filter((text) => text.length >= 48).length;
+
+	return totalLength >= 180 && (lines.length >= 3 || longLineCount === lines.length);
+};
+
 const isLegacyProseBreakParagraph = (node) => {
 	const breakCount = node.children.filter((child) => child.type === 'break').length;
 
@@ -138,9 +177,29 @@ const isLegacyProseBreakParagraph = (node) => {
 	return breakCount >= 2 || (segmentTexts.every((text) => text.length >= 48) && totalLength >= 160);
 };
 
-const expandLegacyProseBreakParagraphs = (tree) => {
+const expandLegacyProseBreakParagraphs = (tree, source) => {
 	visit(tree, 'paragraph', (node, index, parent) => {
-		if (!parent || typeof index !== 'number' || !isLegacyProseBreakParagraph(node)) {
+		if (!parent || typeof index !== 'number') {
+			return;
+		}
+
+		const nodeSource = getNodeSource(node, source);
+
+		if (nodeSource && isLegacySourceLineParagraph(nodeSource)) {
+			const lines = getParagraphSourceLines(nodeSource);
+
+			parent.children.splice(
+				index,
+				1,
+				...lines.map((line) => ({
+					type: 'paragraph',
+					children: parseParagraphLineChildren(line),
+				})),
+			);
+			return;
+		}
+
+		if (!isLegacyProseBreakParagraph(node)) {
 			return;
 		}
 
@@ -180,16 +239,21 @@ const transformLegacyMarkdownBlocks = (tree, source) => {
 };
 
 const remarkLegacyContainers = () => (tree, file) => {
-	transformLegacyMarkdownBlocks(tree, String(file.value ?? ''));
-	expandLegacyProseBreakParagraphs(tree);
+	const source = String(file.value ?? '');
+
+	transformLegacyMarkdownBlocks(tree, source);
+	expandLegacyProseBreakParagraphs(tree, source);
 };
 
 export {
 	YOUTUBE_EMBED_ATTRIBUTES,
 	expandLegacyProseBreakParagraphs,
 	getSegmentText,
+	getParagraphSourceLines,
+	isLegacySourceLineParagraph,
 	isLegacyProseBreakParagraph,
 	parseLegacyMarkdownBlock,
+	parseParagraphLineChildren,
 	remarkLegacyContainers,
 	splitChildrenOnBreaks,
 	transformLegacyMarkdownBlocks,
