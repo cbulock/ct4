@@ -1,12 +1,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import matter from 'gray-matter';
+import { getCollection } from 'astro:content';
 import { cleanEntryBasename, getEntryPath } from './routes';
 
-const POSTS_DIR = path.join(process.cwd(), 'content', 'posts');
 const CATEGORIES_PATH = path.join(process.cwd(), 'src', 'data', 'categories.json');
 
-let cachedEntries;
+let cachedEntriesPromise;
 let cachedCategories;
 
 const sortEntries = (left, right) => left.sortOrder - right.sortOrder;
@@ -50,33 +49,41 @@ const formatShortDate = (createdOn) =>
 		day: 'numeric',
 	});
 
-const readEntries = () => {
-	if (cachedEntries) {
-		return cachedEntries;
+const normalizeEntry = (entry) => {
+	const data = entry.data;
+	const routeYear = String(data.routeYear);
+	const routeMonth = String(data.routeMonth).padStart(2, '0');
+
+	return {
+		...data,
+		routeYear,
+		routeMonth,
+		_contentEntry: entry,
+		body: entry.body,
+		basename: data.basename,
+		categoryId: data.categoryId ?? null,
+		id: entry.id,
+		path: getEntryPath({
+			...data,
+			routeYear,
+			routeMonth,
+		}),
+	};
+};
+
+const readEntries = async () => {
+	if (cachedEntriesPromise) {
+		return cachedEntriesPromise;
 	}
 
-	const entries = fs
-		.readdirSync(POSTS_DIR)
-		.filter((fileName) => fileName.endsWith('.md'))
-		.sort()
-		.map((fileName) => {
-			const filePath = path.join(POSTS_DIR, fileName);
-			const source = fs.readFileSync(filePath, 'utf8');
-			const { data, content } = matter(source);
+	cachedEntriesPromise = getCollection('posts')
+		.then((entries) => entries.map(normalizeEntry).sort(sortEntries))
+		.catch((error) => {
+			cachedEntriesPromise = undefined;
+			throw error;
+		});
 
-			return {
-				...data,
-				body: content,
-				basename: data.basename,
-				categoryId: data.categoryId ?? null,
-				path: getEntryPath(data),
-			};
-		})
-		.sort(sortEntries);
-
-	cachedEntries = entries;
-
-	return entries;
+	return cachedEntriesPromise;
 };
 
 const readCategories = () => {
@@ -89,12 +96,12 @@ const readCategories = () => {
 	return cachedCategories;
 };
 
-const getAllEntries = () => readEntries();
+const getAllEntries = async () => readEntries();
 
-const getCanonicalEntries = () => {
+const getCanonicalEntries = async () => {
 	const routeMap = new Map();
 
-	for (const entry of getAllEntries()) {
+	for (const entry of await getAllEntries()) {
 		if (!routeMap.has(entry.routeKey)) {
 			routeMap.set(entry.routeKey, entry);
 		}
@@ -103,17 +110,17 @@ const getCanonicalEntries = () => {
 	return [...routeMap.values()];
 };
 
-const getEntryByRoute = (year, month, entryBasename) => {
+const getEntryByRoute = async (year, month, entryBasename) => {
 	const routeKey = `${year}/${month}/${cleanEntryBasename(entryBasename)}`;
 
-	return getCanonicalEntries().find((entry) => entry.routeKey === routeKey);
+	return (await getCanonicalEntries()).find((entry) => entry.routeKey === routeKey);
 };
 
-const getEntryYears = () =>
-	[...new Set(getCanonicalEntries().map((entry) => entry.routeYear))].sort();
+const getEntryYears = async () =>
+	[...new Set((await getCanonicalEntries()).map((entry) => entry.routeYear))].sort();
 
-const getEntriesForYear = (year) =>
-	getCanonicalEntries().filter((entry) => entry.routeYear === year);
+const getEntriesForYear = async (year) =>
+	(await getCanonicalEntries()).filter((entry) => entry.routeYear === year);
 
 const getCategories = () => readCategories();
 
@@ -123,8 +130,8 @@ const getCategoryByBasename = (categoryBasename) =>
 const getCategoryById = (categoryId) =>
 	getCategories().find((category) => category.id === categoryId);
 
-const getEntriesForCategory = (categoryId) =>
-	getCanonicalEntries().filter((entry) => entry.categoryId === categoryId);
+const getEntriesForCategory = async (categoryId) =>
+	(await getCanonicalEntries()).filter((entry) => entry.categoryId === categoryId);
 
 export {
 	formatShortDate,

@@ -6,14 +6,16 @@ import {
 	getEntryYears,
 } from '../lib/content';
 
-export const getStaticPaths = () =>
-	getEntryYears().map((year) => ({
+export const getStaticPaths = async () =>
+	(await Promise.all(
+		(await getEntryYears()).map(async (year) => ({
 		params: { year },
 		props: {
-			entries: getEntriesForYear(year),
+			entries: await getEntriesForYear(year),
 			year,
 		},
-	}));
+		})),
+	));
 
 const { entries, year } = Astro.props;
 ---

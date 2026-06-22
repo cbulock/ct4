@@ -1,6 +1,37 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { unified } from 'unified';
+import remarkParse from 'remark-parse';
+import remarkRehype from 'remark-rehype';
+import rehypeStringify from 'rehype-stringify';
 import { describe, expect, test } from 'vitest';
-import { renderMarkdownContent } from './lib/renderMarkdownContent';
+import { rehypeCindorCodeBlocks } from './lib/astro-markdown/rehypeCindorCodeBlocks.mjs';
+import { remarkLegacyContainers } from './lib/astro-markdown/remarkLegacyContainers.mjs';
 import { cleanEntryBasename, getEntryPath } from './lib/routes';
+
+const POSTS_DIRECTORY = path.join(process.cwd(), 'content', 'posts');
+
+const renderWithAstroMarkdownPipeline = async (content) => {
+	const { default: remarkGfm } = await import('remark-gfm');
+	const { default: remarkBreaks } = await import('remark-breaks');
+	const file = await unified()
+		.use(remarkParse)
+		.use(remarkGfm)
+		.use(remarkBreaks)
+		.use(remarkLegacyContainers)
+		.use(remarkRehype)
+		.use(rehypeCindorCodeBlocks)
+		.use(rehypeStringify)
+		.process(content);
+
+	return String(file);
+};
+
+const getMarkdownBodyFromPost = (filename) => {
+	const postSource = fs.readFileSync(path.join(POSTS_DIRECTORY, filename), 'utf8');
+
+	return postSource.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/u, '');
+};
 
 describe('routing helpers', () => {
 	test('build canonical and legacy-compatible entry paths', () => {
@@ -16,71 +47,47 @@ describe('routing helpers', () => {
 	});
 });
 
-describe('markdown rendering', () => {
-	test('renders markdown content with paragraph output and hard line breaks', () => {
-		expect(renderMarkdownContent('Line one\nLine two')).toBe('<p>Line one<br>\nLine two</p>\n');
-	});
-
-	test('renders markdown content with preserved paragraph breaks', () => {
-		expect(renderMarkdownContent('First paragraph\n\nSecond paragraph')).toBe(
-			'<p>First paragraph</p>\n<p>Second paragraph</p>\n',
+describe('Astro markdown pipeline', () => {
+	test('renders footer note directives via the Astro markdown plugin path', async () => {
+		const renderedHtml = await renderWithAstroMarkdownPipeline(
+			getMarkdownBodyFromPost('0022-making_a_photo_gallery-22.md'),
 		);
+
+		expect(renderedHtml).toContain('<div class="footer_note"><p>Actually, pic no longer available</p></div>');
 	});
 
-	test('renders footer note directives with markdown content inside', () => {
-		expect(
-			renderMarkdownContent(':::footer-note\nUpdate: see [the newer post](https://example.com).\n:::'),
-		).toBe(
-			'<div class="footer_note">\n<p>Update: see <a href="https://example.com">the newer post</a>.</p>\n</div>\n',
+	test('renders youtube directives via the Astro markdown plugin path', async () => {
+		const renderedHtml = await renderWithAstroMarkdownPipeline(
+			getMarkdownBodyFromPost('0560-nestor-591.md'),
 		);
+
+		expect(renderedHtml).toContain('<div class="youtube-embed"><iframe');
+		expect(renderedHtml).toContain('https://www.youtube.com/embed/2CrDKCQ3G38');
 	});
 
-	test('renders markdown unordered lists', () => {
-		expect(renderMarkdownContent('- One\n- Two')).toBe('<ul>\n<li>One</li>\n<li>Two</li>\n</ul>\n');
-	});
-
-	test('renders markdown ordered lists', () => {
-		expect(renderMarkdownContent('1. One\n2. Two')).toBe('<ol>\n<li>One</li>\n<li>Two</li>\n</ol>\n');
-	});
-
-	test('renders markdown blockquotes with paragraph content', () => {
-		expect(renderMarkdownContent('> Quoted line\n>\n> Second paragraph')).toBe(
-			'<blockquote>\n<p>Quoted line</p>\n<p>Second paragraph</p>\n</blockquote>\n',
+	test('renders fenced code blocks as cindor code blocks via the Astro markdown plugin path', async () => {
+		const renderedHtml = await renderWithAstroMarkdownPipeline(
+			getMarkdownBodyFromPost('0181-reorganizing_your_website_renaming_permalinks-174.md'),
 		);
+
+		expect(renderedHtml).toContain('<cindor-code-block language="html">');
+		expect(renderedHtml).toContain('MTArchiveList');
 	});
 
-	test('renders markdown h4 headings', () => {
-		expect(renderMarkdownContent('#### Section title')).toBe('<h4>Section title</h4>\n');
+	test('renders single newlines as hard breaks (remark-breaks parity with old markdown-it breaks:true)', async () => {
+		const renderedHtml = await renderWithAstroMarkdownPipeline('First line\nSecond line');
+
+		expect(renderedHtml).toContain('<br>');
 	});
 
-	test('renders markdown bold with nested italics', () => {
-		expect(renderMarkdownContent('***important***')).toBe(
-			'<p><em><strong>important</strong></em></p>\n',
+	test('renders markdown tables via the Astro markdown plugin path', async () => {
+		const renderedHtml = await renderWithAstroMarkdownPipeline(
+			getMarkdownBodyFromPost('0064-dantes_inferno_hell_test-62.md'),
 		);
-	});
 
-	test('renders markdown inline code', () => {
-		expect(renderMarkdownContent('Use `mt-static` here.')).toBe(
-			'<p>Use <code>mt-static</code> here.</p>\n',
-		);
-	});
-
-	test('renders fenced code blocks', () => {
-		expect(renderMarkdownContent('```\nline 1\nline 2\n```')).toBe(
-			'<cindor-code-block>line 1\nline 2\n</cindor-code-block>\n',
-		);
-	});
-
-	test('renders markdown tables', () => {
-		expect(renderMarkdownContent('| Name | Value |\n| --- | --- |\n| One | Two |')).toBe(
-			'<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>One</td>\n<td>Two</td>\n</tr>\n</tbody>\n</table>\n',
-		);
-	});
-
-	test('renders youtube directives as responsive embeds', () => {
-		expect(renderMarkdownContent(':::youtube 2CrDKCQ3G38\n:::')).toBe(
-			'<div class="youtube-embed">\n<iframe src="https://www.youtube.com/embed/2CrDKCQ3G38" title="YouTube video player" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>\n</div>\n',
-		);
+		expect(renderedHtml).toContain('<table>');
+		expect(renderedHtml).toContain('<th>Level</th>');
+		expect(renderedHtml).toContain('<th>Score</th>');
 	});
 });
 
