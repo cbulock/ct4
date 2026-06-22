@@ -32,7 +32,7 @@ const stringifyFrontmatter = (content = '', data = {}) => {
 		})
 		.trimEnd();
 
-	return `---\n${yamlSource}\n---\n\n${normalizedContent}`;
+	return `---\n${yamlSource}\n---\n${normalizedContent}`;
 };
 
 const matter = (source = '') => parseFrontmatter(source);
