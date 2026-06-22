@@ -8,32 +8,39 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.16",
-    "astro": "^6.4.6",
-    "cindor-ui-core": "^0.1.70",
-    "gray-matter": "^4.0.3",
-    "html-react-parser": "^1.2.6",
-    "prop-types": "^15.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.19",
+    "astro": "^6.4.8",
+    "cindor-ui-core": "^0.1.81",
+    "html-react-parser": "^1.4.14",
+    "js-yaml": "^4.2.0",
+    "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^5.3.4",
     "remark-breaks": "^4.0.0",
-    "styled-components": "^5.2.3",
-    "web-vitals": "^1.1.1"
+    "styled-components": "^5.3.11",
+    "web-vitals": "^1.1.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.6",
-    "eslint": "^7.29.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "2.0.2",
-    "vitest": "^4.1.8"
+    "@babel/core": "^7.29.7",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.5.6",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "prettier": "^3.8.4",
+    "vitest": "^4.1.9"
+  },
+  "overrides": {
+    "astro": {
+      "vite": "^7.3.5",
+      "js-yaml": "^4.2.0"
+    },
+    "esbuild": "^0.28.1"
   },
   "scripts": {
     "dev": "npm run generate-search-index && astro dev",

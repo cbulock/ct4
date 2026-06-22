@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import matter from 'gray-matter';
+import matter from './lib/frontmatter.mjs';
 
 const ROOT_DIR = process.cwd();
 const POSTS_DIR = path.join(ROOT_DIR, 'content', 'posts');
