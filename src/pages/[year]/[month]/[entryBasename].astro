@@ -29,8 +29,8 @@ export const getStaticPaths = async () =>
 ]);
 const { entry } = Astro.props;
 const category = entry.categoryId ? getCategoryById(entry.categoryId) : null;
-const renderedEntry = entry._contentEntry ? await render(entry._contentEntry) : null;
-const RenderedContent = renderedEntry?.Content;
+if (!entry._contentEntry) throw new Error(`Missing content entry for ${entry.routeKey}`);
+const { Content: RenderedContent } = await render(entry._contentEntry);
 const formattedDate = new Date(entry.createdOn).toLocaleDateString('en-us', {
 	weekday: 'long',
 	year: 'numeric',
