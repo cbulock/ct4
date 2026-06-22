@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import matter from './lib/frontmatter.mjs';
 
 const ROOT_DIR = process.cwd();
@@ -26,6 +27,7 @@ const stripHtml = (value = '') =>
 		.trim();
 
 const sortEntries = (left, right) => Number(left.sortOrder) - Number(right.sortOrder);
+const normalizeRouteMonth = (value) => String(value).padStart(2, '0');
 
 const loadEntries = async () => {
 	const fileNames = (await fs.readdir(POSTS_DIR))
@@ -40,6 +42,7 @@ const loadEntries = async () => {
 
 			return {
 				...data,
+				routeMonth: normalizeRouteMonth(data.routeMonth),
 				body: content,
 			};
 		}),
@@ -65,7 +68,7 @@ const buildSearchIndex = (entries) => {
 				title: entry.title,
 				keywords: stripHtml(entry.keywords ?? ''),
 				body: stripHtml(entry.body ?? ''),
-				path: `/${entry.routeYear}/${entry.routeMonth}/${entry.basename}`,
+				path: `/${entry.routeYear}/${normalizeRouteMonth(entry.routeMonth)}/${entry.basename}`,
 			},
 		];
 	});
@@ -82,7 +85,11 @@ const main = async () => {
 	);
 };
 
-main().catch((error) => {
-	console.error(error);
-	process.exitCode = 1;
-});
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+	main().catch((error) => {
+		console.error(error);
+		process.exitCode = 1;
+	});
+}
+
+export { buildSearchIndex, loadEntries, normalizeRouteMonth, stripHtml };

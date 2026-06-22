@@ -46,7 +46,6 @@
     "dev": "npm run generate-search-index && astro dev",
     "start": "npm run dev",
     "generate-search-index": "node scripts/generate-search-index.mjs",
-    "migrate-content": "node scripts/migrate-content.mjs",
     "build": "npm run generate-search-index && astro build",
     "test": "vitest run",
     "preview": "astro preview"
