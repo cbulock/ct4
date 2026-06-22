@@ -335,6 +335,12 @@ img {
 	max-width: 100%;
 }
 
+.markdown-content br + br {
+	display: block;
+	margin-top: 0.85rem;
+	content: '';
+}
+
 .markdown-content li + li {
 	margin-top: 0.5rem;
 }
