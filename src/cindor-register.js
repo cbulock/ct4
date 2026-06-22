@@ -6,6 +6,7 @@ import { CindorLayoutContent } from 'cindor-ui-core/components/layout-content/ci
 import { CindorLayoutHeader } from 'cindor-ui-core/components/layout-header/cindor-layout-header';
 import { CindorLink } from 'cindor-ui-core/components/link/cindor-link';
 import { CindorProvider } from 'cindor-ui-core/components/provider/cindor-provider';
+import { CindorSearch } from 'cindor-ui-core/components/search/cindor-search';
 import { CindorStack } from 'cindor-ui-core/components/stack/cindor-stack';
 
 const definitions = [
@@ -17,6 +18,7 @@ const definitions = [
 	['cindor-layout-header', CindorLayoutHeader],
 	['cindor-link', CindorLink],
 	['cindor-provider', CindorProvider],
+	['cindor-search', CindorSearch],
 	['cindor-stack', CindorStack],
 ];
 
