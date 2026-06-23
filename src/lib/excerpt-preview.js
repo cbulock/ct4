@@ -6,6 +6,7 @@ import { rehypeCindorCodeBlocks } from './astro-markdown/rehypeCindorCodeBlocks.
 import { remarkLegacyContainers } from './astro-markdown/remarkLegacyContainers.mjs';
 
 const decodeHtmlEntities = (value) =>
+	String(value)
 		.replace(/&nbsp;/gi, ' ')
 		.replace(/&amp;/gi, '&')
 		.replace(/&lt;/gi, '<')
