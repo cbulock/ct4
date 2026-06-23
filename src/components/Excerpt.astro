@@ -8,7 +8,7 @@ import {
 
 const { entry } = Astro.props;
 const category = entry.categoryId ? getCategoryById(entry.categoryId) : null;
-const excerptPreview = getExcerptPreview(entry.excerpt);
+const excerptPreview = await getExcerptPreview(entry.excerpt);
 ---
 
 <article class="post-card">
