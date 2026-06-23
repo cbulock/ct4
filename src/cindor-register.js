@@ -1,6 +1,7 @@
 import { CindorBadge } from 'cindor-ui-core/components/badge/cindor-badge';
 import { CindorCard } from 'cindor-ui-core/components/card/cindor-card';
 import { CindorCodeBlock } from 'cindor-ui-core/components/code-block/cindor-code-block';
+import { CindorIcon } from 'cindor-ui-core/components/icon/cindor-icon';
 import { CindorLayout } from 'cindor-ui-core/components/layout/cindor-layout';
 import { CindorLayoutContent } from 'cindor-ui-core/components/layout-content/cindor-layout-content';
 import { CindorLayoutHeader } from 'cindor-ui-core/components/layout-header/cindor-layout-header';
@@ -13,6 +14,7 @@ const definitions = [
 	['cindor-badge', CindorBadge],
 	['cindor-card', CindorCard],
 	['cindor-code-block', CindorCodeBlock],
+	['cindor-icon', CindorIcon],
 	['cindor-layout', CindorLayout],
 	['cindor-layout-content', CindorLayoutContent],
 	['cindor-layout-header', CindorLayoutHeader],
