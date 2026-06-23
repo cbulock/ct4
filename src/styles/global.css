@@ -101,35 +101,14 @@ img {
 	border: 0;
 }
 
-.site-search__control {
-	position: relative;
-}
-
 .site-search__input {
+	display: block;
 	inline-size: 100%;
 	min-inline-size: 13rem;
-	padding: 0.65rem 2.4rem 0.65rem 0.85rem;
-	border: 1px solid var(--border);
-	border-radius: 999px;
-	background: var(--surface);
-	color: var(--fg);
-	font: inherit;
-	line-height: 1.2;
-	box-sizing: border-box;
 }
 
-.site-search__input:focus-visible {
-	outline: none;
-	box-shadow: var(--ring-focus);
-}
-
-.site-search__icon {
-	position: absolute;
-	top: 50%;
-	right: 0.85rem;
-	transform: translateY(-50%);
-	color: var(--accent);
-	pointer-events: none;
+.site-search__input::part(surface) {
+	inline-size: 100%;
 }
 
 .site-search__results {
