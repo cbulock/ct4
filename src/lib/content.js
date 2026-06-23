@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { getCollection } from 'astro:content';
 import { cleanEntryBasename, getEntryPath } from './routes';
+import { getExcerptPreview } from './excerpt-preview';
 
 const CATEGORIES_PATH = path.join(process.cwd(), 'src', 'data', 'categories.json');
 
@@ -9,38 +10,6 @@ let cachedEntriesPromise;
 let cachedCategories;
 
 const sortEntries = (left, right) => left.sortOrder - right.sortOrder;
-
-const decodeHtmlEntities = (value) =>
-	value
-		.replace(/&nbsp;/gi, ' ')
-		.replace(/&amp;/gi, '&')
-		.replace(/&lt;/gi, '<')
-		.replace(/&gt;/gi, '>')
-		.replace(/&quot;/gi, '"')
-		.replace(/&#39;|&apos;/gi, "'");
-
-const stripHtml = (value = '') =>
-	decodeHtmlEntities(
-		String(value)
-			.replace(/<br\s*\/?>/gi, ' ')
-			.replace(/<\/p>|<\/div>|<\/li>|<\/h[1-6]>/gi, ' ')
-			.replace(/<[^>]+>/g, ' '),
-	)
-		.replace(/\s+/g, ' ')
-		.trim();
-
-const getExcerptPreview = (value = '', maxLength = 240) => {
-	const text = stripHtml(value);
-
-	if (!text || text.length <= maxLength) {
-		return text;
-	}
-
-	const shortened = text.slice(0, maxLength);
-	const boundaryIndex = shortened.lastIndexOf(' ');
-
-	return `${shortened.slice(0, boundaryIndex > 0 ? boundaryIndex : maxLength)}...`;
-};
 
 const formatShortDate = (createdOn) =>
 	new Date(createdOn).toLocaleDateString('en-us', {

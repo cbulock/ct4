@@ -7,6 +7,7 @@ import rehypeStringify from 'rehype-stringify';
 import { describe, expect, test } from 'vitest';
 import { rehypeCindorCodeBlocks } from './lib/astro-markdown/rehypeCindorCodeBlocks.mjs';
 import { remarkLegacyContainers } from './lib/astro-markdown/remarkLegacyContainers.mjs';
+import { getExcerptPreview } from './lib/excerpt-preview';
 import { cleanEntryBasename, getEntryPath } from './lib/routes';
 
 const POSTS_DIRECTORY = path.join(process.cwd(), 'content', 'posts');
@@ -88,6 +89,15 @@ describe('Astro markdown pipeline', () => {
 		expect(renderedHtml).toContain('<table>');
 		expect(renderedHtml).toContain('<th>Level</th>');
 		expect(renderedHtml).toContain('<th>Score</th>');
+	});
+
+	test('builds plain-text excerpt previews from markdown excerpts', async () => {
+		await expect(
+			getExcerptPreview(
+				'I got a [Pebble](http://getpebble.com/) smartwatch a little over a week ago.',
+				240,
+			),
+		).resolves.toBe('I got a Pebble smartwatch a little over a week ago.');
 	});
 });
 
