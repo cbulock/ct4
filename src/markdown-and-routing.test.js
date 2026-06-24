@@ -99,6 +99,18 @@ describe('Astro markdown pipeline', () => {
 			),
 		).resolves.toBe('I got a Pebble smartwatch a little over a week ago.');
 	});
+
+	test('decodes HTML entities in excerpt previews', async () => {
+		await expect(
+			getExcerptPreview('She said &quot;hello&quot; and wasn&apos;t sure.&nbsp;Really.', 240),
+		).resolves.toBe("She said \"hello\" and wasn't sure. Really.");
+	});
+
+	test('does not decode double-escaped entities into HTML-significant characters', async () => {
+		await expect(
+			getExcerptPreview('Text with &amp;amp; and &amp;lt;b&gt; inside.', 240),
+		).resolves.not.toContain('<b>');
+	});
 });
 
 describe('HTML conversion helpers', () => {
