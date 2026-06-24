@@ -7,11 +7,17 @@ import { remarkLegacyContainers } from './astro-markdown/remarkLegacyContainers.
 
 const decodeHtmlEntities = (value) =>
 	String(value)
+		.replace(/&amp;nbsp;/gi, ' ')
+		.replace(/&amp;lt;/gi, '<')
+		.replace(/&amp;gt;/gi, '>')
+		.replace(/&amp;quot;/gi, '"')
+		.replace(/&amp;(?:#39|apos);/gi, "'")
 		.replace(/&nbsp;/gi, ' ')
 		.replace(/&lt;/gi, '<')
 		.replace(/&gt;/gi, '>')
 		.replace(/&quot;/gi, '"')
 		.replace(/&#39;|&apos;/gi, "'")
+		.replace(/&amp;amp;/gi, '&')
 		.replace(/&amp;/gi, '&');
 
 const stripHtml = (value = '') =>
