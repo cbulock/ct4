@@ -6,7 +6,7 @@
     "node": ">=22.12.0"
   },
   "dependencies": {
-    "astro": "^6.4.8",
+    "astro": "^7.3.2",
     "cindor-ui-core": "^0.1.84",
     "js-yaml": "^4.2.0",
     "remark-breaks": "^4.0.0"
