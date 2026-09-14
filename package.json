@@ -8,7 +8,7 @@
   "dependencies": {
     "astro": "^6.4.8",
     "cindor-ui-core": "^0.1.84",
-    "js-yaml": "^4.2.0",
+    "js-yaml": "^4.3.2",
     "remark-breaks": "^4.0.0"
   },
   "devDependencies": {
