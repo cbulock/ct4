@@ -6,12 +6,12 @@ import {
 	getExcerptPreview,
 } from '../lib/content';
 
-const { entry } = Astro.props;
+const { entry, featured = false } = Astro.props;
 const category = entry.categoryId ? getCategoryById(entry.categoryId) : null;
 const excerptPreview = await getExcerptPreview(entry.excerpt);
 ---
 
-<article class="post-card">
+<article class:list={['post-card', 'excerpt', featured && 'excerpt--featured']}>
 	<cindor-card>
 		<div class="surface-pad surface-pad--lg">
 			<div class="card-content">
@@ -25,6 +25,9 @@ const excerptPreview = await getExcerptPreview(entry.excerpt);
 					<a href={getEntryPath(entry)}>{entry.title}</a>
 				</h2>
 				{excerptPreview && <p class="post-preview">{excerptPreview}</p>}
+				<cindor-link class="read-link" href={getEntryPath(entry)} aria-label={`Read ${entry.title}`}>
+					Read post <cindor-icon name="arrow-up-right" size="17" aria-hidden="true"></cindor-icon>
+				</cindor-link>
 			</div>
 		</div>
 	</cindor-card>

@@ -21,8 +21,16 @@ const { entries, year } = Astro.props;
 ---
 
 <BaseLayout title={`${year} - Cameron's Thoughts`}>
+	<cindor-breadcrumbs class="breadcrumbs">
+		<li><a href="/">Posts</a></li>
+		<li><a href="/archives">Archives</a></li>
+		<li aria-current="page">{year}</li>
+	</cindor-breadcrumbs>
 	<cindor-stack gap="4">
-		<h1 class="surface-heading">{year}</h1>
-		<EntryList entries={entries} />
+		<header class="collection-heading">
+			<h1 class="surface-heading">{year}</h1>
+			<p class="collection-count">{entries.length} {entries.length === 1 ? 'post' : 'posts'}</p>
+		</header>
+		<EntryList entries={entries} groupBy="month" />
 	</cindor-stack>
 </BaseLayout>

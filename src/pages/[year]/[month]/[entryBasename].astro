@@ -41,6 +41,11 @@ const formattedTime = new Date(entry.createdOn).toLocaleTimeString('en-us');
 ---
 
 <BaseLayout title={`${entry.title} - Cameron's Thoughts`}>
+	<cindor-breadcrumbs class="breadcrumbs">
+		<li><a href="/">Posts</a></li>
+		<li><a href="/archives">Archives</a></li>
+		<li><a href={`/${entry.routeYear}`}>{entry.routeYear}</a></li>
+	</cindor-breadcrumbs>
 	<cindor-stack gap="4">
 		<cindor-card>
 			<div class="surface-pad surface-pad--article">

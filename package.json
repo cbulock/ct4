@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=24 <25"
   },
   "dependencies": {
     "astro": "^6.4.8",
-    "cindor-ui-core": "^0.1.84",
+    "cindor-ui-core": "^0.3.0",
     "js-yaml": "^4.2.0",
     "remark-breaks": "^4.0.0"
   },
@@ -22,13 +22,14 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^4.6.2",
     "prettier": "^3.8.4",
+    "vite": "^7.3.5",
     "vitest": "^4.1.11"
   },
   "overrides": {
     "astro": {
-      "vite": "^7.3.5",
       "js-yaml": "^4.2.0"
     },
+    "vite": "$vite",
     "esbuild": "^0.28.1"
   },
   "scripts": {

@@ -1,35 +1,103 @@
 ---
 import { formatShortDate, getCategoryById, getEntryPath } from '../lib/content';
 
-const { entries } = Astro.props;
+const { entries, groupBy = 'month', showCategory = true } = Astro.props;
+const grouped = new Map();
+for (const entry of [...entries].sort((a, b) => b.sortOrder - a.sortOrder)) {
+	const key = groupBy === 'year' ? entry.routeYear : `${entry.routeYear}-${entry.routeMonth}`;
+	if (!grouped.has(key)) {
+		const label = groupBy === 'year' ? entry.routeYear : new Date(`${key}-01T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', timeZone: 'UTC' });
+		grouped.set(key, { key, label, entries: [] });
+	}
+	grouped.get(key).entries.push(entry);
+}
+const groups = [...grouped.values()].sort((a, b) => b.key.localeCompare(a.key));
 ---
 
-<ul class="entry-list" role="list">
-	{entries.map((entry) => {
-		const category = entry.categoryId ? getCategoryById(entry.categoryId) : null;
-
-		return (
-			<li class="entry-list__item">
-				<article class="post-card">
+<div class="archive-collection" data-archive-collection>
+	<div class="archive-toolbar">
+		<cindor-search class="archive-filter" placeholder="Filter by title" aria-label="Filter posts by title" autocomplete="off" data-archive-filter></cindor-search>
+		<cindor-button variant="ghost" data-clear-filter hidden>Clear filter</cindor-button>
+		<p class="archive-result-count" role="status" aria-live="polite" data-filter-status>Newest first</p>
+	</div>
+	<div class="archive-browser">
+		<nav class="archive-jump" aria-label={groupBy === 'month' ? 'Jump to month' : 'Jump to year'}>
+			<p class="archive-jump__label">{groupBy === 'month' ? 'Months' : 'Years'}</p>
+			<div class="archive-jump__links">
+				{groups.map((group) => (
+					<a href={`#group-${group.key}`} data-group-link={group.key}>
+						<span>{group.label}</span><span class="archive-jump__count" data-jump-count>{group.entries.length}</span>
+					</a>
+				))}
+			</div>
+		</nav>
+		<div class="archive-groups">
+			{groups.map((group) => (
+				<section class="archive-group" id={`group-${group.key}`} aria-labelledby={`heading-${group.key}`} data-archive-group={group.key}>
+					<header class="archive-group__heading">
+						<h2 id={`heading-${group.key}`}>{group.label}</h2>
+						<span data-group-count>{group.entries.length} {group.entries.length === 1 ? 'post' : 'posts'}</span>
+					</header>
 					<cindor-card>
-						<div class="surface-pad">
-							<div class="card-content card-content--compact">
-								<div class="meta-row">
-									<time class="post-meta" datetime={entry.createdOn}>
-										{formatShortDate(entry.createdOn)}
-									</time>
-									{category && (
-										<cindor-badge tone="accent">{category.label}</cindor-badge>
-									)}
-								</div>
-								<h2 class="entry-list__title">
-									<a href={getEntryPath(entry)}>{entry.title}</a>
-								</h2>
-							</div>
-						</div>
+						<ul class="entry-list" role="list">
+							{group.entries.map((entry) => {
+								const category = showCategory && entry.categoryId ? getCategoryById(entry.categoryId) : null;
+								return (
+									<li class="entry-list__item" data-archive-entry data-title={entry.title.toLowerCase()}>
+										<a class="archive-entry" href={getEntryPath(entry)}>
+											<time datetime={entry.createdOn}>{formatShortDate(entry.createdOn)}</time>
+											<span class="archive-entry__body">
+												<h3 class="entry-list__title">{entry.title}</h3>
+												{category && <span class="archive-entry__category">{category.label}</span>}
+											</span>
+											<cindor-icon name="arrow-up-right" size="17" aria-hidden="true"></cindor-icon>
+										</a>
+									</li>
+								);
+							})}
+						</ul>
 					</cindor-card>
-				</article>
-			</li>
-		);
-	})}
-</ul>
+				</section>
+			))}
+			<p class="archive-empty" data-filter-empty hidden>No posts match this title.</p>
+		</div>
+	</div>
+</div>
+
+<script>
+	for (const collection of document.querySelectorAll<HTMLElement>('[data-archive-collection]')) {
+		const input = collection.querySelector<HTMLElement & { value: string; focus(): void }>('[data-archive-filter]')!;
+		const clear = collection.querySelector<HTMLElement>('[data-clear-filter]')!;
+		const status = collection.querySelector<HTMLElement>('[data-filter-status]')!;
+		const empty = collection.querySelector<HTMLElement>('[data-filter-empty]')!;
+		const groups = [...collection.querySelectorAll<HTMLElement>('[data-archive-group]')];
+		const links = [...collection.querySelectorAll<HTMLAnchorElement>('[data-group-link]')];
+		const filter = () => {
+			const term = (input.value || '').trim().toLowerCase();
+			let total = 0;
+			for (const group of groups) {
+				let count = 0;
+				for (const row of group.querySelectorAll<HTMLElement>('[data-archive-entry]')) {
+					row.hidden = !row.dataset.title!.includes(term);
+					if (!row.hidden) count += 1;
+				}
+				group.hidden = count === 0;
+				group.querySelector('[data-group-count]')!.textContent = `${count} ${count === 1 ? 'post' : 'posts'}`;
+				const link = links.find((item) => item.dataset.groupLink === group.dataset.archiveGroup)!;
+				link.hidden = count === 0;
+				link.querySelector('[data-jump-count]')!.textContent = String(count);
+				total += count;
+			}
+			clear.hidden = !term;
+			empty.hidden = total > 0;
+			collection.querySelector<HTMLElement>('.archive-jump')!.hidden = total === 0;
+			status.textContent = term ? `${total} ${total === 1 ? 'post' : 'posts'} found` : 'Newest first';
+		};
+		const reset = () => { input.value = ''; filter(); input.focus(); };
+		input.addEventListener('input', filter);
+		input.addEventListener('keydown', (event) => { if (event.key === 'Escape') reset(); });
+		clear.addEventListener('click', reset);
+		// Restore the matching rows if a browser restores a saved input value.
+		window.addEventListener('pageshow', filter);
+	}
+</script>

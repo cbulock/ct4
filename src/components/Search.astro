@@ -8,9 +8,10 @@
 		autocomplete="off"
 		data-site-search-input
 		aria-labelledby="site-search-input-label"
+		aria-label="Search posts"
 	></cindor-search>
 	<div class="site-search__results" hidden data-site-search-results>
-		<p class="site-search__status" data-site-search-status></p>
+		<p class="site-search__status" role="status" aria-live="polite" data-site-search-status></p>
 		<ul class="site-search__list" role="list" data-site-search-list></ul>
 	</div>
 </div>
@@ -24,6 +25,7 @@
 		const searchStatus = searchRoot.querySelector('[data-site-search-status]');
 		const searchList = searchRoot.querySelector('[data-site-search-list]');
 		let searchIndexPromise;
+		let searchRequest = 0;
 
 		const escapeHtml = (value) =>
 			value
@@ -38,6 +40,7 @@
 		};
 
 		const clearResults = () => {
+			searchRequest += 1;
 			searchStatus.textContent = '';
 			searchList.innerHTML = '';
 			setResultsHidden(true);
@@ -46,7 +49,10 @@
 		const loadSearchIndex = () => {
 			if (!searchIndexPromise) {
 				searchIndexPromise = fetch('/search-index.json')
-					.then((response) => response.json())
+					.then((response) => {
+						if (!response.ok) throw new Error('Search index unavailable');
+						return response.json();
+					})
 					.then((entries) =>
 						entries.map((entry) => ({
 							...entry,
@@ -55,7 +61,10 @@
 							titleText: entry.title.toLowerCase(),
 						})),
 					)
-					.catch(() => []);
+					.catch(() => {
+						searchIndexPromise = undefined;
+						return null;
+					});
 			}
 
 			return searchIndexPromise;
@@ -88,9 +97,16 @@
 			}
 
 			searchStatus.textContent = 'Searching...';
+			searchList.innerHTML = '';
 			setResultsHidden(false);
 
+			const request = ++searchRequest;
 			const index = await loadSearchIndex();
+			if (request !== searchRequest) return;
+			if (!index) {
+				searchStatus.textContent = 'Search is unavailable. Please try again.';
+				return;
+			}
 			const results = index
 				.map((entry) => {
 					const score =

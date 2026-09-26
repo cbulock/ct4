@@ -7,10 +7,10 @@ const recentEntries = (await getCanonicalEntries()).slice(1).slice(-5).reverse()
 ---
 
 <BaseLayout>
-	<div class="feed-stack">
-		{recentEntries.map((entry) => <Excerpt entry={entry} />)}
-		<div>
-			<cindor-link class="site-nav-link" href="/archives">View Older Posts</cindor-link>
-		</div>
+	<div class="feed-grid">
+		{recentEntries.map((entry, index) => <Excerpt entry={entry} featured={index === 0} />)}
+	</div>
+	<div class="feed-footer">
+		<cindor-link class="action-link" href="/archives">All posts <cindor-icon name="arrow-right" size="18" aria-hidden="true"></cindor-icon></cindor-link>
 	</div>
 </BaseLayout>

@@ -27,7 +27,7 @@ Refreshes the search index and builds the static Astro site.
 
 ## Deployment
 
-- Netlify should use Node `22.14.0`
+- Local development and Netlify use Node `24` LTS (`.nvmrc` and `netlify.toml`), allowing current Node 24 patch releases.
 - Netlify publish directory should be `dist`
 - `netlify.toml` defines the build command as `npm run build`
 
